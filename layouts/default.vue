@@ -21,7 +21,7 @@
               {{ link.label }}
             </NuxtLink>
             <ThemeToggle />
-            <GpButton size="sm" :to="gp.ctas.primary.href">
+            <GpButton size="sm" :to="gp.ctas.primary.href" class="h-10">
               {{ gp.ctas.primary.label }}
             </GpButton>
           </nav>
