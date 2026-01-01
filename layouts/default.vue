@@ -27,7 +27,7 @@
 
           <!-- Mobile menu button -->
           <button
-            class="md:hidden p-2 rounded-lg border-2 border-black hover:bg-black hover:text-gp-yellow transition-colors"
+            class="md:hidden w-10 h-10 flex items-center justify-center rounded-lg border-2 border-black hover:bg-black hover:text-gp-yellow transition-colors"
             @click="mobileMenuOpen = !mobileMenuOpen"
             aria-label="Toggle menu"
           >
