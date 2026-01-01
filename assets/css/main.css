@@ -93,7 +93,7 @@
   }
 
   .gp-badge {
-    @apply inline-flex items-center justify-center px-2 py-1 text-xs font-semibold rounded-md bg-gp-accent text-gp-btn-text border-2 border-gp-border;
+    @apply inline-flex items-center justify-center px-3 py-1 min-h-[2rem] text-xs font-bold uppercase tracking-wide rounded-lg bg-gp-accent text-gp-chip-icon border-2 border-gp-border whitespace-nowrap;
   }
 
   .gp-icon-chip {
