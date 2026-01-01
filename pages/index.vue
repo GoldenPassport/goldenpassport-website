@@ -1,25 +1,14 @@
 <template>
-  <div class="min-h-screen bg-golden-500">
-    <div class="container mx-auto px-4 py-14 md:py-20">
-      <div class="max-w-6xl mx-auto space-y-10 md:space-y-14">
-        <LandingHero />
-        <LandingFeatureCards />
-        <LandingHowItWorks />
-        <LandingProductFlow />
-        <LandingValueTabs />
-        <LandingGdprPledge />
-        <LandingSecurityPosture />
-        <LandingCallToAction />
-
-        <footer class="text-center pt-6 pb-10">
-          <div class="text-black/80">
-            <p>&copy; {{ new Date().getFullYear() }} {{ gp.footer.copyright }}</p>
-          </div>
-          <div class="mt-2 text-sm text-black/70">
-            <p>Contact: {{ gp.brand.contactEmail }}</p>
-          </div>
-        </footer>
-      </div>
+  <div class="container mx-auto px-4 py-14 md:py-20">
+    <div class="max-w-6xl mx-auto space-y-10 md:space-y-14">
+      <LandingHero />
+      <LandingFeatureCards />
+      <LandingHowItWorks />
+      <LandingProductFlow />
+      <LandingValueTabs />
+      <LandingGdprPledge />
+      <LandingSecurityPosture />
+      <LandingCallToAction />
     </div>
   </div>
 </template>
@@ -28,12 +17,30 @@
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
+// Structured data (JSON-LD) for organization
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: gp.brand.name,
+  description: gp.hero.subhead,
+  url: 'https://goldenpassport.com',
+  logo: 'https://goldenpassport.com/GoldenPassport.com.png',
+  email: gp.brand.contactEmail,
+  sameAs: [] // Add social media URLs when available
+}
+
 useHead(() => ({
   title: `${gp.brand.name} - ${gp.brand.tagline}`,
   meta: [
     {
       name: 'description',
       content: gp.hero.subhead
+    }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify(jsonLd)
     }
   ]
 }))

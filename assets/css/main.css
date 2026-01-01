@@ -12,6 +12,10 @@
     --gp-ring: 0 0 0;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   html,
   body {
     height: 100%;
@@ -45,11 +49,19 @@
 
 @layer components {
   .gp-card {
-    @apply bg-gp-paper border-2 border-gp-ink rounded-xl shadow-lg;
+    @apply bg-gp-paper border-2 border-gp-ink rounded-xl shadow-lg transition-all duration-200 ease-out;
+  }
+
+  .gp-card:hover {
+    @apply shadow-xl -translate-y-0.5;
   }
 
   .gp-card-strong {
-    @apply bg-gp-paper border-4 border-gp-ink rounded-2xl shadow-2xl;
+    @apply bg-gp-paper border-4 border-gp-ink rounded-2xl shadow-2xl transition-all duration-200 ease-out;
+  }
+
+  .gp-card-strong:hover {
+    @apply shadow-[0_25px_50px_-12px_rgba(0,0,0,0.35)];
   }
 
   .gp-badge {
@@ -61,11 +73,11 @@
   }
 
   .gp-btn-primary {
-    @apply bg-gp-ink text-gp-yellow border-2 border-gp-ink hover:bg-gp-ink/90;
+    @apply bg-gp-ink text-gp-yellow border-2 border-gp-ink hover:bg-gp-ink/90 transition-all duration-200 ease-out;
   }
 
   .gp-btn-outline {
-    @apply border-2 border-gp-ink text-gp-ink hover:bg-gp-ink hover:text-gp-yellow;
+    @apply border-2 border-gp-ink text-gp-ink hover:bg-gp-ink hover:text-gp-yellow transition-all duration-200 ease-out;
   }
 
   .gp-input {

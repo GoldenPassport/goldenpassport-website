@@ -1,6 +1,7 @@
 <template>
   <SectionShell id="gdpr" eyebrow="Compliance" :title="gp.gdpr.title" :subtitle="gp.gdpr.intro">
-    <div class="overflow-x-auto">
+    <!-- Desktop: Table layout -->
+    <div class="hidden md:block overflow-x-auto">
       <table class="w-full border-2 border-black rounded-xl overflow-hidden">
         <thead class="bg-black text-golden-500">
           <tr>
@@ -23,6 +24,22 @@
           </tr>
         </tbody>
       </table>
+    </div>
+
+    <!-- Mobile: Card layout -->
+    <div class="md:hidden space-y-4">
+      <div
+        v-for="row in gp.gdpr.rows"
+        :key="row.right"
+        class="gp-card p-4"
+      >
+        <div class="text-sm font-semibold text-black/70 uppercase tracking-wide">
+          {{ row.right }}
+        </div>
+        <div class="mt-2 text-black">
+          {{ row.pledge }}
+        </div>
+      </div>
     </div>
   </SectionShell>
 </template>
