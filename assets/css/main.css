@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand tokens (RGB for Tailwind alpha support) */
+    --gp-yellow: 253 195 10; /* #FDC30A (sampled from logo background) */
+    --gp-ink: 0 0 0; /* #000000 */
+    --gp-paper: 255 255 255; /* #FFFFFF */
+    --gp-muted: 0 0 0; /* used with alpha (e.g., / 0.7) */
+    --gp-ring: 0 0 0;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    background: rgb(var(--gp-yellow));
+    color: rgb(var(--gp-ink));
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: rgb(var(--gp-ink));
+    color: rgb(var(--gp-yellow));
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid rgb(var(--gp-ink));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .gp-card {
+    @apply bg-gp-paper border-2 border-gp-ink rounded-xl shadow-lg;
+  }
+
+  .gp-card-strong {
+    @apply bg-gp-paper border-4 border-gp-ink rounded-2xl shadow-2xl;
+  }
+
+  .gp-badge {
+    @apply inline-flex items-center justify-center px-2 py-1 text-xs font-semibold rounded-md bg-gp-yellow border-2 border-gp-ink;
+  }
+
+  .gp-icon-chip {
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gp-yellow border-2 border-gp-ink;
+  }
+
+  .gp-btn-primary {
+    @apply bg-gp-ink text-gp-yellow border-2 border-gp-ink hover:bg-gp-ink/90;
+  }
+
+  .gp-btn-outline {
+    @apply border-2 border-gp-ink text-gp-ink hover:bg-gp-ink hover:text-gp-yellow;
+  }
+
+  .gp-input {
+    @apply border-2 border-gp-ink rounded-lg bg-gp-paper text-gp-ink placeholder:text-gp-ink/60;
+  }
+}
+
