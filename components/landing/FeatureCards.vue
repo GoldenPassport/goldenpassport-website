@@ -8,13 +8,13 @@
       >
         <div class="flex items-center gap-3">
           <span class="gp-icon-chip">
-            <UIcon :name="card.icon" class="w-5 h-5 text-black" aria-hidden="true" />
+            <UIcon :name="card.icon" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
           </span>
-          <h3 class="text-lg font-semibold text-black">
+          <h3 class="text-lg font-semibold text-gp-text">
             {{ card.title }}
           </h3>
         </div>
-        <p class="mt-3 text-black/70 leading-relaxed">
+        <p class="mt-3 text-gp-text/70 leading-relaxed">
           {{ card.description }}
         </p>
       </div>

@@ -6,8 +6,8 @@
           <div class="gp-card p-6">
             <ul class="space-y-3">
               <li v-for="text in item.items" :key="text" class="flex items-start gap-3">
-                <span class="text-black font-bold mt-[2px]">✓</span>
-                <span class="text-black">{{ text }}</span>
+                <span class="text-gp-text font-bold mt-[2px]">✓</span>
+                <span class="text-gp-text">{{ text }}</span>
               </li>
             </ul>
           </div>

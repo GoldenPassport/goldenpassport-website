@@ -9,6 +9,12 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  colorMode: {
+    preference: 'system', // default to system preference
+    fallback: 'light', // fallback if no preference
+    classSuffix: ''
+  },
+
   app: {
     head: {
       title: 'GoldenPassport',

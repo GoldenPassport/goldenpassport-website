@@ -3,13 +3,34 @@
 @tailwind utilities;
 
 @layer base {
+  /* ===== LIGHT MODE (default) ===== */
   :root {
-    /* Brand tokens (RGB for Tailwind alpha support) */
-    --gp-yellow: 253 195 10; /* #FDC30A (sampled from logo background) */
-    --gp-ink: 0 0 0; /* #000000 */
-    --gp-paper: 255 255 255; /* #FFFFFF */
-    --gp-muted: 0 0 0; /* used with alpha (e.g., / 0.7) */
-    --gp-ring: 0 0 0;
+    /* Brand colors (constant) */
+    --gp-brand-yellow: 253 195 10; /* #FDC30A */
+    --gp-brand-black: 0 0 0; /* #000000 */
+    --gp-brand-white: 255 255 255; /* #FFFFFF */
+
+    /* Semantic tokens (light mode) */
+    --gp-bg: 253 195 10; /* Yellow background */
+    --gp-surface: 255 255 255; /* White cards */
+    --gp-text: 0 0 0; /* Black text */
+    --gp-text-muted: 0 0 0; /* Black with alpha */
+    --gp-border: 0 0 0; /* Black borders */
+    --gp-accent: 253 195 10; /* Yellow accents */
+    --gp-btn-bg: 0 0 0; /* Black button bg */
+    --gp-btn-text: 253 195 10; /* Yellow button text */
+  }
+
+  /* ===== DARK MODE ===== */
+  .dark {
+    --gp-bg: 23 23 23; /* Near black background */
+    --gp-surface: 38 38 38; /* Dark gray cards */
+    --gp-text: 253 195 10; /* Yellow text */
+    --gp-text-muted: 253 195 10; /* Yellow with alpha */
+    --gp-border: 253 195 10; /* Yellow borders */
+    --gp-accent: 253 195 10; /* Yellow accents */
+    --gp-btn-bg: 253 195 10; /* Yellow button bg */
+    --gp-btn-text: 23 23 23; /* Dark button text */
   }
 
   html {
@@ -22,16 +43,17 @@
   }
 
   body {
-    background: rgb(var(--gp-yellow));
-    color: rgb(var(--gp-ink));
+    background: rgb(var(--gp-bg));
+    color: rgb(var(--gp-text));
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   ::selection {
-    background: rgb(var(--gp-ink));
-    color: rgb(var(--gp-yellow));
+    background: rgb(var(--gp-text));
+    color: rgb(var(--gp-bg));
   }
 
   a {
@@ -42,14 +64,14 @@
   button:focus-visible,
   input:focus-visible,
   textarea:focus-visible {
-    outline: 2px solid rgb(var(--gp-ink));
+    outline: 2px solid rgb(var(--gp-border));
     outline-offset: 2px;
   }
 }
 
 @layer components {
   .gp-card {
-    @apply bg-gp-paper border-2 border-gp-ink rounded-xl shadow-lg transition-all duration-200 ease-out;
+    @apply bg-gp-surface border-2 border-gp-border rounded-xl shadow-lg transition-all duration-200 ease-out;
   }
 
   .gp-card:hover {
@@ -57,31 +79,44 @@
   }
 
   .gp-card-strong {
-    @apply bg-gp-paper border-4 border-gp-ink rounded-2xl shadow-2xl transition-all duration-200 ease-out;
+    @apply bg-gp-surface border-4 border-gp-border rounded-2xl shadow-2xl transition-all duration-200 ease-out;
   }
 
   .gp-card-strong:hover {
     @apply shadow-[0_25px_50px_-12px_rgba(0,0,0,0.35)];
   }
 
+  .dark .gp-card-strong:hover {
+    @apply shadow-[0_25px_50px_-12px_rgba(253,195,10,0.2)];
+  }
+
   .gp-badge {
-    @apply inline-flex items-center justify-center px-2 py-1 text-xs font-semibold rounded-md bg-gp-yellow border-2 border-gp-ink;
+    @apply inline-flex items-center justify-center px-2 py-1 text-xs font-semibold rounded-md bg-gp-accent text-gp-btn-text border-2 border-gp-border;
   }
 
   .gp-icon-chip {
-    @apply inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gp-yellow border-2 border-gp-ink;
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gp-accent border-2 border-gp-border;
   }
 
   .gp-btn-primary {
-    @apply bg-gp-ink text-gp-yellow border-2 border-gp-ink hover:bg-gp-ink/90 transition-all duration-200 ease-out;
+    @apply bg-gp-btn-bg text-gp-btn-text border-2 border-gp-border hover:opacity-90 transition-all duration-200 ease-out;
   }
 
   .gp-btn-outline {
-    @apply border-2 border-gp-ink text-gp-ink hover:bg-gp-ink hover:text-gp-yellow transition-all duration-200 ease-out;
+    @apply border-2 border-gp-border text-gp-text hover:bg-gp-btn-bg hover:text-gp-btn-text transition-all duration-200 ease-out;
   }
 
   .gp-input {
-    @apply border-2 border-gp-ink rounded-lg bg-gp-paper text-gp-ink placeholder:text-gp-ink/60;
+    @apply border-2 border-gp-border rounded-lg bg-gp-surface text-gp-text placeholder:text-gp-text/60;
+  }
+
+  /* Inverted section (for architecture diagram, security note) */
+  .gp-inverted {
+    @apply bg-gp-text text-gp-bg;
+  }
+
+  .dark .gp-inverted {
+    @apply bg-gp-accent text-gp-surface;
   }
 }
 

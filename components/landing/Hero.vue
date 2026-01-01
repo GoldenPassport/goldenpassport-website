@@ -1,25 +1,25 @@
 <template>
   <header class="text-center">
-    <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-black tracking-tight">
+    <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-gp-text tracking-tight">
       {{ gp.brand.name }}
     </h1>
-    <p class="mt-4 text-2xl sm:text-3xl md:text-4xl text-black font-medium">
+    <p class="mt-4 text-2xl sm:text-3xl md:text-4xl text-gp-text font-medium">
       {{ gp.brand.tagline }}
     </p>
-    <p class="mt-3 text-lg sm:text-xl md:text-2xl text-black/80 italic">
+    <p class="mt-3 text-lg sm:text-xl md:text-2xl text-gp-text/80 italic">
       {{ gp.brand.motto }}
     </p>
 
-    <div class="w-40 h-1.5 bg-black mx-auto rounded-full mt-8" />
+    <div class="w-40 h-1.5 bg-gp-text mx-auto rounded-full mt-8" />
 
     <GpCard strong class="mt-10 p-6 md:p-10">
-      <p class="text-xl md:text-2xl text-black leading-relaxed font-semibold">
+      <p class="text-xl md:text-2xl text-gp-text leading-relaxed font-semibold">
         {{ gp.hero.headline }}
       </p>
-      <p class="mt-4 text-black/80 leading-relaxed">
+      <p class="mt-4 text-gp-text/80 leading-relaxed">
         {{ gp.hero.subhead }}
       </p>
-      <p class="mt-4 text-black/70 text-sm">
+      <p class="mt-4 text-gp-text/70 text-sm">
         {{ gp.hero.trustNote }}
       </p>
 

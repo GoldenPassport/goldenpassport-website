@@ -1,19 +1,19 @@
 <template>
-  <div class="min-h-screen bg-gp-yellow flex items-center justify-center px-4">
+  <div class="min-h-screen bg-gp-bg text-gp-text flex items-center justify-center px-4">
     <div class="gp-card-strong p-8 md:p-12 max-w-lg text-center">
       <div class="flex justify-center mb-6">
         <Logo :size="100" />
       </div>
 
-      <h1 class="text-6xl font-bold text-black">
+      <h1 class="text-6xl font-bold text-gp-text">
         {{ error?.statusCode || 404 }}
       </h1>
 
-      <p class="mt-4 text-xl text-black font-semibold">
+      <p class="mt-4 text-xl text-gp-text font-semibold">
         {{ errorTitle }}
       </p>
 
-      <p class="mt-2 text-black/70">
+      <p class="mt-2 text-gp-text/70">
         {{ errorMessage }}
       </p>
 

@@ -13,12 +13,12 @@
         class="gp-card p-6"
       >
         <div class="flex items-start justify-between gap-4">
-          <h3 class="text-lg font-semibold text-black">
+          <h3 class="text-lg font-semibold text-gp-text">
             {{ step.title }}
           </h3>
           <span class="gp-badge">0{{ idx + 1 }}</span>
         </div>
-        <p class="mt-3 text-black/80 leading-relaxed">
+        <p class="mt-3 text-gp-text/80 leading-relaxed">
           {{ step.description }}
         </p>
       </div>
@@ -26,10 +26,10 @@
 
     <!-- Architecture diagram -->
     <div class="mt-8 gp-card-strong p-6 md:p-8">
-      <h3 class="text-xl font-bold text-black">
+      <h3 class="text-xl font-bold text-gp-text">
         {{ gp.productFlow.architecture.title }}
       </h3>
-      <p class="mt-2 text-black/80">
+      <p class="mt-2 text-gp-text/80">
         {{ gp.productFlow.architecture.caption }}
       </p>
 
@@ -37,23 +37,23 @@
         <!-- User -->
         <div class="gp-card p-5 text-center">
           <div class="gp-icon-chip mx-auto">
-            <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5 text-black" aria-hidden="true" />
+            <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
           </div>
-          <div class="mt-3 font-semibold text-black">
+          <div class="mt-3 font-semibold text-gp-text">
             {{ gp.productFlow.architecture.nodes.user.label }}
           </div>
-          <div class="mt-1 text-sm text-black/70">Controls consent</div>
+          <div class="mt-1 text-sm text-gp-text/70">Controls consent</div>
         </div>
 
-        <!-- GoldenPassport (center) -->
-        <div class="bg-black text-gp-yellow rounded-2xl border-4 border-gp-ink p-6 text-center">
-          <div class="mx-auto w-12 h-12 rounded-xl bg-gp-yellow border-2 border-gp-ink flex items-center justify-center">
-            <UIcon name="i-heroicons-shield-check-20-solid" class="w-6 h-6 text-black" aria-hidden="true" />
+        <!-- GoldenPassport (center) - inverted -->
+        <div class="gp-inverted rounded-2xl border-4 border-gp-border p-6 text-center">
+          <div class="mx-auto w-12 h-12 rounded-xl bg-gp-accent border-2 border-gp-border flex items-center justify-center">
+            <UIcon name="i-heroicons-shield-check-20-solid" class="w-6 h-6 text-gp-btn-text" aria-hidden="true" />
           </div>
           <div class="mt-4 text-xl font-bold">
             {{ gp.productFlow.architecture.nodes.gp.label }}
           </div>
-          <div class="mt-2 text-sm text-gp-yellow/90">
+          <div class="mt-2 text-sm opacity-90">
             Protective proxy shield
           </div>
         </div>
@@ -62,37 +62,37 @@
         <div class="space-y-4">
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5 text-black" aria-hidden="true" />
+              <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
             </span>
             <div>
-              <div class="font-semibold text-black">
+              <div class="font-semibold text-gp-text">
                 {{ gp.productFlow.architecture.nodes.merchant.label }}
               </div>
-              <div class="text-sm text-black/70">Receives order, not excess identity</div>
+              <div class="text-sm text-gp-text/70">Receives order, not excess identity</div>
             </div>
           </div>
 
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5 text-black" aria-hidden="true" />
+              <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
             </span>
             <div>
-              <div class="font-semibold text-black">
+              <div class="font-semibold text-gp-text">
                 {{ gp.productFlow.architecture.nodes.payments.label }}
               </div>
-              <div class="text-sm text-black/70">Processes payment via GP</div>
+              <div class="text-sm text-gp-text/70">Processes payment via GP</div>
             </div>
           </div>
 
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5 text-black" aria-hidden="true" />
+              <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
             </span>
             <div>
-              <div class="font-semibold text-black">
+              <div class="font-semibold text-gp-text">
                 {{ gp.productFlow.architecture.nodes.delivery.label }}
               </div>
-              <div class="text-sm text-black/70">Coordinates delivery without merchant address exposure</div>
+              <div class="text-sm text-gp-text/70">Coordinates delivery without merchant address exposure</div>
             </div>
           </div>
         </div>
@@ -100,8 +100,8 @@
 
       <!-- Edge labels (simple legend) -->
       <div class="mt-6 gp-card p-5">
-        <div class="font-semibold text-black">Data minimisation pathways</div>
-        <ul class="mt-3 grid md:grid-cols-2 gap-2 text-sm text-black/80">
+        <div class="font-semibold text-gp-text">Data minimisation pathways</div>
+        <ul class="mt-3 grid md:grid-cols-2 gap-2 text-sm text-gp-text/80">
           <li v-for="e in gp.productFlow.architecture.edges" :key="`${e.from}-${e.to}`" class="flex items-start gap-2">
             <span class="font-bold">•</span>
             <span>
@@ -114,7 +114,7 @@
         </ul>
       </div>
 
-      <p class="mt-4 text-sm text-black/70">
+      <p class="mt-4 text-sm text-gp-text/70">
         {{ gp.productFlow.architecture.note }}
       </p>
     </div>
@@ -134,5 +134,3 @@ function nodeLabel(key: string) {
   return nodes[key]?.label || key
 }
 </script>
-
-

@@ -7,20 +7,20 @@
         class="gp-card p-6"
       >
         <div class="flex items-start justify-between gap-4">
-          <h3 class="text-xl font-bold text-black">
+          <h3 class="text-xl font-bold text-gp-text">
             {{ track.title }}
           </h3>
           <span class="gp-badge">{{ track.key === 'investment' ? 'INVEST' : 'PARTNER' }}</span>
         </div>
 
-        <p class="mt-3 text-black/80 leading-relaxed">
+        <p class="mt-3 text-gp-text/80 leading-relaxed">
           {{ track.description }}
         </p>
 
         <ul class="mt-4 space-y-2">
           <li v-for="b in track.bullets" :key="b" class="flex items-start gap-3">
-            <span class="text-black font-bold mt-[2px]">✓</span>
-            <span class="text-black">{{ b }}</span>
+            <span class="text-gp-text font-bold mt-[2px]">✓</span>
+            <span class="text-gp-text">{{ b }}</span>
           </li>
         </ul>
 

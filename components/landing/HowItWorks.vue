@@ -13,15 +13,15 @@
         <div class="flex items-start justify-between gap-4">
           <div class="flex items-center gap-3">
             <span class="gp-icon-chip">
-              <UIcon :name="step.icon" class="w-5 h-5 text-black" aria-hidden="true" />
+              <UIcon :name="step.icon" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
             </span>
-            <h3 class="text-lg font-semibold text-black">
+            <h3 class="text-lg font-semibold text-gp-text">
               {{ step.title }}
             </h3>
           </div>
-          <span class="text-black/60 font-semibold">0{{ idx + 1 }}</span>
+          <span class="text-gp-text/60 font-semibold">0{{ idx + 1 }}</span>
         </div>
-        <p class="mt-3 text-black/70 leading-relaxed">
+        <p class="mt-3 text-gp-text/70 leading-relaxed">
           {{ step.description }}
         </p>
       </li>
