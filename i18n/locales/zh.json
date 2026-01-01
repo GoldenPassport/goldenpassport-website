@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "GoldenPassport",
+    "tagline": "在线隐私护照",
+    "motto": "隐私。安全。责任。"
+  },
+  "nav": {
+    "solution": "解决方案",
+    "howItWorks": "工作原理",
+    "gdpr": "GDPR",
+    "getInvolved": "参与合作"
+  },
+  "hero": {
+    "headline": "重新掌控您的数字身份",
+    "subhead": "一个专注于隐私的在线身份管理平台，让您可以购物、交易和在线互动，而无需将个人数据交给商家、追踪器或数据经纪人。",
+    "trustNote": "您的数据在您的设备上保持加密。我们永远看不到它。"
+  },
+  "cta": {
+    "primary": "种子投资",
+    "secondary": "与我们合作"
+  },
+  "sections": {
+    "solution": {
+      "eyebrow": "解决方案",
+      "title": "核心产品承诺"
+    },
+    "howItWorks": {
+      "eyebrow": "方法",
+      "title": "GoldenPassport如何运作"
+    },
+    "architecture": {
+      "eyebrow": "架构",
+      "title": "真实交易流程",
+      "intro": "了解GoldenPassport如何在整个购买过程中保护您的身份。"
+    },
+    "audience": {
+      "eyebrow": "受众",
+      "title": "谁将受益"
+    },
+    "gdpr": {
+      "eyebrow": "合规",
+      "title": "GDPR合规",
+      "intro": "GoldenPassport从一开始就设计为超越欧盟GDPR要求。"
+    },
+    "security": {
+      "eyebrow": "信任",
+      "title": "安全态势",
+      "intro": "企业级安全，无企业级复杂性。"
+    },
+    "cta": {
+      "eyebrow": "行动号召",
+      "title": "加入隐私革命",
+      "intro": "我们正在寻找与我们分享尊重隐私互联网愿景的合作伙伴和投资者。"
+    }
+  },
+  "features": {
+    "anonymousLogin": {
+      "title": "匿名登录",
+      "description": "无需透露身份即可认证。使用安全令牌代替电子邮件或密码。"
+    },
+    "dataMinimisation": {
+      "title": "数据最小化",
+      "description": "只分享必要的内容，仅此而已。每笔交易都有精细的同意控制。"
+    },
+    "proxyShield": {
+      "title": "代理盾牌",
+      "description": "您的真实信息永远不会到达商家。我们充当保护性中介。"
+    },
+    "zeroKnowledge": {
+      "title": "零知识",
+      "description": "即使我们也无法看到您的数据。端到端加密保持您的信息私密。"
+    }
+  },
+  "steps": {
+    "store": {
+      "title": "安全存储",
+      "description": "您的身份数据被加密并存储在您的设备本地。只有您持有密钥。"
+    },
+    "share": {
+      "title": "选择性分享",
+      "description": "精确选择每笔交易要分享的内容。只透露必要的信息。"
+    },
+    "transact": {
+      "title": "私密交易",
+      "description": "完成购买、配送和付款，无需暴露您的真实身份。"
+    }
+  },
+  "flow": {
+    "login": {
+      "title": "登录与选择",
+      "description": "使用GoldenPassport进行身份验证，在保护身份的同时浏览商家产品。"
+    },
+    "pay": {
+      "title": "付款",
+      "description": "通过我们的安全代理完成付款。商家永远看不到您的真实付款信息。"
+    },
+    "deliver": {
+      "title": "配送",
+      "description": "在您的地址收到订单，商家永远不知道您住在哪里。"
+    }
+  },
+  "architecture": {
+    "title": "隐私保护架构",
+    "caption": "数据通过GoldenPassport流动，永不直接传递给第三方。",
+    "nodes": {
+      "user": "您",
+      "gp": "GoldenPassport",
+      "merchant": "商家",
+      "payments": "支付提供商",
+      "delivery": "配送合作伙伴"
+    },
+    "proxyShield": "保护性代理盾牌",
+    "edges": {
+      "userToGp": "加密的身份数据",
+      "gpToMerchant": "匿名化的订单详情",
+      "gpToPayments": "令牌化的付款",
+      "gpToDelivery": "一次性配送地址"
+    },
+    "note": "所有连接使用TLS 1.3加密。静态数据使用AES-256。"
+  },
+  "audiences": {
+    "consumers": {
+      "label": "消费者",
+      "items": [
+        "在线购物无需到处创建账户",
+        "停止接收基于购买历史的定向广告",
+        "防止数据泄露暴露您的个人信息",
+        "轻松行使您的GDPR权利"
+      ]
+    },
+    "merchants": {
+      "label": "商家",
+      "items": [
+        "减少数据保护合规负担",
+        "降低昂贵的数据泄露风险",
+        "与注重隐私的客户建立信任",
+        "使用经过验证的凭证简化结账流程"
+      ]
+    },
+    "enterprises": {
+      "label": "企业",
+      "items": [
+        "展示隐私领导力",
+        "减少个人数据处理义务",
+        "为不断发展的隐私法规做好准备",
+        "通过简单的REST API集成"
+      ]
+    }
+  },
+  "gdpr": {
+    "rights": {
+      "access": "访问权",
+      "rectification": "更正权",
+      "erasure": "删除权",
+      "portability": "数据可携性",
+      "restriction": "限制处理权",
+      "objection": "反对权"
+    },
+    "pledges": {
+      "access": "在应用中即时查看所有数据。无需等待，无需表格。",
+      "rectification": "随时编辑您的信息。更改立即生效。",
+      "erasure": "一键删除数据。我们在任何地方删除所有内容。",
+      "portability": "以标准格式导出您的数据。随处携带。",
+      "restriction": "通过单个开关暂停数据共享。准备好后恢复。",
+      "objection": "针对每个处理目的的精细退出控制。"
+    }
+  },
+  "security": {
+    "bullets": [
+      "使用行业标准算法的端到端加密",
+      "零知识架构 - 我们无法访问您的数据",
+      "本地优先存储 - 您的设备，您的控制",
+      "定期第三方安全审计",
+      "SOC 2 Type II合规（计划中）",
+      "设计即合规GDPR"
+    ],
+    "note": "我们是一家预发布阶段的初创公司。安全认证将在公开发布前获得。我们的架构旨在超越行业标准。"
+  },
+  "callToAction": {
+    "investment": {
+      "title": "种子投资",
+      "description": "加入我们，共同构建在线隐私的未来。我们正在进行种子轮融资，以加速开发和市场进入。",
+      "bullets": [
+        "拥有金融科技和安全专业知识的强大创始团队",
+        "通过B2B2C模式实现清晰的收入路径",
+        "由隐私法规推动的增长市场",
+        "正在申请专利的隐私保护技术"
+      ],
+      "button": "讨论投资"
+    },
+    "partnership": {
+      "title": "技术合作伙伴",
+      "description": "我们正在电子商务生态系统中寻找集成合作伙伴，以提供无缝的隐私保护体验。",
+      "bullets": [
+        "支付处理器和网关",
+        "电子商务平台和市场",
+        "物流和配送网络",
+        "身份验证提供商"
+      ],
+      "button": "探索合作"
+    }
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "contact": "联系方式",
+    "copyright": "GoldenPassport.com. 版权所有。"
+  },
+  "common": {
+    "goToHomepage": "返回首页"
+  },
+  "errors": {
+    "404": {
+      "title": "页面未找到",
+      "message": "您正在寻找的页面不存在或已被移动。"
+    },
+    "500": {
+      "title": "服务器错误",
+      "message": "我们遇到了意外错误。请稍后重试。"
+    },
+    "403": {
+      "title": "访问被拒绝",
+      "message": "您没有权限访问此资源。"
+    },
+    "default": {
+      "title": "出了点问题",
+      "message": "发生了意外错误。"
+    }
+  }
+}
+

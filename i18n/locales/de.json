@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "GoldenPassport",
+    "tagline": "Online-Datenschutz-Pass",
+    "motto": "Datenschutz. Sicherheit. Verantwortung."
+  },
+  "nav": {
+    "solution": "Lösung",
+    "howItWorks": "So funktioniert's",
+    "gdpr": "DSGVO",
+    "getInvolved": "Mitmachen"
+  },
+  "hero": {
+    "headline": "Übernehmen Sie die Kontrolle über Ihre digitale Identität",
+    "subhead": "Eine datenschutzorientierte Plattform zur Verwaltung Ihrer Online-Identität, mit der Sie einkaufen, Transaktionen durchführen und online interagieren können, ohne Ihre persönlichen Daten an Händler, Tracker oder Datenhändler weiterzugeben.",
+    "trustNote": "Ihre Daten bleiben verschlüsselt auf Ihrem Gerät. Wir sehen sie nie."
+  },
+  "cta": {
+    "primary": "Seed-Investition",
+    "secondary": "Partner werden"
+  },
+  "sections": {
+    "solution": {
+      "eyebrow": "Lösung",
+      "title": "Kernprodukt-Versprechen"
+    },
+    "howItWorks": {
+      "eyebrow": "Ansatz",
+      "title": "So funktioniert GoldenPassport"
+    },
+    "architecture": {
+      "eyebrow": "Architektur",
+      "title": "Realer Transaktionsablauf",
+      "intro": "Sehen Sie, wie GoldenPassport Ihre Identität während eines kompletten Kaufvorgangs schützt."
+    },
+    "audience": {
+      "eyebrow": "Zielgruppe",
+      "title": "Wer profitiert"
+    },
+    "gdpr": {
+      "eyebrow": "Compliance",
+      "title": "DSGVO-Konformität",
+      "intro": "GoldenPassport wurde von Grund auf entwickelt, um die EU-DSGVO-Anforderungen zu übertreffen."
+    },
+    "security": {
+      "eyebrow": "Vertrauen",
+      "title": "Sicherheitsstatus",
+      "intro": "Unternehmenstaugliche Sicherheit ohne Unternehmenskomplexität."
+    },
+    "cta": {
+      "eyebrow": "Aufruf zum Handeln",
+      "title": "Schließen Sie sich der Datenschutz-Revolution an",
+      "intro": "Wir suchen Partner und Investoren, die unsere Vision eines datenschutzfreundlichen Internets teilen."
+    }
+  },
+  "features": {
+    "anonymousLogin": {
+      "title": "Anonyme Anmeldung",
+      "description": "Authentifizieren Sie sich, ohne Ihre Identität preiszugeben. Verwenden Sie sichere Token anstelle von E-Mails oder Passwörtern."
+    },
+    "dataMinimisation": {
+      "title": "Datenminimierung",
+      "description": "Teilen Sie nur das Nötige, nichts mehr. Granulare Einwilligungskontrollen für jede Transaktion."
+    },
+    "proxyShield": {
+      "title": "Proxy-Schutz",
+      "description": "Ihre echten Daten erreichen niemals Händler. Wir fungieren als schützender Vermittler."
+    },
+    "zeroKnowledge": {
+      "title": "Zero-Knowledge",
+      "description": "Selbst wir können Ihre Daten nicht sehen. Ende-zu-Ende-Verschlüsselung hält Ihre Informationen privat."
+    }
+  },
+  "steps": {
+    "store": {
+      "title": "Sicher speichern",
+      "description": "Ihre Identitätsdaten werden verschlüsselt und lokal auf Ihrem Gerät gespeichert. Nur Sie haben die Schlüssel."
+    },
+    "share": {
+      "title": "Selektiv teilen",
+      "description": "Wählen Sie genau aus, was Sie für jede Transaktion teilen möchten. Geben Sie nur das Notwendige preis."
+    },
+    "transact": {
+      "title": "Privat handeln",
+      "description": "Führen Sie Käufe, Lieferungen und Zahlungen durch, ohne Ihre echte Identität preiszugeben."
+    }
+  },
+  "flow": {
+    "login": {
+      "title": "Anmelden & Auswählen",
+      "description": "Authentifizieren Sie sich mit GoldenPassport und durchsuchen Sie Händlerangebote mit geschützter Identität."
+    },
+    "pay": {
+      "title": "Bezahlen",
+      "description": "Schließen Sie die Zahlung über unseren sicheren Proxy ab. Der Händler sieht niemals Ihre echten Zahlungsdaten."
+    },
+    "deliver": {
+      "title": "Liefern",
+      "description": "Erhalten Sie Ihre Bestellung an Ihrer Adresse, ohne dass der Händler jemals weiß, wo Sie wohnen."
+    }
+  },
+  "architecture": {
+    "title": "Datenschutzfreundliche Architektur",
+    "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten.",
+    "nodes": {
+      "user": "Sie",
+      "gp": "GoldenPassport",
+      "merchant": "Händler",
+      "payments": "Zahlungsanbieter",
+      "delivery": "Lieferpartner"
+    },
+    "proxyShield": "Schützender Proxy-Schild",
+    "edges": {
+      "userToGp": "Verschlüsselte Identitätsdaten",
+      "gpToMerchant": "Anonymisierte Bestelldetails",
+      "gpToPayments": "Tokenisierte Zahlung",
+      "gpToDelivery": "Einmalige Lieferadresse"
+    },
+    "note": "Alle Verbindungen verwenden TLS 1.3-Verschlüsselung. Ruhende Daten verwenden AES-256."
+  },
+  "audiences": {
+    "consumers": {
+      "label": "Verbraucher",
+      "items": [
+        "Online einkaufen, ohne überall Konten zu erstellen",
+        "Keine gezielten Anzeigen mehr basierend auf Kaufhistorie",
+        "Verhindern Sie, dass Datenpannen Ihre persönlichen Informationen preisgeben",
+        "Üben Sie Ihre DSGVO-Rechte mühelos aus"
+      ]
+    },
+    "merchants": {
+      "label": "Händler",
+      "items": [
+        "Reduzieren Sie den Datenschutz-Compliance-Aufwand",
+        "Geringeres Risiko kostspieliger Datenpannen",
+        "Bauen Sie Vertrauen bei datenschutzbewussten Kunden auf",
+        "Optimierter Checkout mit verifizierten Anmeldedaten"
+      ]
+    },
+    "enterprises": {
+      "label": "Unternehmen",
+      "items": [
+        "Zeigen Sie Datenschutz-Führerschaft",
+        "Reduzieren Sie Verpflichtungen zur Handhabung personenbezogener Daten",
+        "Zukunftssicher gegen sich entwickelnde Datenschutzvorschriften",
+        "Integration über einfache REST-APIs"
+      ]
+    }
+  },
+  "gdpr": {
+    "rights": {
+      "access": "Auskunftsrecht",
+      "rectification": "Recht auf Berichtigung",
+      "erasure": "Recht auf Löschung",
+      "portability": "Datenübertragbarkeit",
+      "restriction": "Recht auf Einschränkung",
+      "objection": "Widerspruchsrecht"
+    },
+    "pledges": {
+      "access": "Sehen Sie alle Ihre Daten sofort in der App. Kein Warten, keine Formulare.",
+      "rectification": "Bearbeiten Sie Ihre Informationen jederzeit. Änderungen werden sofort übernommen.",
+      "erasure": "Ein-Tipp-Datenlöschung. Wir entfernen alles, überall.",
+      "portability": "Exportieren Sie Ihre Daten in Standardformaten. Nehmen Sie sie überall mit.",
+      "restriction": "Pausieren Sie die Datenfreigabe mit einem einzigen Schalter. Fortsetzen, wenn bereit.",
+      "objection": "Granulare Opt-out-Kontrollen für jeden Verarbeitungszweck."
+    }
+  },
+  "security": {
+    "bullets": [
+      "Ende-zu-Ende-Verschlüsselung mit branchenüblichen Algorithmen",
+      "Zero-Knowledge-Architektur - wir können nicht auf Ihre Daten zugreifen",
+      "Local-First-Speicherung - Ihr Gerät, Ihre Kontrolle",
+      "Regelmäßige Sicherheitsaudits durch Dritte",
+      "SOC 2 Typ II Compliance (geplant)",
+      "DSGVO-konform durch Design"
+    ],
+    "note": "Wir sind ein Pre-Launch-Startup. Sicherheitszertifizierungen werden vor der öffentlichen Freigabe eingeholt. Unsere Architektur ist so konzipiert, dass sie die Branchenstandards übertrifft."
+  },
+  "callToAction": {
+    "investment": {
+      "title": "Seed-Investition",
+      "description": "Helfen Sie uns, die Zukunft des Online-Datenschutzes aufzubauen. Wir sammeln unsere Seed-Runde, um die Entwicklung und den Markteintritt zu beschleunigen.",
+      "bullets": [
+        "Starkes Gründerteam mit Fintech- und Sicherheitsexpertise",
+        "Klarer Weg zur Umsatzgenerierung durch B2B2C-Modell",
+        "Wachsender Markt, angetrieben durch Datenschutzvorschriften",
+        "Zum Patent angemeldete datenschutzfreundliche Technologie"
+      ],
+      "button": "Investition besprechen"
+    },
+    "partnership": {
+      "title": "Technologiepartner",
+      "description": "Wir suchen Integrationspartner im gesamten E-Commerce-Ökosystem, um nahtlose datenschutzfreundliche Erlebnisse zu bieten.",
+      "bullets": [
+        "Zahlungsabwickler und Gateways",
+        "E-Commerce-Plattformen und Marktplätze",
+        "Logistik- und Liefernetzwerke",
+        "Identitätsverifizierungsanbieter"
+      ],
+      "button": "Partnerschaft erkunden"
+    }
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "contact": "Kontakt",
+    "copyright": "GoldenPassport.com. Alle Rechte vorbehalten."
+  },
+  "common": {
+    "goToHomepage": "Zur Startseite"
+  },
+  "errors": {
+    "404": {
+      "title": "Seite nicht gefunden",
+      "message": "Die gesuchte Seite existiert nicht oder wurde verschoben."
+    },
+    "500": {
+      "title": "Serverfehler",
+      "message": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut."
+    },
+    "403": {
+      "title": "Zugriff verweigert",
+      "message": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen."
+    },
+    "default": {
+      "title": "Etwas ist schiefgelaufen",
+      "message": "Ein unerwarteter Fehler ist aufgetreten."
+    }
+  }
+}
+

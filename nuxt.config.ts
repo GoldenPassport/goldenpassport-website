@@ -4,15 +4,37 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   
   modules: [
-    '@nuxt/ui'
+    '@nuxt/ui',
+    '@nuxtjs/i18n'
   ],
 
   css: ['~/assets/css/main.css'],
 
   colorMode: {
-    preference: 'system', // default to system preference
-    fallback: 'light', // fallback if no preference
+    preference: 'system',
+    fallback: 'light',
     classSuffix: ''
+  },
+
+  i18n: {
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+      { code: 'de', name: 'Deutsch', file: 'de.json' },
+      { code: 'es', name: 'Español', file: 'es.json' },
+      { code: 'fr', name: 'Français', file: 'fr.json' },
+      { code: 'ja', name: '日本語', file: 'ja.json' },
+      { code: 'zh', name: '中文', file: 'zh.json' }
+    ],
+    defaultLocale: 'en',
+    lazy: true,
+    langDir: 'i18n/locales',
+    strategy: 'no_prefix',
+    vueI18n: './i18n/i18n.config.ts',
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'gp_lang',
+      redirectOn: 'root'
+    }
   },
 
   app: {

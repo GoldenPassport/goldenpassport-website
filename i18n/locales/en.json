@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "GoldenPassport",
+    "tagline": "Online Privacy Passport",
+    "motto": "Privacy. Security. Responsibility."
+  },
+  "nav": {
+    "solution": "Solution",
+    "howItWorks": "How it works",
+    "gdpr": "GDPR",
+    "getInvolved": "Get involved"
+  },
+  "hero": {
+    "headline": "Take back control of your digital identity",
+    "subhead": "A privacy-focused online identity management platform that lets you shop, transact, and interact online without surrendering your personal data to merchants, trackers, or data brokers.",
+    "trustNote": "Your data stays encrypted on your device. We never see it."
+  },
+  "cta": {
+    "primary": "Seed investment",
+    "secondary": "Partner with us"
+  },
+  "sections": {
+    "solution": {
+      "eyebrow": "Solution",
+      "title": "Core product promises"
+    },
+    "howItWorks": {
+      "eyebrow": "Approach",
+      "title": "How GoldenPassport works"
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "Real-life transaction flow",
+      "intro": "See how GoldenPassport protects your identity throughout a complete purchase journey."
+    },
+    "audience": {
+      "eyebrow": "Audience",
+      "title": "Who benefits"
+    },
+    "gdpr": {
+      "eyebrow": "Compliance",
+      "title": "GDPR alignment",
+      "intro": "GoldenPassport is designed from the ground up to exceed EU GDPR requirements."
+    },
+    "security": {
+      "eyebrow": "Trust",
+      "title": "Security posture",
+      "intro": "Enterprise-grade security without enterprise complexity."
+    },
+    "cta": {
+      "eyebrow": "Call to action",
+      "title": "Join the privacy revolution",
+      "intro": "We're seeking partners and investors who share our vision for a privacy-respecting internet."
+    }
+  },
+  "features": {
+    "anonymousLogin": {
+      "title": "Anonymous login",
+      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails or passwords."
+    },
+    "dataMinimisation": {
+      "title": "Data minimisation",
+      "description": "Share only what's needed, nothing more. Granular consent controls for every transaction."
+    },
+    "proxyShield": {
+      "title": "Proxy shield",
+      "description": "Your real details never reach merchants. We act as a protective intermediary."
+    },
+    "zeroKnowledge": {
+      "title": "Zero-knowledge",
+      "description": "Even we can't see your data. End-to-end encryption keeps your information private."
+    }
+  },
+  "steps": {
+    "store": {
+      "title": "Store securely",
+      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys."
+    },
+    "share": {
+      "title": "Share selectively",
+      "description": "Choose exactly what to share for each transaction. Reveal only what's necessary."
+    },
+    "transact": {
+      "title": "Transact privately",
+      "description": "Complete purchases, deliveries, and payments without exposing your real identity."
+    }
+  },
+  "flow": {
+    "login": {
+      "title": "Login & Select",
+      "description": "Authenticate with GoldenPassport and browse merchant offerings with your identity protected."
+    },
+    "pay": {
+      "title": "Pay",
+      "description": "Complete payment through our secure proxy. Merchant never sees your real payment details."
+    },
+    "deliver": {
+      "title": "Deliver",
+      "description": "Receive your order at your address without the merchant ever knowing where you live."
+    }
+  },
+  "architecture": {
+    "title": "Privacy-preserving architecture",
+    "caption": "Data flows through GoldenPassport, never directly to third parties.",
+    "nodes": {
+      "user": "You",
+      "gp": "GoldenPassport",
+      "merchant": "Merchant",
+      "payments": "Payment provider",
+      "delivery": "Delivery partner"
+    },
+    "proxyShield": "Protective proxy shield",
+    "edges": {
+      "userToGp": "Encrypted identity data",
+      "gpToMerchant": "Anonymised order details",
+      "gpToPayments": "Tokenised payment",
+      "gpToDelivery": "One-time delivery address"
+    },
+    "note": "All connections use TLS 1.3 encryption. Data at rest uses AES-256."
+  },
+  "audiences": {
+    "consumers": {
+      "label": "Consumers",
+      "items": [
+        "Shop online without creating accounts everywhere",
+        "Stop receiving targeted ads based on purchase history",
+        "Prevent data breaches from exposing your personal information",
+        "Exercise your GDPR rights effortlessly"
+      ]
+    },
+    "merchants": {
+      "label": "Merchants",
+      "items": [
+        "Reduce data protection compliance burden",
+        "Lower risk of costly data breaches",
+        "Build trust with privacy-conscious customers",
+        "Streamline checkout with verified credentials"
+      ]
+    },
+    "enterprises": {
+      "label": "Enterprises",
+      "items": [
+        "Demonstrate privacy leadership",
+        "Reduce personal data handling obligations",
+        "Future-proof against evolving privacy regulations",
+        "Integrate via simple REST APIs"
+      ]
+    }
+  },
+  "gdpr": {
+    "rights": {
+      "access": "Right to access",
+      "rectification": "Right to rectification",
+      "erasure": "Right to erasure",
+      "portability": "Data portability",
+      "restriction": "Right to restrict processing",
+      "objection": "Right to object"
+    },
+    "pledges": {
+      "access": "View all your data instantly in the app. No waiting, no forms.",
+      "rectification": "Edit your information anytime. Changes propagate immediately.",
+      "erasure": "One-tap data deletion. We remove everything, everywhere.",
+      "portability": "Export your data in standard formats. Take it anywhere.",
+      "restriction": "Pause data sharing with a single toggle. Resume when ready.",
+      "objection": "Granular opt-out controls for every processing purpose."
+    }
+  },
+  "security": {
+    "bullets": [
+      "End-to-end encryption using industry-standard algorithms",
+      "Zero-knowledge architecture - we can't access your data",
+      "Local-first storage - your device, your control",
+      "Regular third-party security audits",
+      "SOC 2 Type II compliance (planned)",
+      "GDPR compliant by design"
+    ],
+    "note": "We're a pre-launch startup. Security certifications will be obtained before public release. Our architecture is designed to exceed industry standards."
+  },
+  "callToAction": {
+    "investment": {
+      "title": "Seed investment",
+      "description": "Join us in building the future of online privacy. We're raising our seed round to accelerate development and market entry.",
+      "bullets": [
+        "Strong founding team with fintech and security expertise",
+        "Clear path to revenue through B2B2C model",
+        "Growing market driven by privacy regulations",
+        "Patent-pending privacy-preserving technology"
+      ],
+      "button": "Discuss investment"
+    },
+    "partnership": {
+      "title": "Technology partners",
+      "description": "We're seeking integration partners across the e-commerce ecosystem to deliver seamless privacy-preserving experiences.",
+      "bullets": [
+        "Payment processors and gateways",
+        "E-commerce platforms and marketplaces",
+        "Logistics and delivery networks",
+        "Identity verification providers"
+      ],
+      "button": "Explore partnership"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "copyright": "GoldenPassport.com. All rights reserved."
+  },
+  "common": {
+    "goToHomepage": "Go to homepage"
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found",
+      "message": "The page you're looking for doesn't exist or has been moved."
+    },
+    "500": {
+      "title": "Server error",
+      "message": "We encountered an unexpected error. Please try again later."
+    },
+    "403": {
+      "title": "Access denied",
+      "message": "You don't have permission to access this resource."
+    },
+    "default": {
+      "title": "Something went wrong",
+      "message": "An unexpected error occurred."
+    }
+  }
+}
+

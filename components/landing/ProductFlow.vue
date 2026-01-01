@@ -1,25 +1,25 @@
 <template>
   <SectionShell
     id="real-life-flow"
-    eyebrow="Architecture"
-    :title="gp.productFlow.title"
-    :subtitle="gp.productFlow.intro"
+    :eyebrow="$t('sections.architecture.eyebrow')"
+    :title="$t('sections.architecture.title')"
+    :subtitle="$t('sections.architecture.intro')"
   >
     <!-- Flow: Login & Select -> Pay -> Deliver -->
     <div class="grid lg:grid-cols-3 gap-6">
       <div
-        v-for="(step, idx) in gp.productFlow.steps"
-        :key="step.title"
+        v-for="(step, idx) in flowSteps"
+        :key="step.key"
         class="gp-card p-6"
       >
         <div class="flex items-start justify-between gap-4">
           <h3 class="text-lg font-semibold text-gp-text">
-            {{ step.title }}
+            {{ $t(`flow.${step.key}.title`) }}
           </h3>
           <span class="gp-badge">0{{ idx + 1 }}</span>
         </div>
         <p class="mt-3 text-gp-text/80 leading-relaxed">
-          {{ step.description }}
+          {{ $t(`flow.${step.key}.description`) }}
         </p>
       </div>
     </div>
@@ -27,10 +27,10 @@
     <!-- Architecture diagram -->
     <div class="mt-8 gp-card-strong p-6 md:p-8">
       <h3 class="text-xl font-bold text-gp-text">
-        {{ gp.productFlow.architecture.title }}
+        {{ $t('architecture.title') }}
       </h3>
       <p class="mt-2 text-gp-text/80">
-        {{ gp.productFlow.architecture.caption }}
+        {{ $t('architecture.caption') }}
       </p>
 
       <div class="mt-6 grid lg:grid-cols-3 gap-6 items-center">
@@ -40,7 +40,7 @@
             <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5" aria-hidden="true" />
           </div>
           <div class="mt-3 font-semibold text-gp-text">
-            {{ gp.productFlow.architecture.nodes.user.label }}
+            {{ $t('architecture.nodes.user') }}
           </div>
           <div class="mt-1 text-sm text-gp-text/70">Controls consent</div>
         </div>
@@ -51,10 +51,10 @@
             <UIcon name="i-heroicons-shield-check-20-solid" class="w-6 h-6 text-gp-chip-icon" aria-hidden="true" />
           </div>
           <div class="mt-4 text-xl font-bold">
-            {{ gp.productFlow.architecture.nodes.gp.label }}
+            {{ $t('architecture.nodes.gp') }}
           </div>
           <div class="mt-2 text-sm opacity-90">
-            Protective proxy shield
+            {{ $t('architecture.proxyShield') }}
           </div>
         </div>
 
@@ -66,9 +66,9 @@
             </span>
             <div>
               <div class="font-semibold text-gp-text">
-                {{ gp.productFlow.architecture.nodes.merchant.label }}
+                {{ $t('architecture.nodes.merchant') }}
               </div>
-              <div class="text-sm text-gp-text/70">Receives order, not excess identity</div>
+              <div class="text-sm text-gp-text/70">{{ $t('architecture.edges.gpToMerchant') }}</div>
             </div>
           </div>
 
@@ -78,9 +78,9 @@
             </span>
             <div>
               <div class="font-semibold text-gp-text">
-                {{ gp.productFlow.architecture.nodes.payments.label }}
+                {{ $t('architecture.nodes.payments') }}
               </div>
-              <div class="text-sm text-gp-text/70">Processes payment via GP</div>
+              <div class="text-sm text-gp-text/70">{{ $t('architecture.edges.gpToPayments') }}</div>
             </div>
           </div>
 
@@ -90,32 +90,16 @@
             </span>
             <div>
               <div class="font-semibold text-gp-text">
-                {{ gp.productFlow.architecture.nodes.delivery.label }}
+                {{ $t('architecture.nodes.delivery') }}
               </div>
-              <div class="text-sm text-gp-text/70">Coordinates delivery without merchant address exposure</div>
+              <div class="text-sm text-gp-text/70">{{ $t('architecture.edges.gpToDelivery') }}</div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Edge labels (simple legend) -->
-      <div class="mt-6 gp-card p-5">
-        <div class="font-semibold text-gp-text">Data minimisation pathways</div>
-        <ul class="mt-3 grid md:grid-cols-2 gap-2 text-sm text-gp-text/80">
-          <li v-for="e in gp.productFlow.architecture.edges" :key="`${e.from}-${e.to}`" class="flex items-start gap-2">
-            <span class="font-bold">•</span>
-            <span>
-              <span class="font-semibold">{{ nodeLabel(e.from) }}</span>
-              →
-              <span class="font-semibold">{{ nodeLabel(e.to) }}</span>:
-              {{ e.label }}
-            </span>
-          </li>
-        </ul>
-      </div>
-
-      <p class="mt-4 text-sm text-gp-text/70">
-        {{ gp.productFlow.architecture.note }}
+      <p class="mt-6 text-sm text-gp-text/70">
+        {{ $t('architecture.note') }}
       </p>
     </div>
   </SectionShell>
@@ -124,13 +108,9 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const appConfig = useAppConfig()
-const gp = appConfig.goldenpassport
-
-type NodeKey = keyof typeof gp.productFlow.architecture.nodes
-
-function nodeLabel(key: string) {
-  const nodes = gp.productFlow.architecture.nodes as Record<string, { label: string }>
-  return nodes[key]?.label || key
-}
+const flowSteps = [
+  { key: 'login' },
+  { key: 'pay' },
+  { key: 'deliver' }
+]
 </script>

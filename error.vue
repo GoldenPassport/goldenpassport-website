@@ -19,7 +19,7 @@
 
       <div class="mt-8">
         <GpButton size="lg" @click="handleError" class="min-w-[200px]">
-          Go to homepage
+          {{ $t('common.goToHomepage') }}
         </GpButton>
       </div>
     </div>
@@ -34,33 +34,33 @@ interface Props {
 }
 
 const props = defineProps<Props>()
+const { t } = useI18n()
 
 const errorTitle = computed(() => {
   switch (props.error?.statusCode) {
     case 404:
-      return 'Page not found'
+      return t('errors.404.title')
     case 500:
-      return 'Server error'
+      return t('errors.500.title')
     case 403:
-      return 'Access denied'
+      return t('errors.403.title')
     default:
-      return 'Something went wrong'
+      return t('errors.default.title')
   }
 })
 
 const errorMessage = computed(() => {
   switch (props.error?.statusCode) {
     case 404:
-      return "The page you're looking for doesn't exist or has been moved."
+      return t('errors.404.message')
     case 500:
-      return 'We encountered an unexpected error. Please try again later.'
+      return t('errors.500.message')
     case 403:
-      return "You don't have permission to access this resource."
+      return t('errors.403.message')
     default:
-      return props.error?.message || 'An unexpected error occurred.'
+      return props.error?.message || t('errors.default.message')
   }
 })
 
 const handleError = () => clearError({ redirect: '/' })
 </script>
-

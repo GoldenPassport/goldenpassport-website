@@ -1,11 +1,11 @@
 <template>
-  <SectionShell id="who-its-for" eyebrow="Audience" :title="gp.valueTabs.title">
+  <SectionShell id="who-its-for" :eyebrow="$t('sections.audience.eyebrow')" :title="$t('sections.audience.title')">
     <UTabs :items="tabItems" class="w-full">
       <template #item="{ item }">
         <div class="py-2">
           <div class="gp-card p-6">
             <ul class="space-y-3">
-              <li v-for="text in item.items" :key="text" class="flex items-start gap-3">
+              <li v-for="(text, idx) in item.items" :key="idx" class="flex items-start gap-3">
                 <span class="text-gp-text font-bold mt-[2px]">✓</span>
                 <span class="text-gp-text">{{ text }}</span>
               </li>
@@ -20,17 +20,16 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
+const { t } = useI18n()
+
 type TabItem = { label: string; items: string[] }
 
-const appConfig = useAppConfig()
-const gp = appConfig.goldenpassport
+const audienceKeys = ['consumers', 'merchants', 'enterprises'] as const
 
 const tabItems = computed<TabItem[]>(() =>
-  gp.valueTabs.tabs.map((t) => ({
-    label: t.label,
-    items: t.items
+  audienceKeys.map((key) => ({
+    label: t(`audiences.${key}.label`),
+    items: t(`audiences.${key}.items`, { returnObjects: true }) as unknown as string[]
   }))
 )
 </script>
-
-

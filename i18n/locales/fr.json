@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "GoldenPassport",
+    "tagline": "Passeport de Confidentialité en Ligne",
+    "motto": "Confidentialité. Sécurité. Responsabilité."
+  },
+  "nav": {
+    "solution": "Solution",
+    "howItWorks": "Comment ça marche",
+    "gdpr": "RGPD",
+    "getInvolved": "Participer"
+  },
+  "hero": {
+    "headline": "Reprenez le contrôle de votre identité numérique",
+    "subhead": "Une plateforme de gestion d'identité en ligne axée sur la confidentialité qui vous permet d'acheter, d'effectuer des transactions et d'interagir en ligne sans livrer vos données personnelles aux marchands, trackers ou courtiers en données.",
+    "trustNote": "Vos données restent chiffrées sur votre appareil. Nous ne les voyons jamais."
+  },
+  "cta": {
+    "primary": "Investissement d'amorçage",
+    "secondary": "Devenez partenaire"
+  },
+  "sections": {
+    "solution": {
+      "eyebrow": "Solution",
+      "title": "Promesses fondamentales du produit"
+    },
+    "howItWorks": {
+      "eyebrow": "Approche",
+      "title": "Comment fonctionne GoldenPassport"
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "Flux de transaction réel",
+      "intro": "Découvrez comment GoldenPassport protège votre identité tout au long d'un parcours d'achat complet."
+    },
+    "audience": {
+      "eyebrow": "Audience",
+      "title": "Qui en bénéficie"
+    },
+    "gdpr": {
+      "eyebrow": "Conformité",
+      "title": "Alignement RGPD",
+      "intro": "GoldenPassport est conçu dès le départ pour dépasser les exigences du RGPD européen."
+    },
+    "security": {
+      "eyebrow": "Confiance",
+      "title": "Posture de sécurité",
+      "intro": "Sécurité de niveau entreprise sans complexité d'entreprise."
+    },
+    "cta": {
+      "eyebrow": "Appel à l'action",
+      "title": "Rejoignez la révolution de la confidentialité",
+      "intro": "Nous recherchons des partenaires et des investisseurs qui partagent notre vision d'un internet respectueux de la vie privée."
+    }
+  },
+  "features": {
+    "anonymousLogin": {
+      "title": "Connexion anonyme",
+      "description": "Authentifiez-vous sans révéler votre identité. Utilisez des jetons sécurisés au lieu d'e-mails ou de mots de passe."
+    },
+    "dataMinimisation": {
+      "title": "Minimisation des données",
+      "description": "Partagez uniquement le nécessaire, rien de plus. Contrôles de consentement granulaires pour chaque transaction."
+    },
+    "proxyShield": {
+      "title": "Bouclier proxy",
+      "description": "Vos vraies données n'atteignent jamais les marchands. Nous agissons comme intermédiaire protecteur."
+    },
+    "zeroKnowledge": {
+      "title": "Zéro connaissance",
+      "description": "Même nous ne pouvons pas voir vos données. Le chiffrement de bout en bout garde vos informations privées."
+    }
+  },
+  "steps": {
+    "store": {
+      "title": "Stocker en sécurité",
+      "description": "Vos données d'identité sont chiffrées et stockées localement sur votre appareil. Vous seul détenez les clés."
+    },
+    "share": {
+      "title": "Partager sélectivement",
+      "description": "Choisissez exactement ce que vous partagez pour chaque transaction. Révélez uniquement le nécessaire."
+    },
+    "transact": {
+      "title": "Transiger en privé",
+      "description": "Effectuez des achats, des livraisons et des paiements sans exposer votre véritable identité."
+    }
+  },
+  "flow": {
+    "login": {
+      "title": "Connexion et Sélection",
+      "description": "Authentifiez-vous avec GoldenPassport et parcourez les offres des marchands avec votre identité protégée."
+    },
+    "pay": {
+      "title": "Payer",
+      "description": "Effectuez le paiement via notre proxy sécurisé. Le marchand ne voit jamais vos vraies données de paiement."
+    },
+    "deliver": {
+      "title": "Livrer",
+      "description": "Recevez votre commande à votre adresse sans que le marchand sache où vous habitez."
+    }
+  },
+  "architecture": {
+    "title": "Architecture préservant la confidentialité",
+    "caption": "Les données transitent par GoldenPassport, jamais directement vers des tiers.",
+    "nodes": {
+      "user": "Vous",
+      "gp": "GoldenPassport",
+      "merchant": "Marchand",
+      "payments": "Fournisseur de paiement",
+      "delivery": "Partenaire de livraison"
+    },
+    "proxyShield": "Bouclier proxy protecteur",
+    "edges": {
+      "userToGp": "Données d'identité chiffrées",
+      "gpToMerchant": "Détails de commande anonymisés",
+      "gpToPayments": "Paiement tokenisé",
+      "gpToDelivery": "Adresse de livraison à usage unique"
+    },
+    "note": "Toutes les connexions utilisent le chiffrement TLS 1.3. Les données au repos utilisent AES-256."
+  },
+  "audiences": {
+    "consumers": {
+      "label": "Consommateurs",
+      "items": [
+        "Achetez en ligne sans créer de comptes partout",
+        "Arrêtez de recevoir des publicités ciblées basées sur votre historique d'achats",
+        "Empêchez les violations de données d'exposer vos informations personnelles",
+        "Exercez vos droits RGPD sans effort"
+      ]
+    },
+    "merchants": {
+      "label": "Marchands",
+      "items": [
+        "Réduisez la charge de conformité en protection des données",
+        "Risque réduit de violations de données coûteuses",
+        "Construisez la confiance avec les clients soucieux de la confidentialité",
+        "Rationalisez le checkout avec des identifiants vérifiés"
+      ]
+    },
+    "enterprises": {
+      "label": "Entreprises",
+      "items": [
+        "Démontrez votre leadership en matière de confidentialité",
+        "Réduisez les obligations de traitement des données personnelles",
+        "Préparez-vous aux réglementations de confidentialité en évolution",
+        "Intégrez via des APIs REST simples"
+      ]
+    }
+  },
+  "gdpr": {
+    "rights": {
+      "access": "Droit d'accès",
+      "rectification": "Droit de rectification",
+      "erasure": "Droit à l'effacement",
+      "portability": "Portabilité des données",
+      "restriction": "Droit à la limitation",
+      "objection": "Droit d'opposition"
+    },
+    "pledges": {
+      "access": "Consultez toutes vos données instantanément dans l'app. Pas d'attente, pas de formulaires.",
+      "rectification": "Modifiez vos informations à tout moment. Les changements se propagent immédiatement.",
+      "erasure": "Suppression des données en un clic. Nous supprimons tout, partout.",
+      "portability": "Exportez vos données dans des formats standards. Emportez-les n'importe où.",
+      "restriction": "Mettez en pause le partage de données avec un simple interrupteur. Reprenez quand vous êtes prêt.",
+      "objection": "Contrôles de désinscription granulaires pour chaque finalité de traitement."
+    }
+  },
+  "security": {
+    "bullets": [
+      "Chiffrement de bout en bout utilisant des algorithmes standard de l'industrie",
+      "Architecture zéro connaissance - nous ne pouvons pas accéder à vos données",
+      "Stockage local en premier - votre appareil, votre contrôle",
+      "Audits de sécurité réguliers par des tiers",
+      "Conformité SOC 2 Type II (prévue)",
+      "Conformité RGPD par conception"
+    ],
+    "note": "Nous sommes une startup en pré-lancement. Les certifications de sécurité seront obtenues avant le lancement public. Notre architecture est conçue pour dépasser les standards de l'industrie."
+  },
+  "callToAction": {
+    "investment": {
+      "title": "Investissement d'amorçage",
+      "description": "Rejoignez-nous pour construire l'avenir de la confidentialité en ligne. Nous levons notre tour d'amorçage pour accélérer le développement et l'entrée sur le marché.",
+      "bullets": [
+        "Équipe fondatrice solide avec expertise en fintech et sécurité",
+        "Chemin clair vers les revenus via le modèle B2B2C",
+        "Marché en croissance porté par les réglementations de confidentialité",
+        "Technologie de préservation de la confidentialité en instance de brevet"
+      ],
+      "button": "Discuter de l'investissement"
+    },
+    "partnership": {
+      "title": "Partenaires technologiques",
+      "description": "Nous recherchons des partenaires d'intégration dans tout l'écosystème e-commerce pour offrir des expériences de confidentialité sans friction.",
+      "bullets": [
+        "Processeurs de paiement et passerelles",
+        "Plateformes e-commerce et marketplaces",
+        "Réseaux logistiques et de livraison",
+        "Fournisseurs de vérification d'identité"
+      ],
+      "button": "Explorer le partenariat"
+    }
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "contact": "Contact",
+    "copyright": "GoldenPassport.com. Tous droits réservés."
+  },
+  "common": {
+    "goToHomepage": "Aller à la page d'accueil"
+  },
+  "errors": {
+    "404": {
+      "title": "Page non trouvée",
+      "message": "La page que vous recherchez n'existe pas ou a été déplacée."
+    },
+    "500": {
+      "title": "Erreur serveur",
+      "message": "Nous avons rencontré une erreur inattendue. Veuillez réessayer plus tard."
+    },
+    "403": {
+      "title": "Accès refusé",
+      "message": "Vous n'avez pas la permission d'accéder à cette ressource."
+    },
+    "default": {
+      "title": "Une erreur s'est produite",
+      "message": "Une erreur inattendue s'est produite."
+    }
+  }
+}
+

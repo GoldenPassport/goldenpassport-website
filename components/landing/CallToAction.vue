@@ -1,32 +1,32 @@
 <template>
-  <SectionShell id="cta" eyebrow="Call to action" :title="gp.callToAction.title" :subtitle="gp.callToAction.intro">
+  <SectionShell id="cta" :eyebrow="$t('sections.cta.eyebrow')" :title="$t('sections.cta.title')" :subtitle="$t('sections.cta.intro')">
     <div class="grid lg:grid-cols-2 gap-6">
       <div
-        v-for="track in gp.callToAction.tracks"
+        v-for="track in tracks"
         :key="track.key"
         class="gp-card p-6"
       >
         <div class="flex items-start justify-between gap-4">
           <h3 class="text-xl font-bold text-gp-text">
-            {{ track.title }}
+            {{ $t(`callToAction.${track.key}.title`) }}
           </h3>
-          <span class="gp-badge">{{ track.key === 'investment' ? 'INVEST' : 'PARTNER' }}</span>
+          <span class="gp-badge">{{ track.badge }}</span>
         </div>
 
         <p class="mt-3 text-gp-text/80 leading-relaxed">
-          {{ track.description }}
+          {{ $t(`callToAction.${track.key}.description`) }}
         </p>
 
         <ul class="mt-4 space-y-2">
-          <li v-for="b in track.bullets" :key="b" class="flex items-start gap-3">
+          <li v-for="(bullet, idx) in getTrackBullets(track.key)" :key="idx" class="flex items-start gap-3">
             <span class="text-gp-text font-bold mt-[2px]">✓</span>
-            <span class="text-gp-text">{{ b }}</span>
+            <span class="text-gp-text">{{ bullet }}</span>
           </li>
         </ul>
 
         <div class="mt-6">
-          <GpButton :to="track.button.href" class="w-full justify-center">
-            {{ track.button.label }}
+          <GpButton :to="track.href" class="w-full justify-center">
+            {{ $t(`callToAction.${track.key}.button`) }}
           </GpButton>
         </div>
       </div>
@@ -37,8 +37,16 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
+const { t } = useI18n()
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
+
+const tracks = [
+  { key: 'investment', badge: 'INVEST', href: gp.ctas.primary.href },
+  { key: 'partnership', badge: 'PARTNER', href: gp.ctas.secondary.href }
+]
+
+function getTrackBullets(key: string): string[] {
+  return t(`callToAction.${key}.bullets`, { returnObjects: true }) as unknown as string[]
+}
 </script>
-
-

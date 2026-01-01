@@ -7,27 +7,29 @@
           <NuxtLink to="/" class="flex items-center gap-3 group">
             <Logo :size="40" small />
             <span class="font-bold text-xl text-gp-text group-hover:text-gp-text/80 transition-colors">
-              {{ gp.brand.name }}
+              {{ $t('brand.name') }}
             </span>
           </NuxtLink>
 
           <nav class="hidden md:flex items-center gap-6">
             <NuxtLink
               v-for="link in navLinks"
-              :key="link.href"
+              :key="link.key"
               :to="link.href"
               class="text-gp-text/80 hover:text-gp-text font-medium transition-colors"
             >
-              {{ link.label }}
+              {{ $t(link.key) }}
             </NuxtLink>
+            <LanguageSelector />
             <ThemeToggle />
             <GpButton size="sm" :to="gp.ctas.primary.href" class="h-10">
-              {{ gp.ctas.primary.label }}
+              {{ $t('cta.primary') }}
             </GpButton>
           </nav>
 
-          <!-- Mobile: theme toggle + menu button -->
+          <!-- Mobile: language + theme toggle + menu button -->
           <div class="md:hidden flex items-center gap-2">
+            <LanguageSelector />
             <ThemeToggle />
             <button
               class="w-10 h-10 flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors"
@@ -44,15 +46,15 @@
           <nav class="flex flex-col gap-3">
             <NuxtLink
               v-for="link in navLinks"
-              :key="link.href"
+              :key="link.key"
               :to="link.href"
               class="text-gp-text/80 hover:text-gp-text font-medium py-2"
               @click="mobileMenuOpen = false"
             >
-              {{ link.label }}
+              {{ $t(link.key) }}
             </NuxtLink>
             <GpButton :to="gp.ctas.primary.href" class="mt-2" @click="mobileMenuOpen = false">
-              {{ gp.ctas.primary.label }}
+              {{ $t('cta.primary') }}
             </GpButton>
           </nav>
         </div>
@@ -74,33 +76,33 @@
               <div class="flex items-center gap-3">
                 <Logo :size="48" />
                 <div>
-                  <div class="font-bold text-lg text-gp-text">{{ gp.brand.name }}</div>
-                  <div class="text-sm text-gp-text/70">{{ gp.brand.tagline }}</div>
+                  <div class="font-bold text-lg text-gp-text">{{ $t('brand.name') }}</div>
+                  <div class="text-sm text-gp-text/70">{{ $t('brand.tagline') }}</div>
                 </div>
               </div>
               <p class="mt-4 text-gp-text/70 text-sm leading-relaxed">
-                {{ gp.brand.motto }}
+                {{ $t('brand.motto') }}
               </p>
             </div>
 
             <!-- Quick links -->
             <div>
-              <h3 class="font-semibold text-gp-text mb-4">Quick links</h3>
+              <h3 class="font-semibold text-gp-text mb-4">{{ $t('footer.quickLinks') }}</h3>
               <nav class="space-y-2">
                 <NuxtLink
                   v-for="link in navLinks"
-                  :key="link.href"
+                  :key="link.key"
                   :to="link.href"
                   class="block text-gp-text/70 hover:text-gp-text transition-colors"
                 >
-                  {{ link.label }}
+                  {{ $t(link.key) }}
                 </NuxtLink>
               </nav>
             </div>
 
             <!-- Contact -->
             <div>
-              <h3 class="font-semibold text-gp-text mb-4">Contact</h3>
+              <h3 class="font-semibold text-gp-text mb-4">{{ $t('footer.contact') }}</h3>
               <a
                 :href="`mailto:${gp.brand.contactEmail}`"
                 class="text-gp-text/70 hover:text-gp-text transition-colors"
@@ -128,7 +130,7 @@
           <!-- Copyright -->
           <div class="mt-12 pt-6 border-t-2 border-gp-border/10 text-center">
             <p class="text-gp-text/70 text-sm">
-              &copy; {{ new Date().getFullYear() }} {{ gp.footer.copyright }}
+              &copy; {{ new Date().getFullYear() }} {{ $t('footer.copyright') }}
             </p>
           </div>
         </div>
@@ -138,15 +140,16 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
 const mobileMenuOpen = ref(false)
 
 const navLinks = [
-  { label: 'Solution', href: '#features' },
-  { label: 'How it works', href: '#how-it-works' },
-  { label: 'GDPR', href: '#gdpr' },
-  { label: 'Get involved', href: '#cta' }
+  { key: 'nav.solution', href: '#features' },
+  { key: 'nav.howItWorks', href: '#how-it-works' },
+  { key: 'nav.gdpr', href: '#gdpr' },
+  { key: 'nav.getInvolved', href: '#cta' }
 ]
 </script>
