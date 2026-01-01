@@ -27,9 +27,9 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     lazy: true,
-    langDir: 'i18n/locales',
+    langDir: '~/i18n/locales',
     strategy: 'no_prefix',
-    vueI18n: './i18n/i18n.config.ts',
+    vueI18n: '~/i18n/i18n.config.ts',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'gp_lang',
