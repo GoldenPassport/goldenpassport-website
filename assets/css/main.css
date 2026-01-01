@@ -19,6 +19,7 @@
     --gp-accent: 253 195 10; /* Yellow accents */
     --gp-btn-bg: 0 0 0; /* Black button bg */
     --gp-btn-text: 253 195 10; /* Yellow button text */
+    --gp-chip-icon: 0 0 0; /* Always black for contrast on yellow */
   }
 
   /* ===== DARK MODE ===== */
@@ -31,6 +32,7 @@
     --gp-accent: 253 195 10; /* Yellow accents */
     --gp-btn-bg: 253 195 10; /* Yellow button bg */
     --gp-btn-text: 23 23 23; /* Dark button text */
+    --gp-chip-icon: 0 0 0; /* Always black for contrast on yellow */
   }
 
   html {
@@ -95,7 +97,7 @@
   }
 
   .gp-icon-chip {
-    @apply inline-flex items-center justify-center w-10 h-10 rounded-lg bg-gp-accent border-2 border-gp-border;
+    @apply inline-flex items-center justify-center w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] rounded-lg bg-gp-accent border-2 border-gp-border text-gp-chip-icon;
   }
 
   .gp-btn-primary {

@@ -37,7 +37,7 @@
         <!-- User -->
         <div class="gp-card p-5 text-center">
           <div class="gp-icon-chip mx-auto">
-            <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
+            <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5" aria-hidden="true" />
           </div>
           <div class="mt-3 font-semibold text-gp-text">
             {{ gp.productFlow.architecture.nodes.user.label }}
@@ -48,7 +48,7 @@
         <!-- GoldenPassport (center) - inverted -->
         <div class="gp-inverted rounded-2xl border-4 border-gp-border p-6 text-center">
           <div class="mx-auto w-12 h-12 rounded-xl bg-gp-accent border-2 border-gp-border flex items-center justify-center">
-            <UIcon name="i-heroicons-shield-check-20-solid" class="w-6 h-6 text-gp-btn-text" aria-hidden="true" />
+            <UIcon name="i-heroicons-shield-check-20-solid" class="w-6 h-6 text-gp-chip-icon" aria-hidden="true" />
           </div>
           <div class="mt-4 text-xl font-bold">
             {{ gp.productFlow.architecture.nodes.gp.label }}
@@ -62,7 +62,7 @@
         <div class="space-y-4">
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
+              <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5" aria-hidden="true" />
             </span>
             <div>
               <div class="font-semibold text-gp-text">
@@ -74,7 +74,7 @@
 
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
+              <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5" aria-hidden="true" />
             </span>
             <div>
               <div class="font-semibold text-gp-text">
@@ -86,7 +86,7 @@
 
           <div class="gp-card p-5 flex items-center gap-4">
             <span class="gp-icon-chip">
-              <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5 text-gp-btn-text" aria-hidden="true" />
+              <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5" aria-hidden="true" />
             </span>
             <div>
               <div class="font-semibold text-gp-text">

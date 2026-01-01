@@ -21,6 +21,7 @@ export default {
           accent: "rgb(var(--gp-accent) / <alpha-value>)",
           'btn-bg': "rgb(var(--gp-btn-bg) / <alpha-value>)",
           'btn-text': "rgb(var(--gp-btn-text) / <alpha-value>)",
+          'chip-icon': "rgb(var(--gp-chip-icon) / <alpha-value>)",
           // Brand constants
           yellow: "rgb(var(--gp-brand-yellow) / <alpha-value>)",
           black: "rgb(var(--gp-brand-black) / <alpha-value>)",

@@ -5,7 +5,7 @@
         <ul class="space-y-3">
           <li v-for="b in gp.security.bullets" :key="b" class="flex items-start gap-3">
             <span class="inline-flex items-center justify-center w-6 h-6 rounded-md bg-gp-accent border-2 border-gp-border">
-              <UIcon name="i-heroicons-shield-check-20-solid" class="w-4 h-4 text-gp-btn-text" aria-hidden="true" />
+              <UIcon name="i-heroicons-shield-check-20-solid" class="w-4 h-4 text-gp-chip-icon" aria-hidden="true" />
             </span>
             <span class="text-gp-text">{{ b }}</span>
           </li>
