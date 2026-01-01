@@ -1,20 +1,16 @@
 <template>
   <header class="text-center">
-    <div class="flex justify-center mb-6">
-      <Logo :size="200" large />
-    </div>
-
-    <h1 class="text-5xl sm:text-6xl md:text-7xl font-bold text-black">
+    <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-black tracking-tight">
       {{ gp.brand.name }}
     </h1>
-    <p class="mt-3 text-xl sm:text-2xl md:text-3xl text-black font-medium">
+    <p class="mt-4 text-2xl sm:text-3xl md:text-4xl text-black font-medium">
       {{ gp.brand.tagline }}
     </p>
-    <p class="mt-2 text-base sm:text-lg text-black/80 italic">
+    <p class="mt-3 text-lg sm:text-xl md:text-2xl text-black/80 italic">
       {{ gp.brand.motto }}
     </p>
 
-    <div class="w-32 h-1 bg-black mx-auto rounded-full mt-6" />
+    <div class="w-40 h-1.5 bg-black mx-auto rounded-full mt-8" />
 
     <GpCard strong class="mt-10 p-6 md:p-10">
       <p class="text-xl md:text-2xl text-black leading-relaxed font-semibold">
