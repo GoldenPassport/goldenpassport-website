@@ -3,7 +3,7 @@
     class="logo"
     :class="{ 'logo-large': large, 'logo-small': small }"
     :style="logoStyle"
-    src="/GoldenPassport.com.png"
+    :src="logoSrc"
     alt="GoldenPassport logo"
     loading="eager"
     decoding="async"
@@ -23,6 +23,13 @@ const props = withDefaults(defineProps<Props>(), {
   small: false
 })
 
+const colorMode = useColorMode()
+
+// Use gold logo on dark background, black logo on light background
+const logoSrc = computed(() => {
+  return colorMode.value === 'dark' ? '/logo-gold.png' : '/logo-black.png'
+})
+
 const logoStyle = computed(() => {
   const px = props.large ? 200 : props.small ? 60 : props.size
   return {
@@ -38,4 +45,3 @@ const logoStyle = computed(() => {
   object-fit: contain;
 }
 </style>
-
