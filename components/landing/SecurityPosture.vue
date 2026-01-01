@@ -25,9 +25,7 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const { t } = useI18n()
+const { tm } = useI18n()
 
-const securityBullets = computed(() =>
-  t('security.bullets', { returnObjects: true }) as unknown as string[]
-)
+const securityBullets = computed(() => tm('security.bullets') as string[])
 </script>

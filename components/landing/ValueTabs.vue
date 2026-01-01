@@ -20,7 +20,7 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
 
 type TabItem = { label: string; items: string[] }
 
@@ -29,7 +29,7 @@ const audienceKeys = ['consumers', 'merchants', 'enterprises'] as const
 const tabItems = computed<TabItem[]>(() =>
   audienceKeys.map((key) => ({
     label: t(`audiences.${key}.label`),
-    items: t(`audiences.${key}.items`, { returnObjects: true }) as unknown as string[]
+    items: tm(`audiences.${key}.items`) as string[]
   }))
 )
 </script>

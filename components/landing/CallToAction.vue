@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const { t } = useI18n()
+const { tm } = useI18n()
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
@@ -47,6 +47,6 @@ const tracks = [
 ]
 
 function getTrackBullets(key: string): string[] {
-  return t(`callToAction.${key}.bullets`, { returnObjects: true }) as unknown as string[]
+  return tm(`callToAction.${key}.bullets`) as string[]
 }
 </script>
