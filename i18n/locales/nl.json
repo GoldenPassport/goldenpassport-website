@@ -1,0 +1,232 @@
+{
+  "brand": {
+    "name": "GoldenPassport",
+    "tagline": "Online Privacy Paspoort",
+    "motto": "Privacy. Veiligheid. Verantwoordelijkheid."
+  },
+  "nav": {
+    "solution": "Oplossing",
+    "howItWorks": "Hoe het werkt",
+    "gdpr": "AVG",
+    "getInvolved": "Doe mee"
+  },
+  "hero": {
+    "headline": "Neem de controle over uw digitale identiteit terug",
+    "subhead": "Een privacy-gerichte online identiteitsbeheerplatform waarmee u online kunt winkelen, transacties kunt uitvoeren en kunt communiceren zonder uw persoonlijke gegevens af te staan aan handelaren, trackers of databrokers.",
+    "trustNote": "Uw gegevens blijven versleuteld op uw apparaat. Wij zien ze nooit."
+  },
+  "cta": {
+    "primary": "Seed investering",
+    "secondary": "Partner met ons"
+  },
+  "sections": {
+    "solution": {
+      "eyebrow": "Oplossing",
+      "title": "Kernproduct beloften"
+    },
+    "howItWorks": {
+      "eyebrow": "Aanpak",
+      "title": "Hoe GoldenPassport werkt"
+    },
+    "architecture": {
+      "eyebrow": "Architectuur",
+      "title": "Echte transactiestroom",
+      "intro": "Zie hoe GoldenPassport uw identiteit beschermt tijdens een complete aankoopreis."
+    },
+    "audience": {
+      "eyebrow": "Doelgroep",
+      "title": "Wie profiteert"
+    },
+    "gdpr": {
+      "eyebrow": "Naleving",
+      "title": "AVG-alignment",
+      "intro": "GoldenPassport is vanaf de grond af ontworpen om de EU AVG-vereisten te overtreffen."
+    },
+    "security": {
+      "eyebrow": "Vertrouwen",
+      "title": "Beveiligingspostuur",
+      "intro": "Bedrijfsniveau beveiliging zonder bedrijfscomplexiteit."
+    },
+    "cta": {
+      "eyebrow": "Call to action",
+      "title": "Sluit je aan bij de privacyrevolutie",
+      "intro": "We zoeken partners en investeerders die onze visie delen voor een privacy-respecterend internet."
+    }
+  },
+  "features": {
+    "anonymousLogin": {
+      "title": "Anonieme login",
+      "description": "Verifieer zonder uw identiteit prijs te geven. Gebruik veilige tokens in plaats van e-mails of wachtwoorden."
+    },
+    "dataMinimisation": {
+      "title": "Gegevensminimalisatie",
+      "description": "Deel alleen wat nodig is, niets meer. Granulaire toestemmingscontroles voor elke transactie."
+    },
+    "proxyShield": {
+      "title": "Proxy schild",
+      "description": "Uw echte gegevens bereiken handelaren nooit. Wij fungeren als beschermende tussenpersoon."
+    },
+    "zeroKnowledge": {
+      "title": "Zero-knowledge",
+      "description": "Zelfs wij kunnen uw gegevens niet zien. End-to-end encryptie houdt uw informatie privé."
+    }
+  },
+  "steps": {
+    "store": {
+      "title": "Veilig opslaan",
+      "description": "Uw identiteitsgegevens worden versleuteld en lokaal op uw apparaat opgeslagen. Alleen u heeft de sleutels."
+    },
+    "share": {
+      "title": "Selectief delen",
+      "description": "Kies precies wat u voor elke transactie wilt delen. Onthul alleen wat nodig is."
+    },
+    "transact": {
+      "title": "Privé transacteren",
+      "description": "Voltooi aankopen, leveringen en betalingen zonder uw echte identiteit bloot te leggen."
+    }
+  },
+  "flow": {
+    "login": {
+      "title": "Inloggen & Selecteren",
+      "description": "Verifieer met GoldenPassport en blader door handelaarsaanbiedingen met beschermde identiteit."
+    },
+    "pay": {
+      "title": "Betalen",
+      "description": "Voltooi betaling via onze veilige proxy. Handelaar ziet nooit uw echte betalingsgegevens."
+    },
+    "deliver": {
+      "title": "Leveren",
+      "description": "Ontvang uw bestelling op uw adres zonder dat de handelaar ooit weet waar u woont."
+    }
+  },
+  "architecture": {
+    "title": "Privacy-beschermende architectuur",
+    "caption": "Gegevens stromen door GoldenPassport, nooit direct naar derden.",
+    "nodes": {
+      "user": "U",
+      "gp": "GoldenPassport",
+      "merchant": "Handelaar",
+      "payments": "Betalingsprovider",
+      "delivery": "Leveringspartner"
+    },
+    "proxyShield": "Beschermend proxy schild",
+    "edges": {
+      "userToGp": "Versleutelde identiteitsgegevens",
+      "gpToMerchant": "Geanonimiseerde bestelgegevens",
+      "gpToPayments": "Getokeniseerde betaling",
+      "gpToDelivery": "Eenmalig leveringsadres"
+    },
+    "note": "Alle verbindingen gebruiken TLS 1.3 encryptie. Data in rust gebruikt AES-256."
+  },
+  "audiences": {
+    "consumers": {
+      "label": "Consumenten",
+      "items": [
+        "Winkel online zonder overal accounts aan te maken",
+        "Stop met het ontvangen van gerichte advertenties op basis van aankoopgeschiedenis",
+        "Voorkom dat datalekken uw persoonlijke informatie blootleggen",
+        "Oefen uw AVG-rechten moeiteloos uit"
+      ]
+    },
+    "merchants": {
+      "label": "Handelaren",
+      "items": [
+        "Verminder de last van gegevensbeschermingsnaleving",
+        "Lager risico op kostbare datalekken",
+        "Bouw vertrouwen op bij privacy-bewuste klanten",
+        "Stroomlijn checkout met geverifieerde referenties"
+      ]
+    },
+    "enterprises": {
+      "label": "Bedrijven",
+      "items": [
+        "Demonstreer privacy leiderschap",
+        "Verminder verplichtingen voor het omgaan met persoonlijke gegevens",
+        "Toekomstbestendig tegen evoluerende privacyregelgeving",
+        "Integreer via eenvoudige REST API's"
+      ]
+    }
+  },
+  "gdpr": {
+    "requirement": "EU AVG-vereiste",
+    "pledge": "GoldenPassport belofte",
+    "rights": {
+      "access": "Recht op toegang",
+      "rectification": "Recht op rectificatie",
+      "erasure": "Recht op verwijdering",
+      "portability": "Gegevensoverdraagbaarheid",
+      "restriction": "Recht op beperking van verwerking",
+      "objection": "Recht van bezwaar"
+    },
+    "pledges": {
+      "access": "Bekijk al uw gegevens direct in de app. Geen wachten, geen formulieren.",
+      "rectification": "Bewerk uw informatie altijd. Wijzigingen worden onmiddellijk doorgevoerd.",
+      "erasure": "Eén-tik gegevensverwijdering. Wij verwijderen alles, overal.",
+      "portability": "Exporteer uw gegevens in standaardformaten. Neem ze overal mee naartoe.",
+      "restriction": "Pauzeer gegevensdeling met een enkele schakelaar. Hervat wanneer u klaar bent.",
+      "objection": "Granulaire opt-out controles voor elk verwerkingsdoel."
+    }
+  },
+  "security": {
+    "bullets": [
+      "End-to-end encryptie met industrie-standaard algoritmen",
+      "Zero-knowledge architectuur - wij kunnen niet bij uw gegevens",
+      "Local-first opslag - uw apparaat, uw controle",
+      "Regelmatige beveiligingsaudits door derden",
+      "SOC 2 Type II naleving (gepland)",
+      "AVG-compliant door ontwerp"
+    ],
+    "note": "Wij zijn een pre-launch startup. Beveiligingscertificeringen worden verkregen vóór de openbare release. Onze architectuur is ontworpen om industrienormen te overtreffen."
+  },
+  "callToAction": {
+    "investment": {
+      "title": "Seed investering",
+      "description": "Sluit u aan bij het bouwen van de toekomst van online privacy. We halen onze seed-ronde op om ontwikkeling en markttoetreding te versnellen.",
+      "bullets": [
+        "Sterk oprichtingsteam met fintech- en beveiligingsexpertise",
+        "Duidelijk pad naar omzet via B2B2C-model",
+        "Groeiende markt aangedreven door privacyregelgeving",
+        "Patent-pending privacy-beschermende technologie"
+      ],
+      "button": "Bespreken investering"
+    },
+    "partnership": {
+      "title": "Technologiepartners",
+      "description": "We zoeken integratiepartners in het hele e-commerce ecosysteem om naadloze privacy-beschermende ervaringen te leveren.",
+      "bullets": [
+        "Betalingsverwerkers en gateways",
+        "E-commerce platforms en marktplaatsen",
+        "Logistiek- en leveringsnetwerken",
+        "Identiteitsverificatieproviders"
+      ],
+      "button": "Partnerschap verkennen"
+    }
+  },
+  "footer": {
+    "quickLinks": "Snelle links",
+    "contact": "Contact",
+    "copyright": "GoldenPassport.com. Alle rechten voorbehouden."
+  },
+  "common": {
+    "goToHomepage": "Ga naar homepage"
+  },
+  "errors": {
+    "404": {
+      "title": "Pagina niet gevonden",
+      "message": "De pagina die u zoekt bestaat niet of is verplaatst."
+    },
+    "500": {
+      "title": "Serverfout",
+      "message": "We hebben een onverwachte fout ondervonden. Probeer het later opnieuw."
+    },
+    "403": {
+      "title": "Toegang geweigerd",
+      "message": "U heeft geen toestemming om deze bron te openen."
+    },
+    "default": {
+      "title": "Er is iets misgegaan",
+      "message": "Er is een onverwachte fout opgetreden."
+    }
+  }
+}
+
