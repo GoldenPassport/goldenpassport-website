@@ -108,9 +108,6 @@
                   <div class="text-xs sm:text-sm text-gp-text/70">{{ $t('brand.tagline.prefix') }} "{{ $t('brand.tagline.highlight') }}" {{ $t('brand.tagline.suffix') }}</div>
                 </div>
               </div>
-              <p class="mt-3 sm:mt-4 text-gp-text/70 text-xs sm:text-sm leading-relaxed">
-                {{ $t('brand.motto') }}
-              </p>
             </div>
 
             <!-- Quick links -->

@@ -48,7 +48,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'GoldenPassport - Define Your Own Digital "Fingerprint"! Privacy. Security. Responsibility. Take back control of your digital identity.' },
+        { name: 'description', content: 'GoldenPassport - Define Your Own Digital "Fingerprint"! Take back control of your digital identity.' },
         { name: 'keywords', content: 'digital identity, privacy, online security, data protection, GDPR, identity management, anonymous login, data minimization, zero-knowledge, privacy passport' },
         { name: 'author', content: 'GoldenPassport' },
         { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },

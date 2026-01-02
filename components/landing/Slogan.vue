@@ -13,10 +13,6 @@
       </span>
       {{ $t('brand.tagline.suffix') }}
     </p>
-    <p class="mt-3 text-lg sm:text-xl md:text-2xl text-gp-text/80 italic">
-      {{ $t('brand.motto') }}
-    </p>
-
     <div class="w-40 h-1.5 bg-gp-text mx-auto rounded-full mt-8" />
   </div>
 </template>
