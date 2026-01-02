@@ -38,7 +38,9 @@ const organizationSchema = {
     contactType: 'Customer Service'
   },
   sameAs: [
-    'https://www.linkedin.com/company/goldenpassport'
+    'https://www.linkedin.com/company/goldenpassport',
+    'https://x.com/GoldenPassport_',
+    'https://github.com/GoldenPassport'
   ],
   foundingDate: '2024',
   slogan: gp.brand.tagline.full || `${gp.brand.tagline.prefix} "${gp.brand.tagline.highlight}" ${gp.brand.tagline.suffix}`
