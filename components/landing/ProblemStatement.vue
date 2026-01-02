@@ -62,11 +62,11 @@
         {{ $t('problem.dangers.intro') }}
       </p>
       
-      <div class="max-w-4xl mx-auto space-y-6">
+      <div class="max-w-4xl mx-auto space-y-6 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-6">
         <div
           v-for="(danger, idx) in dangers"
           :key="idx"
-          class="text-center"
+          class="text-center relative"
         >
           <div class="flex items-center justify-center gap-3 mb-3">
             <div class="gp-icon-chip">
@@ -76,10 +76,11 @@
               {{ $t(`problem.dangers.${danger.key}.title`) }}
             </h4>
           </div>
-          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed max-w-2xl mx-auto">
+          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed max-w-2xl mx-auto lg:max-w-none">
             {{ $t(`problem.dangers.${danger.key}.description`) }}
           </p>
-          <div v-if="idx < dangers.length - 1" class="w-full h-px bg-gp-border/30 mt-6"></div>
+          <div v-if="idx < dangers.length - 1" class="w-full h-px bg-gp-border/30 mt-6 lg:hidden"></div>
+          <div v-if="idx < dangers.length - 1" class="hidden lg:block absolute top-0 right-0 w-px h-full bg-gp-border/30"></div>
         </div>
       </div>
     </div>
