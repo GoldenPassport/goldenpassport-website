@@ -271,6 +271,7 @@
   "callToAction": {
     "investment": {
       "title": "Seed investering",
+      "badge": "INVEST",
       "description": "Sluit u aan bij het bouwen van de toekomst van online privacy. We halen onze seed-ronde op om ontwikkeling en markttoetreding te versnellen.",
       "bullets": [
         "Sterk oprichtingsteam met fintech- en beveiligingsexpertise",
@@ -282,6 +283,7 @@
     },
     "partnership": {
       "title": "Technologiepartners",
+      "badge": "PARTNER",
       "description": "We zoeken integratiepartners in het hele e-commerce ecosysteem om naadloze privacy-beschermende ervaringen te leveren.",
       "bullets": [
         "Betalingsverwerkers en gateways",

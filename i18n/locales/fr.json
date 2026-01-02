@@ -271,6 +271,7 @@
   "callToAction": {
     "investment": {
       "title": "Investissement d'amorçage",
+      "badge": "INVEST",
       "description": "Rejoignez-nous pour construire l'avenir de la confidentialité en ligne. Nous levons notre tour d'amorçage pour accélérer le développement et l'entrée sur le marché.",
       "bullets": [
         "Équipe fondatrice solide avec expertise en fintech et sécurité",
@@ -282,6 +283,7 @@
     },
     "partnership": {
       "title": "Partenaires technologiques",
+      "badge": "PARTNER",
       "description": "Nous recherchons des partenaires d'intégration dans tout l'écosystème e-commerce pour offrir des expériences de confidentialité sans friction.",
       "bullets": [
         "Processeurs de paiement et passerelles",

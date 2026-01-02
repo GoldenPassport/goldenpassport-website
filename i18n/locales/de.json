@@ -271,6 +271,7 @@
   "callToAction": {
     "investment": {
       "title": "Seed-Investition",
+      "badge": "INVEST",
       "description": "Helfen Sie uns, die Zukunft des Online-Datenschutzes aufzubauen. Wir sammeln unsere Seed-Runde, um die Entwicklung und den Markteintritt zu beschleunigen.",
       "bullets": [
         "Starkes Gründerteam mit Fintech- und Sicherheitsexpertise",
@@ -282,6 +283,7 @@
     },
     "partnership": {
       "title": "Technologiepartner",
+      "badge": "PARTNER",
       "description": "Wir suchen Integrationspartner im gesamten E-Commerce-Ökosystem, um nahtlose datenschutzfreundliche Erlebnisse zu bieten.",
       "bullets": [
         "Zahlungsabwickler und Gateways",

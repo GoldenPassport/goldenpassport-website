@@ -271,6 +271,7 @@
   "callToAction": {
     "investment": {
       "title": "Investimento seed",
+      "badge": "INVEST",
       "description": "Junte-se a nós na construção do futuro da privacidade online. Estamos a angariar a nossa ronda seed para acelerar o desenvolvimento e a entrada no mercado.",
       "bullets": [
         "Equipa fundadora forte com experiência em fintech e segurança",
@@ -282,6 +283,7 @@
     },
     "partnership": {
       "title": "Parceiros tecnológicos",
+      "badge": "PARTNER",
       "description": "Procuramos parceiros de integração em todo o ecossistema de e-commerce para fornecer experiências perfeitas que preservam a privacidade.",
       "bullets": [
         "Processadores de pagamento e gateways",
