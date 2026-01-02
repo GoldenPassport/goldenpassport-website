@@ -20,6 +20,11 @@
     "secondary": "Partner werden"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "Problem",
+      "title": "Das Datenfreigabeproblem",
+      "intro": "Derzeit benötigen Online-Händler Zugriff auf alle Ihre persönlichen Daten. GoldenPassport ändert dies, indem nur das Notwendige selektiv geteilt wird."
+    },
     "solution": {
       "eyebrow": "Lösung",
       "title": "Kernprodukt-Versprechen"
@@ -117,6 +122,33 @@
       "gpToDelivery": "Einmalige Lieferadresse"
     },
     "note": "Alle Verbindungen verwenden TLS 1.3-Verschlüsselung. Ruhende Daten verwenden AES-256."
+  },
+  "problem": {
+    "circles": {
+      "identity": "Identität & Adresse",
+      "finance": "Finanzen",
+      "history": "Kaufhistorie"
+    },
+    "current": {
+      "title": "Aktuelles Problem",
+      "allShared": "Sie müssen alle drei mit Händlern teilen"
+    },
+    "solution": {
+      "title": "GoldenPassport Lösung",
+      "facilitates": "Teilt selektiv nur das Notwendige",
+      "merchant": {
+        "title": "Händler",
+        "data": "Produkt zum Verpacken, Zahlung bestätigt. Kein Name, keine Kaufhistorie."
+      },
+      "payment": {
+        "title": "Zahlungsanbieter",
+        "data": "Zahlung verarbeitet. Keine persönlichen Daten, keine Kaufhistorie."
+      },
+      "delivery": {
+        "title": "Lieferpartner",
+        "data": "Nur Abhol- und Lieferorte. Kein Name, keine Zahlungsinformationen."
+      }
+    }
   },
   "audiences": {
     "consumers": {

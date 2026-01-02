@@ -20,6 +20,11 @@
     "secondary": "Partner met ons"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "Probleem",
+      "title": "Het gegevensdelingprobleem",
+      "intro": "Momenteel hebben online retailers toegang tot al uw persoonlijke gegevens nodig. GoldenPassport verandert dit door selectief alleen het nodige te delen."
+    },
     "solution": {
       "eyebrow": "Oplossing",
       "title": "Kernproduct beloften"
@@ -117,6 +122,33 @@
       "gpToDelivery": "Eenmalig leveringsadres"
     },
     "note": "Alle verbindingen gebruiken TLS 1.3 encryptie. Data in rust gebruikt AES-256."
+  },
+  "problem": {
+    "circles": {
+      "identity": "Identiteit & Adres",
+      "finance": "Financiën",
+      "history": "Aankoopgeschiedenis"
+    },
+    "current": {
+      "title": "Huidig Probleem",
+      "allShared": "U moet alle drie delen met retailers"
+    },
+    "solution": {
+      "title": "GoldenPassport Oplossing",
+      "facilitates": "Deelt selectief alleen wat nodig is",
+      "merchant": {
+        "title": "Handelaar",
+        "data": "Product om in te pakken, betaling bevestigd. Geen naam, geen aankoopgeschiedenis."
+      },
+      "payment": {
+        "title": "Betalingsprovider",
+        "data": "Betaling verwerkt. Geen persoonlijke gegevens, geen aankoopgeschiedenis."
+      },
+      "delivery": {
+        "title": "Leveringspartner",
+        "data": "Alleen ophaal- en afleverlocaties. Geen naam, geen betalingsinformatie."
+      }
+    }
   },
   "audiences": {
     "consumers": {

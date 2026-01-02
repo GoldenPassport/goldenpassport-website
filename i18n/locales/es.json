@@ -20,6 +20,11 @@
     "secondary": "Asóciate con nosotros"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "Problema",
+      "title": "El problema del intercambio de datos",
+      "intro": "Actualmente, los minoristas en línea requieren acceso a todos sus datos personales. GoldenPassport cambia esto compartiendo selectivamente solo lo necesario."
+    },
     "solution": {
       "eyebrow": "Solución",
       "title": "Promesas principales del producto"
@@ -117,6 +122,33 @@
       "gpToDelivery": "Dirección de entrega de un solo uso"
     },
     "note": "Todas las conexiones usan cifrado TLS 1.3. Los datos en reposo usan AES-256."
+  },
+  "problem": {
+    "circles": {
+      "identity": "Identidad y Dirección",
+      "finance": "Finanzas",
+      "history": "Historial de Compras"
+    },
+    "current": {
+      "title": "Problema Actual",
+      "allShared": "Debes compartir los tres con los minoristas"
+    },
+    "solution": {
+      "title": "Solución GoldenPassport",
+      "facilitates": "Comparte selectivamente solo lo necesario",
+      "merchant": {
+        "title": "Comerciante",
+        "data": "Producto para empaquetar, pago confirmado. Sin nombre, sin historial de compras."
+      },
+      "payment": {
+        "title": "Proveedor de Pago",
+        "data": "Pago procesado. Sin detalles personales, sin historial de compras."
+      },
+      "delivery": {
+        "title": "Socio de Entrega",
+        "data": "Solo ubicaciones de recogida y entrega. Sin nombre, sin información de pago."
+      }
+    }
   },
   "audiences": {
     "consumers": {

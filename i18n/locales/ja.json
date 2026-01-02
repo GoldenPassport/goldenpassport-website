@@ -20,6 +20,11 @@
     "secondary": "パートナーになる"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "問題",
+      "title": "データ共有の問題",
+      "intro": "現在、オンライン小売業者はすべての個人データへのアクセスを要求しています。GoldenPassportは、必要なものだけを選択的に共有することでこれを変更します。"
+    },
     "solution": {
       "eyebrow": "ソリューション",
       "title": "コア製品の約束"
@@ -117,6 +122,33 @@
       "gpToDelivery": "ワンタイム配送先住所"
     },
     "note": "すべての接続はTLS 1.3暗号化を使用。保存データはAES-256を使用。"
+  },
+  "problem": {
+    "circles": {
+      "identity": "身元と住所",
+      "finance": "財務",
+      "history": "購入履歴"
+    },
+    "current": {
+      "title": "現在の問題",
+      "allShared": "小売業者と3つすべてを共有する必要があります"
+    },
+    "solution": {
+      "title": "GoldenPassportソリューション",
+      "facilitates": "必要なものだけを選択的に共有",
+      "merchant": {
+        "title": "商人",
+        "data": "梱包する製品、支払い確認済み。名前なし、購入履歴なし。"
+      },
+      "payment": {
+        "title": "支払いプロバイダー",
+        "data": "支払い処理済み。個人詳細なし、購入履歴なし。"
+      },
+      "delivery": {
+        "title": "配送パートナー",
+        "data": "ピックアップとドロップオフの場所のみ。名前なし、支払い情報なし。"
+      }
+    }
   },
   "audiences": {
     "consumers": {

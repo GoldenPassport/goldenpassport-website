@@ -2,6 +2,7 @@
   <div class="container mx-auto px-4 py-14 md:py-20">
     <div class="max-w-6xl mx-auto space-y-10 md:space-y-14">
       <LandingHero />
+      <LandingProblemStatement />
       <LandingFeatureCards />
       <LandingHowItWorks />
       <LandingProductFlow />

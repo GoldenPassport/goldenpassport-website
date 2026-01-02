@@ -20,6 +20,11 @@
     "secondary": "与我们合作"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "问题",
+      "title": "数据共享问题",
+      "intro": "目前，在线零售商需要访问您的所有个人数据。GoldenPassport通过选择性地仅共享必要内容来改变这一点。"
+    },
     "solution": {
       "eyebrow": "解决方案",
       "title": "核心产品承诺"
@@ -117,6 +122,33 @@
       "gpToDelivery": "一次性配送地址"
     },
     "note": "所有连接使用TLS 1.3加密。静态数据使用AES-256。"
+  },
+  "problem": {
+    "circles": {
+      "identity": "身份和地址",
+      "finance": "财务",
+      "history": "购买历史"
+    },
+    "current": {
+      "title": "当前问题",
+      "allShared": "您必须与零售商共享所有三项"
+    },
+    "solution": {
+      "title": "GoldenPassport解决方案",
+      "facilitates": "选择性地仅共享必要内容",
+      "merchant": {
+        "title": "商家",
+        "data": "要包装的产品，付款已确认。无姓名，无购买历史。"
+      },
+      "payment": {
+        "title": "支付提供商",
+        "data": "付款已处理。无个人详细信息，无购买历史。"
+      },
+      "delivery": {
+        "title": "配送合作伙伴",
+        "data": "仅取货和送货地点。无姓名，无付款信息。"
+      }
+    }
   },
   "audiences": {
     "consumers": {

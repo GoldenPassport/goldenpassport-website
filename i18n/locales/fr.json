@@ -20,6 +20,11 @@
     "secondary": "Devenez partenaire"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "Problème",
+      "title": "Le problème du partage de données",
+      "intro": "Actuellement, les détaillants en ligne nécessitent l'accès à toutes vos données personnelles. GoldenPassport change cela en partageant sélectivement uniquement ce qui est nécessaire."
+    },
     "solution": {
       "eyebrow": "Solution",
       "title": "Promesses fondamentales du produit"
@@ -117,6 +122,33 @@
       "gpToDelivery": "Adresse de livraison à usage unique"
     },
     "note": "Toutes les connexions utilisent le chiffrement TLS 1.3. Les données au repos utilisent AES-256."
+  },
+  "problem": {
+    "circles": {
+      "identity": "Identité et Adresse",
+      "finance": "Finances",
+      "history": "Historique d'Achats"
+    },
+    "current": {
+      "title": "Problème Actuel",
+      "allShared": "Vous devez partager les trois avec les détaillants"
+    },
+    "solution": {
+      "title": "Solution GoldenPassport",
+      "facilitates": "Partage sélectivement uniquement ce qui est nécessaire",
+      "merchant": {
+        "title": "Marchand",
+        "data": "Produit à emballer, paiement confirmé. Pas de nom, pas d'historique d'achats."
+      },
+      "payment": {
+        "title": "Fournisseur de Paiement",
+        "data": "Paiement traité. Pas de détails personnels, pas d'historique d'achats."
+      },
+      "delivery": {
+        "title": "Partenaire de Livraison",
+        "data": "Uniquement les emplacements de collecte et de livraison. Pas de nom, pas d'informations de paiement."
+      }
+    }
   },
   "audiences": {
     "consumers": {

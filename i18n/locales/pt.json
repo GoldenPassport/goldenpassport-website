@@ -20,6 +20,11 @@
     "secondary": "Seja nosso parceiro"
   },
   "sections": {
+    "problem": {
+      "eyebrow": "Problema",
+      "title": "O problema do compartilhamento de dados",
+      "intro": "Atualmente, os retalhistas online requerem acesso a todos os seus dados pessoais. O GoldenPassport muda isso partilhando seletivamente apenas o necessário."
+    },
     "solution": {
       "eyebrow": "Solução",
       "title": "Promessas principais do produto"
@@ -117,6 +122,33 @@
       "gpToDelivery": "Endereço de entrega único"
     },
     "note": "Todas as ligações usam encriptação TLS 1.3. Dados em repouso usam AES-256."
+  },
+  "problem": {
+    "circles": {
+      "identity": "Identidade e Endereço",
+      "finance": "Finanças",
+      "history": "Histórico de Compras"
+    },
+    "current": {
+      "title": "Problema Atual",
+      "allShared": "Deve partilhar os três com retalhistas"
+    },
+    "solution": {
+      "title": "Solução GoldenPassport",
+      "facilitates": "Partilha seletivamente apenas o necessário",
+      "merchant": {
+        "title": "Comerciante",
+        "data": "Produto para embalar, pagamento confirmado. Sem nome, sem histórico de compras."
+      },
+      "payment": {
+        "title": "Fornecedor de Pagamento",
+        "data": "Pagamento processado. Sem detalhes pessoais, sem histórico de compras."
+      },
+      "delivery": {
+        "title": "Parceiro de Entrega",
+        "data": "Apenas localizações de recolha e entrega. Sem nome, sem informações de pagamento."
+      }
+    }
   },
   "audiences": {
     "consumers": {
