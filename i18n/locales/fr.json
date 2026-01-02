@@ -229,6 +229,7 @@
     }
   },
   "security": {
+    "transparencyTitle": "Note de transparence",
     "bullets": [
       "Chiffrement de bout en bout utilisant des algorithmes standard de l'industrie",
       "Architecture zéro connaissance - nous ne pouvons pas accéder à vos données",

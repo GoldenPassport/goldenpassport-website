@@ -229,6 +229,7 @@
     }
   },
   "security": {
+    "transparencyTitle": "Nota de transparencia",
     "bullets": [
       "Cifrado de extremo a extremo utilizando algoritmos estándar de la industria",
       "Arquitectura de conocimiento cero - no podemos acceder a tus datos",

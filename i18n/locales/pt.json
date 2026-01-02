@@ -229,6 +229,7 @@
     }
   },
   "security": {
+    "transparencyTitle": "Nota de transparência",
     "bullets": [
       "Encriptação de ponta a ponta usando algoritmos padrão da indústria",
       "Arquitetura zero-knowledge - não conseguimos aceder aos seus dados",

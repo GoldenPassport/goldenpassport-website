@@ -13,7 +13,7 @@
       </div>
 
       <div class="gp-inverted rounded-xl shadow-lg border-2 border-gp-border p-6">
-        <h3 class="text-lg font-semibold">Transparency note</h3>
+        <h3 class="text-lg font-semibold">{{ $t('security.transparencyTitle') }}</h3>
         <p class="mt-3 opacity-90 leading-relaxed">
           {{ $t('security.note') }}
         </p>

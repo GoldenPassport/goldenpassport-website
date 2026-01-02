@@ -45,7 +45,7 @@
             >
               <div class="text-center px-4 bg-gp-surface/90 rounded-lg py-3">
                 <UIcon name="i-heroicons-archive-box-20-solid" class="w-10 h-10 text-gp-text mx-auto mb-2" />
-                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.history') }}</span>
+                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.details') }}</span>
               </div>
             </div>
           </div>

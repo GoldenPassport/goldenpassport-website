@@ -229,6 +229,7 @@
     }
   },
   "security": {
+    "transparencyTitle": "Transparency note",
     "bullets": [
       "End-to-end encryption using industry-standard algorithms",
       "Zero-knowledge architecture - we can't access your data",
