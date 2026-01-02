@@ -176,7 +176,7 @@
 
   /* Chevron card shape */
   .chevron-card {
-    @apply bg-gp-surface border-2 border-gp-border shadow-lg transition-all duration-200 ease-out;
+    @apply bg-gp-surface shadow-lg transition-all duration-200 ease-out;
     clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
   }
 
