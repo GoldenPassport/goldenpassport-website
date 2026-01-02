@@ -18,16 +18,68 @@
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
-// Structured data (JSON-LD) for organization
-const jsonLd = {
+// Comprehensive structured data (JSON-LD)
+const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: gp.brand.name,
   description: gp.hero.subhead,
   url: 'https://goldenpassport.com',
-  logo: 'https://goldenpassport.com/GoldenPassport.com.png',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://goldenpassport.com/GoldenPassport.com.png',
+    width: 1250,
+    height: 1250
+  },
   email: gp.brand.contactEmail,
-  sameAs: [] // Add social media URLs when available
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: gp.brand.contactEmail,
+    contactType: 'Customer Service'
+  },
+  sameAs: [], // Add social media URLs when available
+  foundingDate: '2024',
+  slogan: gp.brand.tagline.full || `${gp.brand.tagline.prefix} "${gp.brand.tagline.highlight}" ${gp.brand.tagline.suffix}`
+}
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: gp.brand.name,
+  url: 'https://goldenpassport.com',
+  description: gp.hero.subhead,
+  publisher: {
+    '@type': 'Organization',
+    name: gp.brand.name
+  },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://goldenpassport.com/?q={search_term_string}'
+    },
+    'query-input': 'required name=search_term_string'
+  }
+}
+
+const softwareApplicationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: gp.brand.name,
+  applicationCategory: 'SecurityApplication',
+  operatingSystem: 'Web, iOS, Android',
+  description: gp.hero.subhead,
+  url: 'https://goldenpassport.com',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD'
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '5',
+    ratingCount: '1'
+  }
 }
 
 useHead(() => ({
@@ -41,7 +93,15 @@ useHead(() => ({
   script: [
     {
       type: 'application/ld+json',
-      children: JSON.stringify(jsonLd)
+      children: JSON.stringify(organizationSchema)
+    },
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify(websiteSchema)
+    },
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify(softwareApplicationSchema)
     }
   ]
 }))

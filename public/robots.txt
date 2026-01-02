@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://goldenpassport.com/sitemap.xml
+
+# Disallow admin and API routes if they exist
+Disallow: /api/
+Disallow: /admin/
+
+# Allow all other content
+Allow: /
+
