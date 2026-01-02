@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-screen bg-gp-bg text-gp-text">
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky">
-      <div class="container mx-auto px-3 sm:px-6 py-2.5 sm:py-3">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky md:top-0">
+      <div class="container mx-auto px-3 sm:px-6 py-2 sm:py-3">
         <div class="flex items-center justify-between max-w-6xl mx-auto gap-2">
           <NuxtLink to="/" class="flex items-center gap-1.5 sm:gap-3 group flex-shrink min-w-0">
-            <Logo :size="28" small class="sm:!w-10 sm:!h-10 flex-shrink-0" />
+            <Logo :size="32" class="!w-8 !h-8 sm:!w-10 sm:!h-10 flex-shrink-0" />
             <span class="font-bold text-base sm:text-lg md:text-xl text-gp-text group-hover:text-gp-text/80 transition-colors truncate">
               {{ $t('brand.name') }}
             </span>
@@ -62,7 +62,7 @@
     </header>
 
     <!-- Main content -->
-    <main class="pt-16 md:pt-0">
+    <main class="pt-14 sm:pt-16 md:pt-0">
       <slot />
     </main>
 
