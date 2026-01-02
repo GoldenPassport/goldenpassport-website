@@ -121,6 +121,12 @@
       "gpToPayments": "令牌化的付款",
       "gpToDelivery": "一次性配送地址"
     },
+    "solution": "GoldenPassport选择性地仅共享必要内容：商家获得产品详情和付款确认（无姓名或购买历史），支付提供商处理交易（无个人详细信息），配送合作伙伴仅接收取货/送货地点（无姓名或付款信息）。",
+    "solutionDetails": {
+      "merchant": "无姓名，无购买历史",
+      "payment": "无个人详细信息，无购买历史",
+      "delivery": "无姓名，无付款信息"
+    },
     "note": "所有连接使用TLS 1.3加密。静态数据使用AES-256。"
   },
   "problem": {

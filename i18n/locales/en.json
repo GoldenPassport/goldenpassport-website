@@ -107,6 +107,7 @@
   "architecture": {
     "title": "Privacy-preserving architecture",
     "caption": "Data flows through GoldenPassport, never directly to third parties.",
+    "solution": "GoldenPassport selectively shares only what's needed: merchants get product details and payment confirmation (no name or purchase history), payment providers process transactions (no personal details), and delivery partners receive only pickup/dropoff locations (no name or payment info).",
     "nodes": {
       "user": "You",
       "gp": "GoldenPassport",
@@ -120,6 +121,11 @@
       "gpToMerchant": "Anonymised order details",
       "gpToPayments": "Tokenised payment",
       "gpToDelivery": "One-time delivery address"
+    },
+    "solutionDetails": {
+      "merchant": "No name, no purchase history",
+      "payment": "No personal details, no purchase history",
+      "delivery": "No name, no payment info"
     },
     "note": "All connections use TLS 1.3 encryption. Data at rest uses AES-256."
   },

@@ -121,6 +121,12 @@
       "gpToPayments": "Pago tokenizado",
       "gpToDelivery": "Dirección de entrega de un solo uso"
     },
+    "solution": "GoldenPassport comparte selectivamente solo lo necesario: los comerciantes obtienen detalles del producto y confirmación de pago (sin nombre ni historial de compras), los proveedores de pago procesan transacciones (sin detalles personales), y los socios de entrega reciben solo ubicaciones de recogida/entrega (sin nombre ni información de pago).",
+    "solutionDetails": {
+      "merchant": "Sin nombre, sin historial de compras",
+      "payment": "Sin detalles personales, sin historial de compras",
+      "delivery": "Sin nombre, sin información de pago"
+    },
     "note": "Todas las conexiones usan cifrado TLS 1.3. Los datos en reposo usan AES-256."
   },
   "problem": {

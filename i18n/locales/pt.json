@@ -121,6 +121,12 @@
       "gpToPayments": "Pagamento tokenizado",
       "gpToDelivery": "Endereço de entrega único"
     },
+    "solution": "O GoldenPassport partilha seletivamente apenas o necessário: os comerciantes obtêm detalhes do produto e confirmação de pagamento (sem nome ou histórico de compras), os fornecedores de pagamento processam transações (sem detalhes pessoais), e os parceiros de entrega recebem apenas localizações de recolha/entrega (sem nome ou informações de pagamento).",
+    "solutionDetails": {
+      "merchant": "Sem nome, sem histórico de compras",
+      "payment": "Sem detalhes pessoais, sem histórico de compras",
+      "delivery": "Sem nome, sem informações de pagamento"
+    },
     "note": "Todas as ligações usam encriptação TLS 1.3. Dados em repouso usam AES-256."
   },
   "problem": {

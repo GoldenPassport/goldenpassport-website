@@ -121,6 +121,12 @@
       "gpToPayments": "Getokeniseerde betaling",
       "gpToDelivery": "Eenmalig leveringsadres"
     },
+    "solution": "GoldenPassport deelt selectief alleen wat nodig is: handelaren krijgen productdetails en betalingsbevestiging (geen naam of aankoopgeschiedenis), betalingsproviders verwerken transacties (geen persoonlijke gegevens), en leveringspartners ontvangen alleen ophaal-/afleverlocaties (geen naam of betalingsinformatie).",
+    "solutionDetails": {
+      "merchant": "Geen naam, geen aankoopgeschiedenis",
+      "payment": "Geen persoonlijke gegevens, geen aankoopgeschiedenis",
+      "delivery": "Geen naam, geen betalingsinformatie"
+    },
     "note": "Alle verbindingen gebruiken TLS 1.3 encryptie. Data in rust gebruikt AES-256."
   },
   "problem": {

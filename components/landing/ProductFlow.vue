@@ -32,6 +32,9 @@
       <p class="mt-2 text-gp-text/80">
         {{ $t('architecture.caption') }}
       </p>
+      <p class="mt-3 text-gp-text/70 text-sm font-medium">
+        {{ $t('architecture.solution') }}
+      </p>
 
       <!-- Animated Architecture Diagram -->
       <div class="mt-8 relative">
@@ -110,37 +113,40 @@
 
             <!-- Partners Stack -->
             <div class="arch-node z-10 space-y-3">
-              <div class="gp-card p-4 flex items-center gap-3 min-w-[220px]">
-                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
+              <div class="gp-card p-4 flex items-start gap-3 min-w-[220px]">
+                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem] flex-shrink-0">
                   <UIcon name="i-heroicons-building-storefront-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
                 <div>
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.merchant') }}
                   </div>
-                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToMerchant') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToMerchant') }}</div>
+                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.merchant') }}</div>
                 </div>
               </div>
-              <div class="gp-card p-4 flex items-center gap-3">
-                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
+              <div class="gp-card p-4 flex items-start gap-3">
+                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem] flex-shrink-0">
                   <UIcon name="i-heroicons-credit-card-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
                 <div>
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.payments') }}
                   </div>
-                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToPayments') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToPayments') }}</div>
+                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.payment') }}</div>
                 </div>
               </div>
-              <div class="gp-card p-4 flex items-center gap-3">
-                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
+              <div class="gp-card p-4 flex items-start gap-3">
+                <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem] flex-shrink-0">
                   <UIcon name="i-heroicons-truck-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
                 <div>
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.delivery') }}
                   </div>
-                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToDelivery') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToDelivery') }}</div>
+                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.delivery') }}</div>
                 </div>
               </div>
             </div>
@@ -197,31 +203,34 @@
 
           <!-- Partners -->
           <div class="w-full max-w-xs space-y-3">
-            <div class="gp-card p-4 flex items-center gap-4">
-              <span class="gp-icon-chip">
+            <div class="gp-card p-4 flex items-start gap-4">
+              <span class="gp-icon-chip flex-shrink-0">
                 <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.merchant') }}</div>
-                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToMerchant') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToMerchant') }}</div>
+                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.merchant') }}</div>
               </div>
             </div>
-            <div class="gp-card p-4 flex items-center gap-4">
-              <span class="gp-icon-chip">
+            <div class="gp-card p-4 flex items-start gap-4">
+              <span class="gp-icon-chip flex-shrink-0">
                 <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.payments') }}</div>
-                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToPayments') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToPayments') }}</div>
+                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.payment') }}</div>
               </div>
             </div>
-            <div class="gp-card p-4 flex items-center gap-4">
-              <span class="gp-icon-chip">
+            <div class="gp-card p-4 flex items-start gap-4">
+              <span class="gp-icon-chip flex-shrink-0">
                 <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.delivery') }}</div>
-                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToDelivery') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToDelivery') }}</div>
+                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.delivery') }}</div>
               </div>
             </div>
           </div>

@@ -121,6 +121,12 @@
       "gpToPayments": "Tokenizowana płatność",
       "gpToDelivery": "Jednorazowy adres dostawy"
     },
+    "solution": "GoldenPassport selektywnie udostępnia tylko to, co konieczne: sprzedawcy otrzymują szczegóły produktu i potwierdzenie płatności (bez nazwiska lub historii zakupów), dostawcy płatności przetwarzają transakcje (bez danych osobowych), a partnerzy dostawczy otrzymują tylko lokalizacje odbioru/dostawy (bez nazwiska lub informacji o płatności).",
+    "solutionDetails": {
+      "merchant": "Bez nazwiska, bez historii zakupów",
+      "payment": "Bez danych osobowych, bez historii zakupów",
+      "delivery": "Bez nazwiska, bez informacji o płatności"
+    },
     "note": "Wszystkie połączenia używają szyfrowania TLS 1.3. Dane w spoczynku używają AES-256."
   },
   "problem": {
