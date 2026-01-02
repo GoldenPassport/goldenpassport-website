@@ -90,6 +90,17 @@
       "description": "Voltooi aankopen, leveringen en betalingen zonder uw echte identiteit bloot te leggen."
     }
   },
+  "howItWorks": {
+    "analytics": {
+      "title": "Geanonimiseerde Analyses voor Handelaren",
+      "description": "Handelaren ontvangen een suite van geanonimiseerde analyses, waardoor ze de controle kunnen behouden en hyper-personalisatie kunnen aanbieden op een privacy-gerichte manier.",
+      "benefits": {
+        "control": "Blijf in controle met uitgebreide geanonimiseerde inzichten",
+        "personalization": "Stel hyper-personalisatie in zonder de privacy van gebruikers in gevaar te brengen",
+        "privacy": "Privacy-gerichte aanpak die gebruikersgegevensrechten respecteert"
+      }
+    }
+  },
   "flow": {
     "login": {
       "title": "Inloggen & Selecteren",

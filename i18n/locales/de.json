@@ -90,6 +90,17 @@
       "description": "Führen Sie Käufe, Lieferungen und Zahlungen durch, ohne Ihre echte Identität preiszugeben."
     }
   },
+  "howItWorks": {
+    "analytics": {
+      "title": "Anonymisierte Analysen für Händler",
+      "description": "Händler erhalten eine Suite anonymisierter Analysen, die es ihnen ermöglicht, die Kontrolle zu behalten und Hyper-Personalisierung auf eine datenschutzorientierte Weise anzubieten.",
+      "benefits": {
+        "control": "Behalten Sie die Kontrolle mit umfassenden anonymisierten Einblicken",
+        "personalization": "Ermöglichen Sie Hyper-Personalisierung ohne Kompromisse bei der Benutzerprivatsphäre",
+        "privacy": "Datenschutzorientierter Ansatz, der Benutzerdatenrechte respektiert"
+      }
+    }
+  },
   "flow": {
     "login": {
       "title": "Anmelden & Auswählen",
