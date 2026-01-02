@@ -32,9 +32,6 @@
       <p class="mt-2 text-gp-text/80">
         {{ $t('architecture.caption') }}
       </p>
-      <p class="mt-3 text-gp-text/70 text-sm font-medium">
-        {{ $t('architecture.solution') }}
-      </p>
 
       <!-- Animated Architecture Diagram -->
       <div class="mt-8 relative">
@@ -233,6 +230,47 @@
                 <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.delivery') }}</div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Solution Summary - Emphasized 3 Points -->
+      <div class="mt-8 pt-6 border-t-2 border-gp-border">
+        <p class="text-base font-semibold text-gp-text mb-4">
+          {{ $t('architecture.solutionIntro') }}
+        </p>
+        <div class="grid md:grid-cols-3 gap-4">
+          <!-- Merchant -->
+          <div class="gp-card p-4">
+            <div class="flex items-start gap-3 mb-2">
+              <span class="gp-icon-chip !w-8 !h-8 !min-w-[2rem] !min-h-[2rem] flex-shrink-0">
+                <UIcon name="i-heroicons-building-storefront-20-solid" class="w-4 h-4" aria-hidden="true" />
+              </span>
+              <div class="font-bold text-gp-text">{{ $t('architecture.nodes.merchant') }}</div>
+            </div>
+            <p class="text-sm text-gp-text/80">{{ $t('architecture.solutionPoints.merchant') }}</p>
+          </div>
+
+          <!-- Payment Provider -->
+          <div class="gp-card p-4">
+            <div class="flex items-start gap-3 mb-2">
+              <span class="gp-icon-chip !w-8 !h-8 !min-w-[2rem] !min-h-[2rem] flex-shrink-0">
+                <UIcon name="i-heroicons-credit-card-20-solid" class="w-4 h-4" aria-hidden="true" />
+              </span>
+              <div class="font-bold text-gp-text">{{ $t('architecture.nodes.payments') }}</div>
+            </div>
+            <p class="text-sm text-gp-text/80">{{ $t('architecture.solutionPoints.payment') }}</p>
+          </div>
+
+          <!-- Delivery Partner -->
+          <div class="gp-card p-4">
+            <div class="flex items-start gap-3 mb-2">
+              <span class="gp-icon-chip !w-8 !h-8 !min-w-[2rem] !min-h-[2rem] flex-shrink-0">
+                <UIcon name="i-heroicons-truck-20-solid" class="w-4 h-4" aria-hidden="true" />
+              </span>
+              <div class="font-bold text-gp-text">{{ $t('architecture.nodes.delivery') }}</div>
+            </div>
+            <p class="text-sm text-gp-text/80">{{ $t('architecture.solutionPoints.delivery') }}</p>
           </div>
         </div>
       </div>

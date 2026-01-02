@@ -132,7 +132,12 @@
       "gpToPayments": "Getokeniseerde betaling",
       "gpToDelivery": "Eenmalig leveringsadres"
     },
-    "solution": "GoldenPassport deelt selectief alleen wat nodig is: handelaren krijgen productdetails en betalingsbevestiging (geen naam of aankoopgeschiedenis), betalingsproviders verwerken transacties (geen persoonlijke gegevens), en leveringspartners ontvangen alleen ophaal-/afleverlocaties (geen naam of betalingsinformatie).",
+    "solutionIntro": "GoldenPassport deelt selectief alleen wat nodig is:",
+    "solutionPoints": {
+      "merchant": "Productdetails en betalingsbevestiging (geen naam of aankoopgeschiedenis)",
+      "payment": "Transacties verwerken (geen persoonlijke gegevens, geen aankoopgeschiedenis)",
+      "delivery": "Alleen ophaal- en afleverlocaties (geen naam of betalingsinformatie)"
+    },
     "solutionDetails": {
       "merchant": "Geen naam, geen aankoopgeschiedenis",
       "payment": "Geen persoonlijke gegevens, geen aankoopgeschiedenis",

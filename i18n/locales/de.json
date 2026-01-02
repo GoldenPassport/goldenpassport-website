@@ -118,6 +118,12 @@
   "architecture": {
     "title": "Datenschutzfreundliche Architektur",
     "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten.",
+    "solutionIntro": "GoldenPassport teilt selektiv nur das Notwendige:",
+    "solutionPoints": {
+      "merchant": "Produktdetails und Zahlungsbestätigung (kein Name oder Kaufhistorie)",
+      "payment": "Transaktionen verarbeiten (keine persönlichen Daten, keine Kaufhistorie)",
+      "delivery": "Nur Abhol- und Lieferorte (kein Name oder Zahlungsinformationen)"
+    },
     "nodes": {
       "user": "Sie",
       "gp": "GoldenPassport",
@@ -132,7 +138,6 @@
       "gpToPayments": "Tokenisierte Zahlung",
       "gpToDelivery": "Einmalige Lieferadresse"
     },
-    "solution": "GoldenPassport teilt selektiv nur das Notwendige: Händler erhalten Produktdetails und Zahlungsbestätigung (kein Name oder Kaufhistorie), Zahlungsanbieter verarbeiten Transaktionen (keine persönlichen Daten), und Lieferpartner erhalten nur Abhol-/Lieferorte (kein Name oder Zahlungsinformationen).",
     "solutionDetails": {
       "merchant": "Kein Name, keine Kaufhistorie",
       "payment": "Keine persönlichen Daten, keine Kaufhistorie",

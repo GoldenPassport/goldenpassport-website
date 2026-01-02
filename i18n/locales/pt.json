@@ -132,7 +132,12 @@
       "gpToPayments": "Pagamento tokenizado",
       "gpToDelivery": "Endereço de entrega único"
     },
-    "solution": "O GoldenPassport partilha seletivamente apenas o necessário: os comerciantes obtêm detalhes do produto e confirmação de pagamento (sem nome ou histórico de compras), os fornecedores de pagamento processam transações (sem detalhes pessoais), e os parceiros de entrega recebem apenas localizações de recolha/entrega (sem nome ou informações de pagamento).",
+    "solutionIntro": "O GoldenPassport partilha seletivamente apenas o necessário:",
+    "solutionPoints": {
+      "merchant": "Detalhes do produto e confirmação de pagamento (sem nome ou histórico de compras)",
+      "payment": "Processar transações (sem detalhes pessoais, sem histórico de compras)",
+      "delivery": "Apenas localizações de recolha e entrega (sem nome ou informações de pagamento)"
+    },
     "solutionDetails": {
       "merchant": "Sem nome, sem histórico de compras",
       "payment": "Sem detalhes pessoais, sem histórico de compras",

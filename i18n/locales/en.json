@@ -118,7 +118,12 @@
   "architecture": {
     "title": "Privacy-preserving architecture",
     "caption": "Data flows through GoldenPassport, never directly to third parties.",
-    "solution": "GoldenPassport selectively shares only what's needed: merchants get product details and payment confirmation (no name or purchase history), payment providers process transactions (no personal details), and delivery partners receive only pickup/dropoff locations (no name or payment info).",
+    "solutionIntro": "GoldenPassport selectively shares only what's needed:",
+    "solutionPoints": {
+      "merchant": "Product details and payment confirmation (no name or purchase history)",
+      "payment": "Process transactions (no personal details, no purchase history)",
+      "delivery": "Pickup and dropoff locations only (no name or payment info)"
+    },
     "nodes": {
       "user": "You",
       "gp": "GoldenPassport",
