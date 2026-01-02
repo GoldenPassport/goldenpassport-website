@@ -62,21 +62,24 @@
         {{ $t('problem.dangers.intro') }}
       </p>
       
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+      <div class="max-w-4xl mx-auto space-y-6">
         <div
           v-for="(danger, idx) in dangers"
           :key="idx"
-          class="gp-card p-4 sm:p-5 text-center"
+          class="text-center"
         >
-          <div class="gp-icon-chip mx-auto mb-3">
-            <UIcon :name="danger.icon" class="w-6 h-6" aria-hidden="true" />
+          <div class="flex items-center justify-center gap-3 mb-3">
+            <div class="gp-icon-chip">
+              <UIcon :name="danger.icon" class="w-6 h-6" aria-hidden="true" />
+            </div>
+            <h4 class="text-base sm:text-lg font-bold text-gp-text">
+              {{ $t(`problem.dangers.${danger.key}.title`) }}
+            </h4>
           </div>
-          <h4 class="text-base sm:text-lg font-bold text-gp-text mb-2">
-            {{ $t(`problem.dangers.${danger.key}.title`) }}
-          </h4>
-          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed">
+          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed max-w-2xl mx-auto">
             {{ $t(`problem.dangers.${danger.key}.description`) }}
           </p>
+          <div v-if="idx < dangers.length - 1" class="w-full h-px bg-gp-border/30 mt-6"></div>
         </div>
       </div>
     </div>
