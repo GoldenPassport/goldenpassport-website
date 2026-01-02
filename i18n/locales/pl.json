@@ -138,9 +138,9 @@
     },
     "solutionIntro": "GoldenPassport selektywnie udostępnia tylko to, co konieczne:",
     "solutionPoints": {
-      "merchant": "Szczegóły produktu i potwierdzenie płatności (bez nazwiska lub historii zakupów)",
-      "payment": "Przetwarzanie transakcji (bez danych osobowych, bez historii zakupów)",
-      "delivery": "Tylko lokalizacje odbioru i dostawy (bez nazwiska lub informacji o płatności)"
+      "merchant": "Szczegóły produktu i potwierdzenie płatności",
+      "payment": "Przetwarzanie transakcji",
+      "delivery": "Tylko lokalizacje odbioru i dostawy"
     },
     "solutionDetails": {
       "merchant": "Bez nazwiska, bez historii zakupów",

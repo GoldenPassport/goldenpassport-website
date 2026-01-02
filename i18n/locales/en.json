@@ -124,9 +124,9 @@
     "caption": "Data flows through GoldenPassport, never directly to third parties.",
     "solutionIntro": "GoldenPassport selectively shares only what's needed:",
     "solutionPoints": {
-      "merchant": "Product details and payment confirmation (no name or purchase history)",
-      "payment": "Process transactions (no personal details, no purchase history)",
-      "delivery": "Pickup and dropoff locations only (no name or payment info)"
+      "merchant": "Product details and payment confirmation",
+      "payment": "Process transactions",
+      "delivery": "Pickup and dropoff locations only"
     },
     "nodes": {
       "user": "You",

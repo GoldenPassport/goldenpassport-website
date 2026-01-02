@@ -138,9 +138,9 @@
     },
     "solutionIntro": "O GoldenPassport partilha seletivamente apenas o necessário:",
     "solutionPoints": {
-      "merchant": "Detalhes do produto e confirmação de pagamento (sem nome ou histórico de compras)",
-      "payment": "Processar transações (sem detalhes pessoais, sem histórico de compras)",
-      "delivery": "Apenas localizações de recolha e entrega (sem nome ou informações de pagamento)"
+      "merchant": "Detalhes do produto e confirmação de pagamento",
+      "payment": "Processar transações",
+      "delivery": "Apenas localizações de recolha e entrega"
     },
     "solutionDetails": {
       "merchant": "Sem nome, sem histórico de compras",

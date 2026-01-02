@@ -124,9 +124,9 @@
     "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten.",
     "solutionIntro": "GoldenPassport teilt selektiv nur das Notwendige:",
     "solutionPoints": {
-      "merchant": "Produktdetails und Zahlungsbestätigung (kein Name oder Kaufhistorie)",
-      "payment": "Transaktionen verarbeiten (keine persönlichen Daten, keine Kaufhistorie)",
-      "delivery": "Nur Abhol- und Lieferorte (kein Name oder Zahlungsinformationen)"
+      "merchant": "Produktdetails und Zahlungsbestätigung",
+      "payment": "Transaktionen verarbeiten",
+      "delivery": "Nur Abhol- und Lieferorte"
     },
     "nodes": {
       "user": "Sie",

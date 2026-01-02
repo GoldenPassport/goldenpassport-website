@@ -138,9 +138,9 @@
     },
     "solutionIntro": "GoldenPassport deelt selectief alleen wat nodig is:",
     "solutionPoints": {
-      "merchant": "Productdetails en betalingsbevestiging (geen naam of aankoopgeschiedenis)",
-      "payment": "Transacties verwerken (geen persoonlijke gegevens, geen aankoopgeschiedenis)",
-      "delivery": "Alleen ophaal- en afleverlocaties (geen naam of betalingsinformatie)"
+      "merchant": "Productdetails en betalingsbevestiging",
+      "payment": "Transacties verwerken",
+      "delivery": "Alleen ophaal- en afleverlocaties"
     },
     "solutionDetails": {
       "merchant": "Geen naam, geen aankoopgeschiedenis",
