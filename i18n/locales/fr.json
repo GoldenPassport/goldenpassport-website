@@ -137,9 +137,9 @@
       "gpToDelivery": "Adresse de livraison à usage unique"
     },
     "solutionPoints": {
-      "merchant": "Détails du produit et confirmation de paiement",
-      "payment": "Traiter les transactions",
-      "delivery": "Uniquement les emplacements de collecte et de livraison"
+      "merchant": "Détails de commande anonymisés (Détails du produit et confirmation de paiement)",
+      "payment": "Paiement tokenisé (Partager uniquement ce qui est requis par la loi par type de paiement)",
+      "delivery": "Adresse de livraison à usage unique (Uniquement les emplacements de collecte et de livraison)"
     },
     "solutionDetails": {
       "merchant": "Pas de nom, pas d'historique d'achats",

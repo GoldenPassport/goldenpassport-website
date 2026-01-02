@@ -137,9 +137,9 @@
       "gpToDelivery": "Eenmalig leveringsadres"
     },
     "solutionPoints": {
-      "merchant": "Productdetails en betalingsbevestiging",
-      "payment": "Transacties verwerken",
-      "delivery": "Alleen ophaal- en afleverlocaties"
+      "merchant": "Geanonimiseerde bestelgegevens (Productdetails en betalingsbevestiging)",
+      "payment": "Getokeniseerde betaling (Alleen delen wat wettelijk vereist is per betalingstype)",
+      "delivery": "Eenmalig bezorgadres (Alleen ophaal- en afleverlocaties)"
     },
     "solutionDetails": {
       "merchant": "Geen naam, geen aankoopgeschiedenis",

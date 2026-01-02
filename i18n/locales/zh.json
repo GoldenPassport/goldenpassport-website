@@ -137,9 +137,9 @@
       "gpToDelivery": "一次性配送地址"
     },
     "solutionPoints": {
-      "merchant": "产品详情和付款确认",
-      "payment": "处理交易",
-      "delivery": "仅取货和送货地点"
+      "merchant": "匿名化订单详情（产品详情和付款确认）",
+      "payment": "代币化支付（仅按支付类型分享法律要求的内容）",
+      "delivery": "一次性配送地址（仅取货和送货地点）"
     },
     "solutionDetails": {
       "merchant": "无姓名，无购买历史",

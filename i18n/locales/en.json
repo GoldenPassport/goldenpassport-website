@@ -123,9 +123,9 @@
     "title": "Privacy-preserving architecture",
     "caption": "Data flows through GoldenPassport, never directly to third parties. GoldenPassport selectively shares only what's needed:",
     "solutionPoints": {
-      "merchant": "Product details and payment confirmation",
-      "payment": "Process transactions",
-      "delivery": "Pickup and dropoff locations only"
+      "merchant": "Anonymised order details (Product details and payment confirmation)",
+      "payment": "Tokenised payment (Share only what's required by law per payment type)",
+      "delivery": "One-time delivery address (Pickup and dropoff locations only)"
     },
     "nodes": {
       "user": "You",

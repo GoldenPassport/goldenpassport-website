@@ -137,9 +137,9 @@
       "gpToDelivery": "Dirección de entrega de un solo uso"
     },
     "solutionPoints": {
-      "merchant": "Detalles del producto y confirmación de pago",
-      "payment": "Procesar transacciones",
-      "delivery": "Solo ubicaciones de recogida y entrega"
+      "merchant": "Detalles de pedido anonimizados (Detalles del producto y confirmación de pago)",
+      "payment": "Pago tokenizado (Compartir solo lo requerido por ley por tipo de pago)",
+      "delivery": "Dirección de entrega de un solo uso (Solo ubicaciones de recogida y entrega)"
     },
     "solutionDetails": {
       "merchant": "Sin nombre, sin historial de compras",
