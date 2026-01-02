@@ -26,7 +26,7 @@ export default defineNuxtConfig({
       { code: 'zh', name: '中文', file: 'zh.json' }
     ],
     defaultLocale: 'en',
-    langDir: './i18n/locales',
+    langDir: './locales',
     strategy: 'no_prefix',
     vueI18n: './i18n/i18n.config.ts',
     detectBrowserLanguage: {
