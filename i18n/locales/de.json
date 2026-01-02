@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "Ihr Online",
-      "highlight": "Überall",
-      "suffix": "Pass",
-      "full": "Ihr Online \"Überall\" Pass"
+      "prefix": "Define Your Own Online",
+      "highlight": "Fingerprint",
+      "suffix": "",
+      "full": "Define Your Own Online \"Fingerprint\"!"
     },
     "motto": "Datenschutz. Sicherheit. Verantwortung."
   },
@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Übernehmen Sie die Kontrolle über Ihre digitale Identität",
     "subhead": "Eine datenschutzorientierte Plattform zur Verwaltung Ihrer Online-Identität, mit der Sie einkaufen, Transaktionen durchführen und online interagieren können, ohne Ihre persönlichen Daten an Händler, Tracker oder Datenhändler weiterzugeben.",
-    "trustNote": "Ihre Daten bleiben verschlüsselt auf Ihrem Gerät. Wir sehen sie nie."
+    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
   },
   "cta": {
     "primary": "Seed-Investition",

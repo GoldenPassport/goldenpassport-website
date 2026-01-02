@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Take back control of your digital identity",
     "subhead": "A privacy-focused online identity management platform that lets you shop, transact, and interact online without surrendering your personal data to merchants, trackers, or data brokers.",
-    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favorite grocery store, less with a brand-new app you’re still evaluating."
+    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
   },
   "cta": {
     "primary": "Seed investment",
@@ -96,7 +96,7 @@
   "steps": {
     "store": {
       "title": "Setup account",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
+      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this, persona-based data subsets are created."
     },
     "share": {
       "title": "Online fingerprint",
@@ -104,12 +104,12 @@
     },
     "transact": {
       "title": "Transact privately",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
+      "description": "Complete purchases, deliveries, and payments without exposing your real identity, using a role-based, just-in-time approach to data sharing."
     }
   },
   "howItWorks": {
     "analytics": {
-      "title": "Anonymized Analytics for Merchants",
+      "title": "Anonymised Analytics for Merchants",
       "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
       "benefits": {
         "control": "Users stay in control with upfront consent and reversible sharing",

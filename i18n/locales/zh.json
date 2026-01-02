@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "您的在线",
-      "highlight": "无处不在",
-      "suffix": "护照",
-      "full": "您的在线「无处不在」护照"
+      "prefix": "Define Your Own Online",
+      "highlight": "Fingerprint",
+      "suffix": "",
+      "full": "Define Your Own Online \"Fingerprint\"!"
     },
     "motto": "隐私。安全。责任。"
   },
@@ -18,7 +18,7 @@
   "hero": {
     "headline": "重新掌控您的数字身份",
     "subhead": "一个专注于隐私的在线身份管理平台，让您可以购物、交易和在线互动，而无需将个人数据交给商家、追踪器或数据经纪人。",
-    "trustNote": "您的数据在您的设备上保持加密。我们永远看不到它。"
+    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
   },
   "cta": {
     "primary": "种子投资",

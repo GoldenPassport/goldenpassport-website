@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "Uw Online",
-      "highlight": "Overal",
-      "suffix": "Paspoort",
-      "full": "Uw Online \"Overal\" Paspoort"
+      "prefix": "Define Your Own Online",
+      "highlight": "Fingerprint",
+      "suffix": "",
+      "full": "Define Your Own Online \"Fingerprint\"!"
     },
     "motto": "Privacy. Veiligheid. Verantwoordelijkheid."
   },
@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Neem de controle over uw digitale identiteit terug",
     "subhead": "Een privacy-gerichte online identiteitsbeheerplatform waarmee u online kunt winkelen, transacties kunt uitvoeren en kunt communiceren zonder uw persoonlijke gegevens af te staan aan handelaren, trackers of databrokers.",
-    "trustNote": "Uw gegevens blijven versleuteld op uw apparaat. Wij zien ze nooit."
+    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
   },
   "cta": {
     "primary": "Seed investering",
