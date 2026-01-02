@@ -36,8 +36,7 @@ export default defineNuxtConfig({
       useCookie: true,
       cookieKey: 'gp_lang',
       redirectOn: 'root'
-    },
-    warnHtmlMessage: false
+    }
   },
 
   app: {
