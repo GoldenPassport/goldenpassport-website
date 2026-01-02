@@ -1,10 +1,10 @@
 <template>
   <SectionShell id="cta" :eyebrow="$t('sections.cta.eyebrow')" :title="$t('sections.cta.title')" :subtitle="$t('sections.cta.intro')">
-    <div class="grid lg:grid-cols-2 gap-6">
+    <div class="grid lg:grid-cols-2 gap-4 sm:gap-6">
       <div
         v-for="track in tracks"
         :key="track.key"
-        class="gp-card p-6 flex flex-col"
+        class="gp-card p-4 sm:p-6 flex flex-col"
       >
         <div class="flex items-start justify-between gap-4">
           <h3 class="text-xl font-bold text-gp-text">

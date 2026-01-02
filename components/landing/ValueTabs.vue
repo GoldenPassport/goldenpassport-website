@@ -3,11 +3,11 @@
     <UTabs :items="tabItems" class="w-full">
       <template #item="{ item }">
         <div class="py-2">
-          <div class="gp-card p-6">
-            <ul class="space-y-3">
+          <div class="gp-card p-4 sm:p-6">
+            <ul class="space-y-2 sm:space-y-3">
               <li v-for="(text, idx) in item.items" :key="idx" class="flex items-start gap-3">
-                <span class="text-gp-text font-bold mt-[2px]">✓</span>
-                <span class="text-gp-text">{{ text }}</span>
+                <span class="text-gp-text font-bold mt-[2px] flex-shrink-0">✓</span>
+                <span class="text-sm sm:text-base text-gp-text">{{ text }}</span>
               </li>
             </ul>
           </div>

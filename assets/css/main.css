@@ -69,6 +69,24 @@
     outline: 2px solid rgb(var(--gp-border));
     outline-offset: 2px;
   }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+  }
+
+  /* Touch targets - minimum 44x44px for accessibility */
+  button,
+  a[role="button"],
+  .gp-icon-chip,
+  .gp-badge {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @layer components {

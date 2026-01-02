@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4 py-14 md:py-20">
-    <div class="max-w-6xl mx-auto space-y-10 md:space-y-14">
+  <div class="container mx-auto px-4 sm:px-6 py-10 sm:py-14 md:py-20">
+    <div class="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-14">
       <LandingHero />
       <LandingProblemStatement />
       <LandingFeatureCards />

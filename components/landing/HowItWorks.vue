@@ -28,30 +28,30 @@
     </ol>
 
     <!-- Merchant Analytics Section -->
-    <div class="mt-10 gp-card-strong p-6 md:p-8">
-      <div class="flex flex-col md:flex-row items-start gap-6">
-        <div class="flex items-start gap-4 flex-1">
-          <span class="gp-icon-chip !w-12 !h-12 !min-w-[3rem] !min-h-[3rem] flex-shrink-0">
-            <UIcon name="i-heroicons-chart-bar-square-20-solid" class="w-6 h-6" aria-hidden="true" />
+    <div class="mt-10 gp-card-strong p-4 sm:p-6 md:p-8">
+      <div class="flex flex-col lg:flex-row items-start gap-6">
+        <div class="flex items-start gap-3 sm:gap-4 flex-1 w-full">
+          <span class="gp-icon-chip !w-10 !h-10 !min-w-[2.5rem] !min-h-[2.5rem] sm:!w-12 sm:!h-12 sm:!min-w-[3rem] sm:!min-h-[3rem] flex-shrink-0">
+            <UIcon name="i-heroicons-chart-bar-square-20-solid" class="w-5 h-5 sm:w-6 sm:h-6" aria-hidden="true" />
           </span>
-          <div class="flex-1">
-            <h3 class="text-xl font-bold text-gp-text mb-3">
+          <div class="flex-1 min-w-0">
+            <h3 class="text-lg sm:text-xl font-bold text-gp-text mb-3">
               {{ $t('howItWorks.analytics.title') }}
             </h3>
-            <p class="text-gp-text/80 leading-relaxed mb-4">
+            <p class="text-sm sm:text-base text-gp-text/80 leading-relaxed mb-4">
               {{ $t('howItWorks.analytics.description') }}
             </p>
             <ul class="space-y-2">
               <li v-for="(benefit, idx) in analyticsBenefits" :key="idx" class="flex items-start gap-3">
-                <span class="text-gp-text font-bold mt-[2px]">✓</span>
-                <span class="text-gp-text/80">{{ $t(`howItWorks.analytics.benefits.${benefit}`) }}</span>
+                <span class="text-gp-text font-bold mt-[2px] flex-shrink-0">✓</span>
+                <span class="text-sm sm:text-base text-gp-text/80">{{ $t(`howItWorks.analytics.benefits.${benefit}`) }}</span>
               </li>
             </ul>
           </div>
         </div>
         
         <!-- Dashboard Visualization -->
-        <div class="w-full md:w-80 flex-shrink-0">
+        <div class="w-full lg:w-80 flex-shrink-0">
           <div class="bg-gp-surface border-2 border-gp-border rounded-lg p-4">
             <!-- Dashboard Header -->
             <div class="flex items-center justify-between mb-4">

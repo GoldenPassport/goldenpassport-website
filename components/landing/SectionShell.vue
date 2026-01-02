@@ -1,6 +1,6 @@
 <template>
-  <section :id="id" class="scroll-mt-24">
-    <GpCard strong class="p-6 md:p-10">
+  <section :id="id" class="scroll-mt-20 sm:scroll-mt-24">
+    <GpCard strong class="p-4 sm:p-6 md:p-10">
       <div v-if="eyebrow" class="text-sm font-semibold tracking-wide uppercase text-gp-text/70">
         {{ eyebrow }}
       </div>

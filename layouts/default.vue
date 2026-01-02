@@ -2,11 +2,11 @@
   <div class="min-h-screen bg-gp-bg text-gp-text">
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10">
-      <div class="container mx-auto px-4 py-3">
+      <div class="container mx-auto px-4 sm:px-6 py-3">
         <div class="flex items-center justify-between max-w-6xl mx-auto">
-          <NuxtLink to="/" class="flex items-center gap-3 group">
-            <Logo :size="40" small />
-            <span class="font-bold text-xl text-gp-text group-hover:text-gp-text/80 transition-colors">
+          <NuxtLink to="/" class="flex items-center gap-2 sm:gap-3 group">
+            <Logo :size="32" small class="sm:!w-10 sm:!h-10" />
+            <span class="font-bold text-lg sm:text-xl text-gp-text group-hover:text-gp-text/80 transition-colors">
               {{ $t('brand.name') }}
             </span>
           </NuxtLink>
@@ -32,7 +32,7 @@
             <LanguageSelector />
             <ThemeToggle />
             <button
-              class="w-10 h-10 flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors"
+              class="w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation"
               @click="mobileMenuOpen = !mobileMenuOpen"
               aria-label="Toggle menu"
             >
@@ -67,20 +67,20 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t-2 border-gp-border/10 mt-16">
-      <div class="container mx-auto px-4 py-12">
+    <footer class="border-t-2 border-gp-border/10 mt-12 sm:mt-16">
+      <div class="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
         <div class="max-w-6xl mx-auto">
-          <div class="grid md:grid-cols-3 gap-8">
+          <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             <!-- Brand -->
-            <div>
-              <div class="flex items-center gap-3">
-                <Logo :size="48" />
+            <div class="sm:col-span-2 md:col-span-1">
+              <div class="flex items-center gap-2 sm:gap-3">
+                <Logo :size="40" class="sm:!w-12 sm:!h-12" />
                 <div>
-                  <div class="font-bold text-lg text-gp-text">{{ $t('brand.name') }}</div>
-                  <div class="text-sm text-gp-text/70">{{ $t('brand.tagline.prefix') }} "{{ $t('brand.tagline.highlight') }}" {{ $t('brand.tagline.suffix') }}</div>
+                  <div class="font-bold text-base sm:text-lg text-gp-text">{{ $t('brand.name') }}</div>
+                  <div class="text-xs sm:text-sm text-gp-text/70">{{ $t('brand.tagline.prefix') }} "{{ $t('brand.tagline.highlight') }}" {{ $t('brand.tagline.suffix') }}</div>
                 </div>
               </div>
-              <p class="mt-4 text-gp-text/70 text-sm leading-relaxed">
+              <p class="mt-3 sm:mt-4 text-gp-text/70 text-xs sm:text-sm leading-relaxed">
                 {{ $t('brand.motto') }}
               </p>
             </div>
