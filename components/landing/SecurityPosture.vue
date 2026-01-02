@@ -27,5 +27,8 @@ import SectionShell from './SectionShell.vue'
 
 const { tm } = useI18n()
 
-const securityBullets = computed(() => tm('security.bullets') as string[])
+const securityBullets = computed(() => {
+  const bullets = tm('security.bullets')
+  return Array.isArray(bullets) ? bullets : []
+})
 </script>
