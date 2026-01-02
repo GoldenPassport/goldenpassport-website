@@ -173,9 +173,9 @@
         "title": "社交媒体跟踪器",
         "description": "监控您在网站上的行为并构建详细配置文件的第三方跟踪脚本。"
       },
-      "unethicalMerchants": {
-        "title": "不道德的商家",
-        "description": "出售您的数据、将其用于操纵或未能保护其免受违规的零售商。"
+      "onlineFraud": {
+        "title": "网络诈骗",
+        "description": "利用暴露的个人数据进行身份盗窃、网络钓鱼和金融诈骗的骗子和欺诈者。"
       }
     },
     "solution": {

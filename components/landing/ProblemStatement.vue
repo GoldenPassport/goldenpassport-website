@@ -89,7 +89,7 @@ import SectionShell from './SectionShell.vue'
 const dangers = [
   { key: 'dataBrokers', icon: 'i-heroicons-shield-exclamation-20-solid' },
   { key: 'trackers', icon: 'i-heroicons-eye-20-solid' },
-  { key: 'unethicalMerchants', icon: 'i-heroicons-exclamation-triangle-20-solid' }
+  { key: 'onlineFraud', icon: 'i-heroicons-exclamation-triangle-20-solid' }
 ]
 </script>
 

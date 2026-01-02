@@ -173,9 +173,9 @@
         "title": "Social media trackers",
         "description": "Third-party tracking scripts that monitor your behavior across websites and build detailed profiles."
       },
-      "unethicalMerchants": {
-        "title": "Unethical merchants",
-        "description": "Retailers who sell your data, use it for manipulation, or fail to protect it from breaches."
+      "onlineFraud": {
+        "title": "Online fraud",
+        "description": "Scammers and fraudsters who exploit exposed personal data for identity theft, phishing, and financial scams."
       }
     },
     "solution": {

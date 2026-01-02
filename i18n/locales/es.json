@@ -173,9 +173,9 @@
         "title": "Rastreadores de redes sociales",
         "description": "Scripts de seguimiento de terceros que monitorean tu comportamiento en sitios web y crean perfiles detallados."
       },
-      "unethicalMerchants": {
-        "title": "Comerciantes poco éticos",
-        "description": "Minoristas que venden tus datos, los usan para manipulación o no los protegen de violaciones."
+      "onlineFraud": {
+        "title": "Fraude en línea",
+        "description": "Estafadores y defraudadores que explotan datos personales expuestos para robo de identidad, phishing y estafas financieras."
       }
     },
     "solution": {

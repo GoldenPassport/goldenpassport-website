@@ -173,9 +173,9 @@
         "title": "Social-Media-Tracker",
         "description": "Tracking-Skripte von Drittanbietern, die Ihr Verhalten auf Websites überwachen und detaillierte Profile erstellen."
       },
-      "unethicalMerchants": {
-        "title": "Unethische Händler",
-        "description": "Händler, die Ihre Daten verkaufen, sie zur Manipulation verwenden oder sie nicht vor Verstößen schützen."
+      "onlineFraud": {
+        "title": "Online-Betrug",
+        "description": "Betrüger und Kriminelle, die exponierte persönliche Daten für Identitätsdiebstahl, Phishing und Finanzbetrug ausnutzen."
       }
     },
     "solution": {

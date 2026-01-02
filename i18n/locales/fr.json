@@ -173,9 +173,9 @@
         "title": "Traqueurs de médias sociaux",
         "description": "Scripts de suivi tiers qui surveillent votre comportement sur les sites Web et créent des profils détaillés."
       },
-      "unethicalMerchants": {
-        "title": "Marchands non éthiques",
-        "description": "Détaillants qui vendent vos données, les utilisent pour la manipulation ou ne les protègent pas contre les violations."
+      "onlineFraud": {
+        "title": "Fraude en ligne",
+        "description": "Escrocs et fraudeurs qui exploitent les données personnelles exposées pour le vol d'identité, le phishing et les escroqueries financières."
       }
     },
     "solution": {

@@ -173,9 +173,9 @@
         "title": "Social media trackers",
         "description": "Tracking scripts van derden die uw gedrag op websites monitoren en gedetailleerde profielen opbouwen."
       },
-      "unethicalMerchants": {
-        "title": "Onethische handelaren",
-        "description": "Retailers die uw gegevens verkopen, gebruiken voor manipulatie of ze niet beschermen tegen inbreuken."
+      "onlineFraud": {
+        "title": "Online fraude",
+        "description": "Oplichters en fraudeurs die blootgestelde persoonlijke gegevens exploiteren voor identiteitsdiefstal, phishing en financiële oplichting."
       }
     },
     "solution": {

@@ -173,9 +173,9 @@
         "title": "Trackery mediów społecznościowych",
         "description": "Skrypty śledzące stron trzecich, które monitorują Twoje zachowanie na stronach internetowych i tworzą szczegółowe profile."
       },
-      "unethicalMerchants": {
-        "title": "Nieetyczni sprzedawcy",
-        "description": "Sprzedawcy, którzy sprzedają Twoje dane, używają ich do manipulacji lub nie chronią ich przed naruszeniami."
+      "onlineFraud": {
+        "title": "Oszustwa online",
+        "description": "Oszuści i przestępcy, którzy wykorzystują ujawnione dane osobowe do kradzieży tożsamości, phishingu i oszustw finansowych."
       }
     },
     "solution": {
