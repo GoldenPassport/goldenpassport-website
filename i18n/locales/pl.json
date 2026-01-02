@@ -83,7 +83,7 @@
     },
     "share": {
       "title": "Udostępniaj selektywnie",
-      "description": "Wybierz dokładnie, co chcesz udostępnić dla każdej transakcji. Ujawniaj tylko to, co konieczne."
+      "description": "Wybierz dokładnie, co chcesz udostępnić dla każdej transakcji. Ujawniaj tylko to, co konieczne, lub to, co wymagane przez prawo."
     },
     "transact": {
       "title": "Transakcje prywatnie",
