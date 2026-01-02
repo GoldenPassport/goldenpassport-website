@@ -16,36 +16,36 @@
         </p>
         
         <!-- Circles container with proper padding to contain all circles -->
-        <div class="relative w-full max-w-[500px] mx-auto" style="min-height: 400px; padding: 80px 40px;">
+        <div class="relative w-full max-w-[700px] mx-auto" style="min-height: 500px; padding: 100px 60px;">
           <!-- Three overlapping circles -->
-          <div class="absolute inset-0 flex items-center justify-center" style="padding: 80px 40px;">
+          <div class="absolute inset-0 flex items-center justify-center" style="padding: 100px 60px;">
             <!-- Circle 1: Identities & Addresses - Top Center -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-0 -translate-y-20 z-20 shadow-lg"
+              class="absolute w-64 h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-0 -translate-y-24 z-20 shadow-lg"
             >
-              <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
-                <UIcon name="i-heroicons-user-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
-                <span class="text-sm font-bold text-gp-text block leading-tight">{{ $t('problem.circles.identity') }}</span>
+              <div class="text-center px-4 bg-gp-surface/90 rounded-lg py-3">
+                <UIcon name="i-heroicons-user-20-solid" class="w-10 h-10 text-gp-text mx-auto mb-2" />
+                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.identity') }}</span>
               </div>
             </div>
             
             <!-- Circle 2: Finances - Bottom Left -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-20 translate-y-16 z-10 shadow-lg"
+              class="absolute w-64 h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-28 translate-y-20 z-10 shadow-lg"
             >
-              <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
-                <UIcon name="i-heroicons-credit-card-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
-                <span class="text-sm font-bold text-gp-text block leading-tight">{{ $t('problem.circles.finance') }}</span>
+              <div class="text-center px-4 bg-gp-surface/90 rounded-lg py-3">
+                <UIcon name="i-heroicons-credit-card-20-solid" class="w-10 h-10 text-gp-text mx-auto mb-2" />
+                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.finance') }}</span>
               </div>
             </div>
             
             <!-- Circle 3: Purchase History - Bottom Right -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-20 translate-y-16 z-30 shadow-lg"
+              class="absolute w-64 h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-28 translate-y-20 z-30 shadow-lg"
             >
-              <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
-                <UIcon name="i-heroicons-archive-box-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
-                <span class="text-sm font-bold text-gp-text block leading-tight">{{ $t('problem.circles.history') }}</span>
+              <div class="text-center px-4 bg-gp-surface/90 rounded-lg py-3">
+                <UIcon name="i-heroicons-archive-box-20-solid" class="w-10 h-10 text-gp-text mx-auto mb-2" />
+                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.history') }}</span>
               </div>
             </div>
           </div>
