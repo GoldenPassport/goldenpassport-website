@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "Define Your Own Online",
+      "prefix": "Define Your Own Digital",
       "highlight": "Fingerprint",
       "suffix": "",
-      "full": "Define Your Own Online \"Fingerprint\"!"
+      "full": "Define Your Own Digital \"Fingerprint\"!"
     },
     "motto": "Privacy. Veiligheid. Verantwoordelijkheid."
   },
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "Probleem",
       "title": "Het gegevensdelingprobleem",
-      "intro": "Momenteel hebben online retailers toegang tot al uw persoonlijke gegevens nodig. GoldenPassport verandert dit door selectief alleen het nodige te delen."
+      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
     },
     "solution": {
       "eyebrow": "Oplossing",
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "Huidig Probleem",
-      "allShared": "U moet alle drie delen met retailers"
+      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
     },
     "dangers": {
       "title": "Wie krijgt uw gegevens?",
-      "intro": "Wanneer u al uw persoonlijke informatie deelt, gaat deze niet alleen naar de retailer. Uw gegevens stromen naar meerdere partijen die ze mogelijk misbruiken:",
+      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
       "dataBrokers": {
         "title": "Gegevensmakelaars",
         "description": "Bedrijven die uw persoonlijke informatie kopen, verkopen en verhandelen zonder uw kennis of toestemming."
@@ -186,7 +186,7 @@
         "description": "Tracking scripts van derden die uw gedrag op websites monitoren en gedetailleerde profielen opbouwen."
       },
       "onlineFraud": {
-        "title": "Online fraude",
+        "title": "Online fraudsters",
         "description": "Oplichters en fraudeurs die blootgestelde persoonlijke gegevens exploiteren voor identiteitsdiefstal, phishing en financiële oplichting."
       }
     },

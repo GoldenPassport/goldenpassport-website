@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "Define Your Own Online",
+      "prefix": "Define Your Own Digital",
       "highlight": "Fingerprint",
       "suffix": "",
-      "full": "Define Your Own Online \"Fingerprint\"!"
+      "full": "Define Your Own Digital \"Fingerprint\"!"
     },
     "motto": "隐私。安全。责任。"
   },
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "问题",
       "title": "数据共享问题",
-      "intro": "目前，在线零售商需要访问您的所有个人数据。GoldenPassport通过选择性地仅共享必要内容来改变这一点。"
+      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
     },
     "solution": {
       "eyebrow": "解决方案",
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "当前问题",
-      "allShared": "您必须与零售商共享所有三项"
+      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
     },
     "dangers": {
       "title": "谁获取您的数据？",
-      "intro": "当您共享所有个人信息时，它不仅仅流向零售商。您的数据流向可能滥用它的多个方：",
+      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
       "dataBrokers": {
         "title": "数据经纪人",
         "description": "在您不知情或未经同意的情况下购买、出售和交易您个人信息的公司。"
@@ -186,7 +186,7 @@
         "description": "监控您在网站上的行为并构建详细配置文件的第三方跟踪脚本。"
       },
       "onlineFraud": {
-        "title": "网络诈骗",
+        "title": "Online fraudsters",
         "description": "利用暴露的个人数据进行身份盗窃、网络钓鱼和金融诈骗的骗子和欺诈者。"
       }
     },

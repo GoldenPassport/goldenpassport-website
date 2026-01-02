@@ -87,7 +87,7 @@ const softwareApplicationSchema = {
 }
 
 useHead(() => ({
-  title: `${gp.brand.name} - Define Your Own Online "Fingerprint"!`,
+  title: `${gp.brand.name} - Define Your Own Digital "Fingerprint"!`,
   meta: [
     {
       name: 'description',

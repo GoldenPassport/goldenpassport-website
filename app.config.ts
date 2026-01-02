@@ -3,10 +3,10 @@ export default defineAppConfig({
     brand: {
       name: 'GoldenPassport',
       tagline: {
-        prefix: 'Define Your Own Online',
+        prefix: 'Define Your Own Digital',
         highlight: 'Fingerprint',
         suffix: '',
-        full: 'Define Your Own Online "Fingerprint"!'
+        full: 'Define Your Own Digital "Fingerprint"!'
       },
       motto: 'Privacy. Security. Responsibility.',
       contactEmail: 'enquiries@goldenpassport.com'
@@ -56,7 +56,7 @@ export default defineAppConfig({
       headline:
         'Control your digital identity. Share only what’s necessary.',
       subhead:
-        'GoldenPassport is building a privacy-focused online identity management platform: anonymous logon, local user data storage, and selective disclosure (“share just enough, at the right time, to the right people”).',
+        'GoldenPassport is building a privacy-focused digital identity management platform: anonymous logon, local user data storage, and selective disclosure (“share just enough, at the right time, to the right people”).',
       trustNote:
         'Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favorite grocery store, less with a brand-new app you’re still evaluating.'
     },

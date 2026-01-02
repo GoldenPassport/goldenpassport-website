@@ -2,10 +2,10 @@
   "brand": {
     "name": "GoldenPassport",
     "tagline": {
-      "prefix": "Define Your Own Online",
+      "prefix": "Define Your Own Digital",
       "highlight": "Fingerprint",
       "suffix": "",
-      "full": "Define Your Own Online \"Fingerprint\"!"
+      "full": "Define Your Own Digital \"Fingerprint\"!"
     },
     "motto": "プライバシー。セキュリティ。責任。"
   },
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "問題",
       "title": "データ共有の問題",
-      "intro": "現在、オンライン小売業者はすべての個人データへのアクセスを要求しています。GoldenPassportは、必要なものだけを選択的に共有することでこれを変更します。"
+      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
     },
     "solution": {
       "eyebrow": "ソリューション",
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "現在の問題",
-      "allShared": "小売業者と3つすべてを共有する必要があります"
+      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
     },
     "dangers": {
       "title": "誰があなたのデータを取得しますか？",
-      "intro": "すべての個人情報を共有すると、小売業者だけに行くわけではありません。あなたのデータは、それを悪用する可能性のある複数の当事者に流れます：",
+      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
       "dataBrokers": {
         "title": "データブローカー",
         "description": "あなたの知識や同意なしに、あなたの個人情報を購入、販売、取引する企業。"
@@ -186,7 +186,7 @@
         "description": "ウェブサイト全体であなたの行動を監視し、詳細なプロファイルを構築するサードパーティのトラッキングスクリプト。"
       },
       "onlineFraud": {
-        "title": "オンライン詐欺",
+        "title": "Online fraudsters",
         "description": "露出した個人データを悪用して、なりすまし、フィッシング、金融詐欺を行う詐欺師や詐欺犯。"
       }
     },

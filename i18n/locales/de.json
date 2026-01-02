@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "Problem",
       "title": "Das Datenfreigabeproblem",
-      "intro": "Derzeit benötigen Online-Händler Zugriff auf alle Ihre persönlichen Daten. GoldenPassport ändert dies, indem nur das Notwendige selektiv geteilt wird."
+      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
     },
     "solution": {
       "eyebrow": "Lösung",
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "Aktuelles Problem",
-      "allShared": "Sie müssen alle drei mit Händlern teilen"
+      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
     },
     "dangers": {
       "title": "Wer erhält Ihre Daten?",
-      "intro": "Wenn Sie alle Ihre persönlichen Informationen teilen, gehen diese nicht nur an den Händler. Ihre Daten fließen zu mehreren Parteien, die sie möglicherweise missbrauchen:",
+      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
       "dataBrokers": {
         "title": "Datenmakler",
         "description": "Unternehmen, die Ihre persönlichen Informationen ohne Ihr Wissen oder Ihre Zustimmung kaufen, verkaufen und handeln."
@@ -186,7 +186,7 @@
         "description": "Tracking-Skripte von Drittanbietern, die Ihr Verhalten auf Websites überwachen und detaillierte Profile erstellen."
       },
       "onlineFraud": {
-        "title": "Online-Betrug",
+        "title": "Online fraudsters",
         "description": "Betrüger und Kriminelle, die exponierte persönliche Daten für Identitätsdiebstahl, Phishing und Finanzbetrug ausnutzen."
       }
     },
