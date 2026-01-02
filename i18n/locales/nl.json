@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Neem de controle over uw digitale identiteit terug",
     "subhead": "Een privacy-gerichte online identiteitsbeheerplatform waarmee u online kunt winkelen, transacties kunt uitvoeren en kunt communiceren zonder uw persoonlijke gegevens af te staan aan handelaren, trackers of databrokers.",
-    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
+    "trustNote": "In plaats van dat sociale platforms uw verhaal definiëren, creëert u uw eigen identiteit: druk uw beste zelf uit en deel alleen de juiste elementen op het juiste moment voor de veiligste ervaring. GoldenPassport stelt u in staat om vertrouwensgebaseerde persona's te maken voor elke situatie—deel meer met uw favoriete supermarkt, minder met een gloednieuwe app die u nog evalueert."
   },
   "cta": {
     "primary": "Seed investering",
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "Probleem",
       "title": "Het gegevensdelingprobleem",
-      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
+      "intro": "Momenteel vragen websites toegang tot uw hele levensgeschiedenis—zelfs wanneer dit niet strikt nodig is en vaak niet gerelateerd aan uw verzoek. GoldenPassport verandert dit door selectief alleen te delen wat nodig is."
     },
     "solution": {
       "eyebrow": "Oplossing",
@@ -65,32 +65,32 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Vendor-neutral secure authentication",
-      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
+      "title": "Leverancier-neutrale veilige authenticatie",
+      "description": "Authenticeer zonder uw identiteit prijs te geven. Gebruik veilige tokens in plaats van e-mails, wachtwoorden of leverancier-vergrendelde authenticatie."
     },
     "trustedTracker": {
-      "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker sharing the relevant facts you're comfortable with so website can deliver the level of service you want—without giving up your real identity."
+      "title": "Uw vertrouwde tracker",
+      "description": "Maak uw eigen vertrouwde tracker die de relevante feiten deelt waarmee u zich op uw gemak voelt, zodat websites het gewenste serviceniveau kunnen leveren—zonder uw echte identiteit prijs te geven."
     },
     "dataMinimisation": {
-      "title": "You are in control",
-      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "title": "U heeft de controle",
+      "description": "Wees u altijd bewust van wat wordt gedeeld en met wie. Granulaire toestemmingscontroles voor elke transactie die in real-time kan worden geredigeerd."
     },
     "justInTime": {
       "title": "Just in time",
-      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+      "description": "Geef alleen gegevens wanneer dat nodig is: authenticeer eerst, deel dan details zoals uw adres precies wanneer u klaar bent om te kopen."
     },
     "roleBased": {
-      "title": "Role based",
-      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
+      "title": "Rolgebaseerd",
+      "description": "Bedrijven hebben specifieke rollen in uw online ervaring—winkels verkopen, leveringspartners leveren. Deel alleen de gegevens die direct gekoppeld zijn aan elke rol (bijv. uw adres aan de levering, niet aan de winkel)."
     },
     "proxyShield": {
       "title": "Proxy schild",
-      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
+      "description": "We fungeren als beschermende tussenpersoon voor websites, sociale media, handelaren en leveringspartners."
     },
     "zeroKnowledge": {
       "title": "Zero-knowledge",
-      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
+      "description": "Zelfs wij kunnen uw gegevens niet zien. Uw hoofdgegevens bevinden zich alleen op uw eigen versleutelde apparaat, end-to-end beschermd."
     }
   },
   "steps": {

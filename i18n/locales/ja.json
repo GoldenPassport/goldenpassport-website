@@ -18,7 +18,7 @@
   "hero": {
     "headline": "デジタルアイデンティティの制御を取り戻す",
     "subhead": "プライバシー重視のオンラインアイデンティティ管理プラットフォーム。個人データを販売業者、トラッカー、データブローカーに渡すことなく、ショッピング、取引、オンラインでのやり取りが可能です。",
-    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
+    "trustNote": "ソーシャルプラットフォームがあなたの物語を定義するのではなく、独自のアイデンティティを作成してください：最高の自分を表現し、最も安全な体験のために適切なタイミングで適切な要素のみを共有します。GoldenPassportは、あらゆる状況に対応する信頼ベースのペルソナを作成できます—お気に入りの食料品店とはより多く共有し、まだ評価中の新しいアプリとは少なく共有します。"
   },
   "cta": {
     "primary": "シード投資",
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "問題",
       "title": "データ共有の問題",
-      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
+      "intro": "現在、ウェブサイトはあなたの人生の履歴全体へのアクセスを要求しています—厳密には必要なく、しばしばあなたの要求とは無関係な場合でも。GoldenPassportは、必要なものだけを選択的に共有することでこれを変更します。"
     },
     "solution": {
       "eyebrow": "ソリューション",
@@ -65,32 +65,32 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Vendor-neutral secure authentication",
-      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
+      "title": "ベンダー中立の安全な認証",
+      "description": "身元を明かすことなく認証します。メール、パスワード、またはベンダーロックされた認証の代わりに、安全なトークンを使用します。"
     },
     "trustedTracker": {
-      "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker sharing the relevant facts you're comfortable with so website can deliver the level of service you want—without giving up your real identity."
+      "title": "信頼できるトラッカー",
+      "description": "自分が快適に感じる関連する事実を共有する独自の信頼できるトラッカーを作成し、ウェブサイトが希望するサービスレベルを提供できるようにします—本当の身元を明かすことなく。"
     },
     "dataMinimisation": {
-      "title": "You are in control",
-      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "title": "あなたがコントロール",
+      "description": "何が誰と共有されているかを常に把握してください。リアルタイムで編集可能なすべてのトランザクションに対する細かい同意制御。"
     },
     "justInTime": {
-      "title": "Just in time",
-      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+      "title": "ジャストインタイム",
+      "description": "必要な時だけデータを提供します：最初に認証し、購入の準備ができたら住所などの詳細を共有します。"
     },
     "roleBased": {
-      "title": "Role based",
-      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
+      "title": "ロールベース",
+      "description": "企業はオンライン体験において特定の役割を持っています—店舗は販売し、配送パートナーは配達します。各役割に直接リンクされたデータのみを共有します（例：住所を配送に、店舗には送らない）。"
     },
     "proxyShield": {
       "title": "プロキシシールド",
-      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
+      "description": "私たちは、ウェブサイト、ソーシャルメディア、販売業者、配送パートナーに対する保護的な仲介者として機能します。"
     },
     "zeroKnowledge": {
       "title": "ゼロ知識",
-      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
+      "description": "私たちでさえ、あなたのデータを見ることはできません。マスターデータは、エンドツーエンドで保護された独自の暗号化デバイスにのみ存在します。"
     }
   },
   "steps": {

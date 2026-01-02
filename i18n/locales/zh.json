@@ -18,7 +18,7 @@
   "hero": {
     "headline": "重新掌控您的数字身份",
     "subhead": "一个专注于隐私的在线身份管理平台，让您可以购物、交易和在线互动，而无需将个人数据交给商家、追踪器或数据经纪人。",
-    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
+    "trustNote": "与其让社交平台定义您的故事，不如创建您自己的身份：展现最好的自己，并在最合适的时机分享正确的元素，以获得最安全的体验。GoldenPassport让您为每种情况创建基于信任的角色—与您最喜欢的杂货店分享更多，与您仍在评估的全新应用分享更少。"
   },
   "cta": {
     "primary": "种子投资",
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "问题",
       "title": "数据共享问题",
-      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
+      "intro": "目前，网站要求访问您的整个人生历史—即使这不是严格必需的，而且通常与您的请求无关。GoldenPassport通过选择性地仅共享必要的内容来改变这一点。"
     },
     "solution": {
       "eyebrow": "解决方案",
@@ -65,32 +65,32 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Vendor-neutral secure authentication",
-      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
+      "title": "供应商中立的安全认证",
+      "description": "在不透露身份的情况下进行认证。使用安全令牌代替电子邮件、密码或供应商锁定的认证。"
     },
     "trustedTracker": {
-      "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker sharing the relevant facts you're comfortable with so website can deliver the level of service you want—without giving up your real identity."
+      "title": "您值得信赖的追踪器",
+      "description": "创建您自己的可信追踪器，分享您感到舒适的相关事实，以便网站可以提供您想要的服务水平—而不放弃您的真实身份。"
     },
     "dataMinimisation": {
-      "title": "You are in control",
-      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "title": "您掌控一切",
+      "description": "始终了解共享的内容和对象。为每个可以实时编辑的交易提供细粒度的同意控制。"
     },
     "justInTime": {
-      "title": "Just in time",
-      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+      "title": "及时提供",
+      "description": "仅在需要时提供数据：先进行认证，然后在准备购买时立即分享您的地址等详细信息。"
     },
     "roleBased": {
-      "title": "Role based",
-      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
+      "title": "基于角色",
+      "description": "公司在您的在线体验中具有特定角色—商店销售，配送合作伙伴配送。仅共享与每个角色直接相关的数据（例如，您的地址给配送，而不是给商店）。"
     },
     "proxyShield": {
       "title": "代理盾牌",
-      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
+      "description": "我们作为网站、社交媒体、商家和配送合作伙伴的保护性中介。"
     },
     "zeroKnowledge": {
       "title": "零知识",
-      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
+      "description": "即使我们也看不到您的数据。您的主数据仅存在于您自己的加密设备上，受到端到端保护。"
     }
   },
   "steps": {

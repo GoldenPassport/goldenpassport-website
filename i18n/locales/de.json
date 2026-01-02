@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Übernehmen Sie die Kontrolle über Ihre digitale Identität",
     "subhead": "Eine datenschutzorientierte Plattform zur Verwaltung Ihrer Online-Identität, mit der Sie einkaufen, Transaktionen durchführen und online interagieren können, ohne Ihre persönlichen Daten an Händler, Tracker oder Datenhändler weiterzugeben.",
-    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favourite grocery store, less with a brand-new app you’re still evaluating."
+    "trustNote": "Anstatt dass soziale Plattformen Ihre Geschichte definieren, erstellen Sie Ihre eigene Identität: Zeigen Sie Ihr bestes Selbst und teilen Sie nur die richtigen Elemente zur richtigen Zeit für die sicherste Erfahrung. GoldenPassport ermöglicht es Ihnen, vertrauensbasierte Personas für jede Situation zu erstellen—teilen Sie mehr mit Ihrem Lieblingssupermarkt, weniger mit einer brandneuen App, die Sie noch bewerten."
   },
   "cta": {
     "primary": "Seed-Investition",
@@ -28,7 +28,7 @@
     "problem": {
       "eyebrow": "Problem",
       "title": "Das Datenfreigabeproblem",
-      "intro": "Currently, websites request access to your entire life history—even when it's not strictly needed and often unrelated to your need or ask. GoldenPassport changes this by selectively sharing only what's necessary."
+      "intro": "Derzeit fordern Websites Zugriff auf Ihre gesamte Lebensgeschichte—selbst wenn dies nicht unbedingt erforderlich ist und oft nicht mit Ihrer Anfrage zusammenhängt. GoldenPassport ändert dies, indem es nur selektiv das teilt, was notwendig ist."
     },
     "solution": {
       "eyebrow": "Lösung",
@@ -65,32 +65,32 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Vendor-neutral secure authentication",
-      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
+      "title": "Vendor-neutrale sichere Authentifizierung",
+      "description": "Authentifizieren Sie sich, ohne Ihre Identität preiszugeben. Verwenden Sie sichere Token anstelle von E-Mails, Passwörtern oder vendor-locked Authentifizierung."
     },
     "trustedTracker": {
-      "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker sharing the relevant facts you're comfortable with so website can deliver the level of service you want—without giving up your real identity."
+      "title": "Ihr vertrauenswürdiger Tracker",
+      "description": "Erstellen Sie Ihren eigenen vertrauenswürdigen Tracker, der die relevanten Fakten teilt, mit denen Sie sich wohlfühlen, damit Websites das gewünschte Serviceniveau liefern können—ohne Ihre wahre Identität preiszugeben."
     },
     "dataMinimisation": {
-      "title": "You are in control",
-      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "title": "Sie haben die Kontrolle",
+      "description": "Seien Sie sich immer bewusst, was geteilt wird und mit wem. Granulare Einwilligungskontrollen für jede Transaktion, die in Echtzeit redigiert werden können."
     },
     "justInTime": {
       "title": "Just in time",
-      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+      "description": "Stellen Sie Daten nur bereit, wenn sie benötigt werden: Authentifizieren Sie sich im Voraus, dann teilen Sie Details wie Ihre Adresse genau dann, wenn Sie bereit sind zu kaufen."
     },
     "roleBased": {
-      "title": "Role based",
-      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
+      "title": "Rollenbasiert",
+      "description": "Unternehmen haben spezifische Rollen in Ihrer Online-Erfahrung—Geschäfte verkaufen, Lieferpartner liefern. Teilen Sie nur die Daten, die direkt mit jeder Rolle verknüpft sind (z. B. Ihre Adresse an die Lieferung, nicht an das Geschäft)."
     },
     "proxyShield": {
       "title": "Proxy-Schutz",
-      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
+      "description": "Wir fungieren als schützender Vermittler für Websites, soziale Medien, Händler und Lieferpartner."
     },
     "zeroKnowledge": {
       "title": "Zero-Knowledge",
-      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
+      "description": "Selbst wir können Ihre Daten nicht sehen. Ihre Stammdaten leben nur auf Ihrem eigenen verschlüsselten Gerät, geschützt Ende-zu-Ende."
     }
   },
   "steps": {
