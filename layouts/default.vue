@@ -71,7 +71,7 @@
     </header>
 
     <!-- Main content -->
-    <main class="pt-[calc(env(safe-area-inset-top,0)+64px)] sm:pt-[calc(env(safe-area-inset-top,0)+72px)] md:pt-[calc(env(safe-area-inset-top,0)+88px)]">
+    <main class="pt-[calc(env(safe-area-inset-top,0)+56px)] sm:pt-[calc(env(safe-area-inset-top,0)+64px)] md:pt-0">
       <slot />
     </main>
 

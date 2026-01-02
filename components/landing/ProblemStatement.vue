@@ -7,11 +7,11 @@
   >
     <!-- Problem Illustration: 3 Overlapping Circles -->
     <div class="mt-8">
-      <div class="max-w-2xl mx-auto">
-        <h3 class="text-lg font-semibold text-gp-text mb-6 text-center">
+      <div class="max-w-2xl mx-auto text-left sm:text-center">
+        <h3 class="text-xl font-bold text-gp-text mb-6">
           {{ $t('problem.current.title') }}
         </h3>
-        <p class="mb-0 text-center text-base font-semibold text-gp-text">
+        <p class="mb-0 text-gp-text/80 max-w-2xl sm:mx-auto leading-relaxed">
           {{ $t('problem.current.allShared') }}
         </p>
       </div>
@@ -54,11 +54,11 @@
     </div>
 
     <!-- Dangers Section -->
-    <div class="mt-2 sm:mt-12">
-      <h3 class="text-xl font-bold text-gp-text mb-4 text-center">
+    <div class="mt-2 sm:mt-12 text-left sm:text-center">
+      <h3 class="text-xl font-bold text-gp-text mb-4">
         {{ $t('problem.dangers.title') }}
       </h3>
-      <p class="text-center text-gp-text/80 mb-6 max-w-2xl mx-auto">
+      <p class="text-gp-text/80 mb-6 max-w-2xl mx-auto">
         {{ $t('problem.dangers.intro') }}
       </p>
       
@@ -66,17 +66,17 @@
         <div
           v-for="(danger, idx) in dangers"
           :key="idx"
-          class="text-center relative"
+          class="text-left sm:text-center relative"
         >
-          <div class="flex items-center justify-center gap-3 mb-3">
-            <div class="inline-flex items-center justify-center w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] rounded-lg bg-green-600 dark:bg-green-500 border-2 border-gp-border text-white dark:text-gp-chip-icon">
+          <div class="flex items-center justify-start sm:justify-center gap-3 mb-3">
+            <div class="inline-flex items-center justify-center w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] rounded-lg bg-emerald-600 dark:bg-emerald-500 border-2 border-gp-border text-white dark:text-gp-chip-icon">
               <UIcon :name="danger.icon" class="w-6 h-6" aria-hidden="true" />
             </div>
             <h4 class="text-base sm:text-lg font-bold text-gp-text">
               {{ $t(`problem.dangers.${danger.key}.title`) }}
             </h4>
           </div>
-          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed max-w-2xl mx-auto lg:max-w-none">
+          <p class="text-xs sm:text-sm text-gp-text/70 leading-relaxed max-w-2xl mx-auto lg:max-w-none text-left sm:text-center">
             {{ $t(`problem.dangers.${danger.key}.description`) }}
           </p>
           <div v-if="idx < dangers.length - 1" class="w-full h-px bg-gp-border/30 mt-6 lg:hidden"></div>
