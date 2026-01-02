@@ -173,5 +173,28 @@
   .dark .highlight-everywhere {
     color: rgb(var(--gp-accent));
   }
+
+  /* Chevron card shape */
+  .chevron-card {
+    @apply bg-gp-surface border-2 border-gp-border shadow-lg transition-all duration-200 ease-out;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  }
+
+  .chevron-card:last-child {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .chevron-card:hover {
+    @apply shadow-xl -translate-y-0.5;
+    z-index: 50 !important;
+  }
+
+  /* Mobile: stack vertically without chevron shape */
+  @media (max-width: 768px) {
+    .chevron-card {
+      clip-path: none;
+      @apply rounded-xl mb-4;
+    }
+  }
 }
 
