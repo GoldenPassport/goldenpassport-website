@@ -1,10 +1,10 @@
 <template>
   <header class="text-center">
-    <h1 class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-gp-text tracking-tight">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gp-text tracking-tight leading-tight">
       {{ $t('brand.name') }}
     </h1>
-    <p class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gp-text font-medium px-4">
-      {{ $t('brand.tagline.prefix') }} <span class="font-bold italic text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl highlight-everywhere" style="font-family: 'Georgia', 'Times New Roman', serif;">"{{ $t('brand.tagline.highlight') }}"</span> {{ $t('brand.tagline.suffix') }}
+    <p class="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl text-gp-text font-medium px-4 leading-snug">
+      {{ $t('brand.tagline.prefix') }} <span class="font-bold italic text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl highlight-everywhere" style="font-family: 'Georgia', 'Times New Roman', serif;">"{{ $t('brand.tagline.highlight') }}"</span> {{ $t('brand.tagline.suffix') }}
     </p>
     <p class="mt-3 text-lg sm:text-xl md:text-2xl text-gp-text/80 italic">
       {{ $t('brand.motto') }}

@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gp-bg text-gp-text overflow-x-hidden">
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky md:top-0 safe-area-top">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 safe-area-top">
       <div class="container mx-auto px-2 sm:px-4 md:px-6 py-2 md:py-3">
         <div class="flex items-center justify-between max-w-6xl mx-auto gap-1 sm:gap-2">
           <NuxtLink to="/" class="flex items-center gap-1 sm:gap-2 md:gap-3 group flex-shrink min-w-0 max-w-[calc(100%-180px)] sm:max-w-none">
@@ -71,9 +71,28 @@
     </header>
 
     <!-- Main content -->
-    <main class="pt-[calc(env(safe-area-inset-top,0)+56px)] sm:pt-[calc(env(safe-area-inset-top,0)+64px)] md:pt-0">
+    <main class="pt-[calc(env(safe-area-inset-top,0)+64px)] sm:pt-[calc(env(safe-area-inset-top,0)+72px)] md:pt-[calc(env(safe-area-inset-top,0)+88px)]">
       <slot />
     </main>
+
+    <!-- Scroll to top -->
+    <Transition
+      enter-active-class="transition duration-200 ease-out"
+      enter-from-class="opacity-0 translate-y-2"
+      enter-to-class="opacity-100 translate-y-0"
+      leave-active-class="transition duration-150 ease-in"
+      leave-from-class="opacity-100 translate-y-0"
+      leave-to-class="opacity-0 translate-y-2"
+    >
+      <button
+        v-if="showScrollTop"
+        class="fixed right-3 sm:right-5 bottom-[calc(env(safe-area-inset-bottom,0)+16px)] sm:bottom-[calc(env(safe-area-inset-bottom,0)+20px)] z-[60] inline-flex items-center justify-center w-12 h-12 rounded-full border-2 border-gp-border bg-gp-accent text-gp-chip-icon shadow-[0_12px_30px_rgba(0,0,0,0.25)] hover:-translate-y-0.5 transition-all duration-200 touch-manipulation active:scale-95"
+        aria-label="Scroll to top"
+        @click="scrollToTop"
+      >
+        <UIcon name="i-heroicons-arrow-up-20-solid" class="w-6 h-6" />
+      </button>
+    </Transition>
 
     <!-- Footer -->
     <footer class="border-t-2 border-gp-border/10 mt-12 sm:mt-16">
@@ -154,6 +173,30 @@ const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
 const mobileMenuOpen = ref(false)
+const showScrollTop = ref(false)
+
+const updateScrollTopVisibility = () => {
+  if (process.client) {
+    showScrollTop.value = window.scrollY > 320
+  }
+}
+
+const scrollToTop = () => {
+  if (process.client) {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+}
+
+if (process.client) {
+  onMounted(() => {
+    updateScrollTopVisibility()
+    window.addEventListener('scroll', updateScrollTopVisibility, { passive: true })
+  })
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('scroll', updateScrollTopVisibility)
+  })
+}
 
 const navLinks = [
   { key: 'nav.solution', href: '#features' },
