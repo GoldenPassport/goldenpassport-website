@@ -133,7 +133,7 @@
     "circles": {
       "identity": "Identidade e Endereço",
       "finance": "Finanças",
-      "history": "Histórico de Compras"
+      "history": "Detalhes da Compra"
     },
     "current": {
       "title": "Problema Atual",

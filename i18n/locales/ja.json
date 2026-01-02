@@ -133,7 +133,7 @@
     "circles": {
       "identity": "身元と住所",
       "finance": "財務",
-      "history": "購入履歴"
+      "history": "購入詳細"
     },
     "current": {
       "title": "現在の問題",
