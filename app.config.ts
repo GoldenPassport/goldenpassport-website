@@ -226,8 +226,7 @@ export default defineAppConfig({
         'This site is a placeholder and will evolve as the technical architecture and compliance posture are finalised.'
     },
     social: [
-      // Uncomment and update when social accounts are ready
-      // { name: 'LinkedIn', href: 'https://linkedin.com/company/goldenpassport', icon: 'i-simple-icons-linkedin' },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/company/goldenpassport', icon: 'i-simple-icons-linkedin' },
       // { name: 'Twitter', href: 'https://twitter.com/goldenpassport', icon: 'i-simple-icons-x' },
       // { name: 'GitHub', href: 'https://github.com/GoldenPassport', icon: 'i-simple-icons-github' }
     ],
