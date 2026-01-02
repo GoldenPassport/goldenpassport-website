@@ -68,9 +68,13 @@
       "title": "Anonyme Anmeldung",
       "description": "Authentifizieren Sie sich, ohne Ihre Identität preiszugeben. Verwenden Sie sichere Token anstelle von E-Mails oder Passwörtern."
     },
+    "trustedTracker": {
+      "title": "Your trusted tracker",
+      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+    },
     "dataMinimisation": {
-      "title": "Datenminimierung",
-      "description": "Teilen Sie nur das Nötige, nichts mehr. Granulare Einwilligungskontrollen für jede Transaktion."
+      "title": "You are in control",
+      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "Proxy-Schutz",
@@ -78,7 +82,7 @@
     },
     "zeroKnowledge": {
       "title": "Zero-Knowledge",
-      "description": "Selbst wir können Ihre Daten nicht sehen. Ende-zu-Ende-Verschlüsselung hält Ihre Informationen privat."
+      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
     }
   },
   "steps": {
@@ -307,4 +311,3 @@
     }
   }
 }
-

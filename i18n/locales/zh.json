@@ -68,9 +68,13 @@
       "title": "匿名登录",
       "description": "无需透露身份即可认证。使用安全令牌代替电子邮件或密码。"
     },
+    "trustedTracker": {
+      "title": "Your trusted tracker",
+      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+    },
     "dataMinimisation": {
-      "title": "数据最小化",
-      "description": "只分享必要的内容，仅此而已。每笔交易都有精细的同意控制。"
+      "title": "You are in control",
+      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "代理盾牌",
@@ -78,7 +82,7 @@
     },
     "zeroKnowledge": {
       "title": "零知识",
-      "description": "即使我们也无法看到您的数据。端到端加密保持您的信息私密。"
+      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
     }
   },
   "steps": {
@@ -307,4 +311,3 @@
     }
   }
 }
-

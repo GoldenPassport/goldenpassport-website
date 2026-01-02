@@ -68,9 +68,13 @@
       "title": "Connexion anonyme",
       "description": "Authentifiez-vous sans révéler votre identité. Utilisez des jetons sécurisés au lieu d'e-mails ou de mots de passe."
     },
+    "trustedTracker": {
+      "title": "Your trusted tracker",
+      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+    },
     "dataMinimisation": {
-      "title": "Minimisation des données",
-      "description": "Partagez uniquement le nécessaire, rien de plus. Contrôles de consentement granulaires pour chaque transaction."
+      "title": "You are in control",
+      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "Bouclier proxy",
@@ -78,7 +82,7 @@
     },
     "zeroKnowledge": {
       "title": "Zéro connaissance",
-      "description": "Même nous ne pouvons pas voir vos données. Le chiffrement de bout en bout garde vos informations privées."
+      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
     }
   },
   "steps": {
@@ -307,4 +311,3 @@
     }
   }
 }
-

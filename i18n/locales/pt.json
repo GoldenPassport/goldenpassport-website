@@ -68,9 +68,13 @@
       "title": "Login anónimo",
       "description": "Autentique-se sem revelar a sua identidade. Use tokens seguros em vez de e-mails ou palavras-passe."
     },
+    "trustedTracker": {
+      "title": "Your trusted tracker",
+      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+    },
     "dataMinimisation": {
-      "title": "Minimização de dados",
-      "description": "Partilhe apenas o necessário, nada mais. Controlos de consentimento granulares para cada transação."
+      "title": "You are in control",
+      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "Escudo proxy",
@@ -78,7 +82,7 @@
     },
     "zeroKnowledge": {
       "title": "Zero-knowledge",
-      "description": "Nem mesmo nós conseguimos ver os seus dados. A encriptação de ponta a ponta mantém as suas informações privadas."
+      "description": "Even we can't see your data. Your master data lives only on your own encrypted device, protected end-to-end."
     }
   },
   "steps": {
@@ -307,4 +311,3 @@
     }
   }
 }
-
