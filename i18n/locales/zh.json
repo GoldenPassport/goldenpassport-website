@@ -90,6 +90,17 @@
       "description": "完成购买、配送和付款，无需暴露您的真实身份。"
     }
   },
+  "howItWorks": {
+    "analytics": {
+      "title": "商家的匿名化分析",
+      "description": "商家接收一套匿名化分析，使他们能够保持控制并以隐私为中心的方式提供超个性化服务。",
+      "benefits": {
+        "control": "通过全面的匿名化洞察保持控制",
+        "personalization": "在不损害用户隐私的情况下实现超个性化",
+        "privacy": "尊重用户数据权利的隐私中心方法"
+      }
+    }
+  },
   "flow": {
     "login": {
       "title": "登录与选择",

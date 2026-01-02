@@ -90,6 +90,17 @@
       "description": "Completa compras, entregas y pagos sin exponer tu identidad real."
     }
   },
+  "howItWorks": {
+    "analytics": {
+      "title": "Análisis Anonimizados para Comerciantes",
+      "description": "Los comerciantes reciben una suite de análisis anonimizados, permitiéndoles mantener el control y ofrecer hiper-personalización de manera centrada en la privacidad.",
+      "benefits": {
+        "control": "Mantenga el control con información anonimizada integral",
+        "personalization": "Habilite la hiper-personalización sin comprometer la privacidad del usuario",
+        "privacy": "Enfoque centrado en la privacidad que respeta los derechos de datos del usuario"
+      }
+    }
+  },
   "flow": {
     "login": {
       "title": "Iniciar sesión y Seleccionar",

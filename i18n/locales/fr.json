@@ -90,6 +90,17 @@
       "description": "Effectuez des achats, des livraisons et des paiements sans exposer votre véritable identité."
     }
   },
+  "howItWorks": {
+    "analytics": {
+      "title": "Analyses Anonymisées pour les Marchands",
+      "description": "Les marchands reçoivent une suite d'analyses anonymisées, leur permettant de garder le contrôle et d'offrir une hyper-personnalisation de manière centrée sur la confidentialité.",
+      "benefits": {
+        "control": "Gardez le contrôle avec des informations anonymisées complètes",
+        "personalization": "Activez l'hyper-personnalisation sans compromettre la vie privée de l'utilisateur",
+        "privacy": "Approche centrée sur la confidentialité qui respecte les droits des données utilisateur"
+      }
+    }
+  },
   "flow": {
     "login": {
       "title": "Connexion et Sélection",
