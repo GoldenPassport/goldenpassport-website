@@ -95,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Setup account",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
+      "title": "アカウント設定",
+      "description": "あなたのアイデンティティデータは暗号化され、デバイスにローカルに保存されます。鍵を保持するのはあなただけです。これから、ペルソナベースのデータサブセットが作成されます。"
     },
     "share": {
-      "title": "Online fingerprint",
-      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
+      "title": "オンラインフィンガープリント",
+      "description": "各体験で共有するペルソナを選択します。必要なもの、または法律で要求されるもののみを明らかにします。"
     },
     "transact": {
       "title": "プライベートに取引",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
+      "description": "本当の身元を明かすことなく、購入、配送、支払いを完了します。データ共有には、ロールベースのジャストインタイムモデルを採用します。"
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "商人向け匿名化分析",
-      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
+      "description": "2つの視点、1つの目標：販売業者はペルソナレベルのシグナル（年齢範囲、一般的な場所、興味）を取得して需要を理解し、関連する提案を提供します—生年月日などの正確な詳細は不要です。ユーザーはコントロールを維持し、信頼できる企業とのみより豊富なコンテキストを共有して、相互作用を意味のあるものにします（例：フォーマルな青いシャツを購入したばかりで、次の店に完璧なベルトを提案してほしい）。事前の同意により、データフローがユーザー主導で維持され、全員が勝利します。",
       "benefits": {
-        "control": "Users stay in control with upfront consent and reversible sharing",
-        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
-        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
+        "control": "ユーザーは事前の同意と可逆的な共有でコントロールを維持",
+        "personalization": "販売業者はペルソナレベルの洞察（年齢層、興味、新しさ）を取得して、本当に合うものを推奨",
+        "privacy": "生のPIIなし；データはジャストインタイムで信頼できる当事者のみに流れる"
       }
     }
   },
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "現在の問題",
-      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
+      "allShared": "通常、これら3種類の情報が要求され、これらを組み合わせて一意に追跡可能なIDを構築できます。残念ながら、このデジタル「フィンガープリント」は、登録していない目的に利用されたり、第三者に販売されたりすることがあります。"
     },
     "dangers": {
       "title": "誰があなたのデータを取得しますか？",
-      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
+      "intro": "すべての個人情報を共有すると、販売業者だけに行くわけではありません。悪用する可能性のある複数の当事者に流れます：",
       "dataBrokers": {
         "title": "データブローカー",
         "description": "あなたの知識や同意なしに、あなたの個人情報を購入、販売、取引する企業。"
@@ -186,7 +186,7 @@
         "description": "ウェブサイト全体であなたの行動を監視し、詳細なプロファイルを構築するサードパーティのトラッキングスクリプト。"
       },
       "onlineFraud": {
-        "title": "Online fraudsters",
+        "title": "オンライン詐欺師",
         "description": "露出した個人データを悪用して、なりすまし、フィッシング、金融詐欺を行う詐欺師や詐欺犯。"
       }
     },

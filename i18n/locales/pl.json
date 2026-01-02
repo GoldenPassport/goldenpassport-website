@@ -95,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Setup account",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
+      "title": "Konfiguracja konta",
+      "description": "Twoje dane tożsamościowe są szyfrowane i przechowywane lokalnie na Twoim urządzeniu. Tylko Ty masz klucze. Z tego tworzone są podzbiory danych oparte na personach."
     },
     "share": {
-      "title": "Online fingerprint",
-      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
+      "title": "Odciski palców online",
+      "description": "Wybierz, którą personę udostępnić dla każdego doświadczenia. Ujawnij tylko to, co jest konieczne lub wymagane przez prawo."
     },
     "transact": {
       "title": "Transakcje prywatnie",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
+      "description": "Ukończ zakupy, dostawy i płatności bez ujawniania swojej prawdziwej tożsamości, przyjmując model oparty na rolach just-in-time do udostępniania danych."
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "Zanonimizowane Analizy dla Sprzedawców",
-      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
+      "description": "Dwie perspektywy, jeden cel: Sprzedawcy otrzymują sygnały na poziomie persony (zakresy wiekowe, ogólne lokalizacje, zainteresowania), aby zrozumieć popyt i oferować istotne sugestie—nie ma potrzeby dokładnych szczegółów, takich jak data urodzenia. Użytkownicy pozostają w kontroli, dzieląc się bogatszym kontekstem tylko z zaufanymi firmami, aby uczynić interakcje znaczącymi (np. właśnie kupili formalną niebieską koszulę i chcą, aby następny sklep zasugerował idealny pasek). Zgoda z góry utrzymuje przepływ danych prowadzony przez użytkownika, więc wszyscy wygrywają.",
       "benefits": {
-        "control": "Users stay in control with upfront consent and reversible sharing",
-        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
-        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
+        "control": "Użytkownicy pozostają w kontroli dzięki zgody z góry i odwracalnemu udostępnianiu",
+        "personalization": "Sprzedawcy otrzymują wgląd na poziomie persony (grupy wiekowe, zainteresowania, aktualność), aby rekomendować to, co naprawdę pasuje",
+        "privacy": "Brak surowych PII; dane przepływają just-in-time tylko do zaufanych stron"
       }
     }
   },
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "Obecny Problem",
-      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
+      "allShared": "Zazwyczaj żądane są te trzy rodzaje informacji, które razem mogą być użyte do zbudowania unikalnie śledzonego ID. Niestety, ten cyfrowy \"odcisk palca\" jest czasami wykorzystywany do celów, na które się nie zapisałeś, lub nawet sprzedawany stronom trzecim."
     },
     "dangers": {
       "title": "Kto otrzymuje Twoje dane?",
-      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
+      "intro": "Kiedy udostępniasz wszystkie swoje dane osobowe, nie trafiają one tylko do sprzedawcy. Płyną do wielu stron, które mogą je nadużyć:",
       "dataBrokers": {
         "title": "Pośrednicy danych",
         "description": "Firmy, które kupują, sprzedają i handlują Twoimi danymi osobowymi bez Twojej wiedzy lub zgody."
@@ -186,7 +186,7 @@
         "description": "Skrypty śledzące stron trzecich, które monitorują Twoje zachowanie na stronach internetowych i tworzą szczegółowe profile."
       },
       "onlineFraud": {
-        "title": "Online fraudsters",
+        "title": "Oszuści online",
         "description": "Oszuści i przestępcy, którzy wykorzystują ujawnione dane osobowe do kradzieży tożsamości, phishingu i oszustw finansowych."
       }
     },

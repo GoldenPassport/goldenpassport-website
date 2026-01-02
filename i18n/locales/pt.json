@@ -95,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Setup account",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
+      "title": "Configurar conta",
+      "description": "Os seus dados de identidade são encriptados e armazenados localmente no seu dispositivo. Apenas você detém as chaves. A partir disto, são criados subconjuntos de dados baseados em personas."
     },
     "share": {
-      "title": "Online fingerprint",
-      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
+      "title": "Impressão digital online",
+      "description": "Escolha qual persona partilhar para cada experiência. Revele apenas o que é necessário ou o que é exigido por lei."
     },
     "transact": {
       "title": "Transacionar privadamente",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
+      "description": "Complete compras, entregas e pagamentos sem expor a sua identidade real, adoptando um modelo baseado em funções just-in-time para partilha de dados."
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "Análises Anonimizadas para Comerciantes",
-      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
+      "description": "Duas perspetivas, um objetivo: Os comerciantes obtêm sinais ao nível da persona (faixas etárias, localizações gerais, interesses) para entender a procura e oferecer sugestões relevantes—sem necessidade de detalhes exatos como a data de nascimento. Os utilizadores mantêm o controlo, partilhando um contexto mais rico apenas com empresas de confiança para tornar as interações significativas (por exemplo, acabou de comprar uma camisa azul formal e quer que a próxima loja sugira o cinto perfeito). O consentimento prévio mantém o fluxo de dados liderado pelo utilizador para que todos ganhem.",
       "benefits": {
-        "control": "Users stay in control with upfront consent and reversible sharing",
-        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
-        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
+        "control": "Os utilizadores mantêm o controlo com consentimento prévio e partilha reversível",
+        "personalization": "Os comerciantes obtêm informações ao nível da persona (faixas etárias, interesses, atualidade) para recomendar o que realmente se adequa",
+        "privacy": "Sem PII em bruto; os dados fluem just-in-time apenas para partes de confiança"
       }
     }
   },
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "Problema Atual",
-      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
+      "allShared": "Tipicamente, estes três tipos de informação são solicitados, que juntos podem ser usados para construir um ID exclusivamente rastreável. Infelizmente, esta \"impressão digital\" é por vezes aproveitada para fins para os quais não se inscreveu, ou mesmo vendida a terceiros."
     },
     "dangers": {
       "title": "Quem obtém os seus dados?",
-      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
+      "intro": "Quando partilha todas as suas informações pessoais, não vão apenas para o comerciante. Fluem para múltiplas partes que podem utilizá-las indevidamente:",
       "dataBrokers": {
         "title": "Corretores de dados",
         "description": "Empresas que compram, vendem e negociam as suas informações pessoais sem o seu conhecimento ou consentimento."
@@ -186,7 +186,7 @@
         "description": "Scripts de rastreamento de terceiros que monitorizam o seu comportamento em sites e criam perfis detalhados."
       },
       "onlineFraud": {
-        "title": "Online fraudsters",
+        "title": "Fraudadores online",
         "description": "Vigilantes e fraudadores que exploram dados pessoais expostos para roubo de identidade, phishing e golpes financeiros."
       }
     },

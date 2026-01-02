@@ -95,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Setup account",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
+      "title": "设置账户",
+      "description": "您的身份数据经过加密并本地存储在您的设备上。只有您持有密钥。由此创建基于角色的数据子集。"
     },
     "share": {
-      "title": "Online fingerprint",
-      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
+      "title": "在线指纹",
+      "description": "为每次体验选择要共享的角色。仅揭示必要的内容，或法律要求的内容。"
     },
     "transact": {
       "title": "私密交易",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
+      "description": "在不暴露真实身份的情况下完成购买、配送和支付，采用基于角色的及时模式进行数据共享。"
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "商家的匿名化分析",
-      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
+      "description": "两个视角，一个目标：商家获得角色级别的信号（年龄范围、大致位置、兴趣）以了解需求并提供相关建议—不需要像出生日期这样的确切细节。用户保持控制，仅与值得信赖的企业分享更丰富的上下文，使交互有意义（例如，刚买了一件正式的蓝色衬衫，希望下一家商店建议完美的腰带）。事先同意使数据流由用户主导，因此每个人都能受益。",
       "benefits": {
-        "control": "Users stay in control with upfront consent and reversible sharing",
-        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
-        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
+        "control": "用户通过事先同意和可逆共享保持控制",
+        "personalization": "商家获得角色级别的洞察（年龄组、兴趣、时效性）以推荐真正合适的内容",
+        "privacy": "无原始PII；数据仅及时流向受信任的当事方"
       }
     }
   },
@@ -172,11 +172,11 @@
     },
     "current": {
       "title": "当前问题",
-      "allShared": "Typically these three types of information are requested, which together can be used to build a uniquely trackable ID. Unfortunately, this digital \"fingerprint\" is sometimes leveraged for purposes you didn’t sign up for, or even sold on to third parties."
+      "allShared": "通常要求这三种类型的信息，它们可以一起用于构建唯一可追踪的ID。不幸的是，这个数字\"指纹\"有时会被用于您未注册的目的，甚至被出售给第三方。"
     },
     "dangers": {
       "title": "谁获取您的数据？",
-      "intro": "When you share all your personal information, it doesn't just go to the merchant. It flows to multiple parties who may misuse it:",
+      "intro": "当您共享所有个人信息时，它不仅仅流向商家。它流向可能滥用它的多个当事方：",
       "dataBrokers": {
         "title": "数据经纪人",
         "description": "在您不知情或未经同意的情况下购买、出售和交易您个人信息的公司。"
@@ -186,7 +186,7 @@
         "description": "监控您在网站上的行为并构建详细配置文件的第三方跟踪脚本。"
       },
       "onlineFraud": {
-        "title": "Online fraudsters",
+        "title": "在线欺诈者",
         "description": "利用暴露的个人数据进行身份盗窃、网络钓鱼和金融诈骗的骗子和欺诈者。"
       }
     },
