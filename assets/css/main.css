@@ -223,5 +223,18 @@
   .dark .analytics-box:hover {
     @apply shadow-[0_25px_50px_-12px_rgba(253,195,10,0.2)];
   }
+
+  /* Safe area support for iOS devices */
+  .safe-area-top {
+    padding-top: env(safe-area-inset-top, 0);
+  }
+
+  /* Mobile-specific header improvements */
+  @media (max-width: 768px) {
+    header {
+      /* Ensure header doesn't get cut off on mobile */
+      min-height: 56px;
+    }
+  }
 }
 
