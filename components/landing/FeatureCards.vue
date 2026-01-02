@@ -1,7 +1,7 @@
 <template>
   <SectionShell id="features" :eyebrow="$t('sections.solution.eyebrow')" :title="$t('sections.solution.title')">
     <div class="max-w-2xl mx-auto space-y-4">
-      <div class="gp-card border-2 border-gp-border bg-gp-surface shadow-lg transition-all duration-200 ease-out p-5 sm:p-6 min-h-[180px] sm:min-h-[200px]">
+      <div class="gp-card border-2 border-gp-border bg-gp-surface shadow-lg transition-all duration-200 ease-out p-5 sm:p-6 min-h-[220px] sm:min-h-[240px] lg:min-h-[200px]">
         <div class="flex items-start gap-3">
           <span class="gp-icon-chip flex-shrink-0">
             <UIcon :name="activeCard.icon" class="w-5 h-5" aria-hidden="true" />
@@ -53,6 +53,8 @@ let rotateTimer: ReturnType<typeof setInterval> | undefined
 const featureCards = [
   { key: 'trustedTracker', icon: 'i-heroicons-adjustments-horizontal-20-solid' },
   { key: 'dataMinimisation', icon: 'i-heroicons-shield-exclamation-20-solid' },
+  { key: 'justInTime', icon: 'i-heroicons-clock-20-solid' },
+  { key: 'roleBased', icon: 'i-heroicons-briefcase-20-solid' },
   { key: 'proxyShield', icon: 'i-heroicons-globe-alt-20-solid' },
   { key: 'zeroKnowledge', icon: 'i-heroicons-eye-slash-20-solid' },
   { key: 'anonymousLogin', icon: 'i-heroicons-user-circle-20-solid' }

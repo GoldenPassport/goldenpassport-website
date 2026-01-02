@@ -70,11 +70,19 @@
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+      "description": "Create your own trusted tracker only sharing the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
     },
     "dataMinimisation": {
       "title": "You are in control",
       "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+    },
+    "justInTime": {
+      "title": "Just in time",
+      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+    },
+    "roleBased": {
+      "title": "Role based",
+      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
     },
     "proxyShield": {
       "title": "Proxy-Schutz",
@@ -87,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Sicher speichern",
-      "description": "Ihre Identitätsdaten werden verschlüsselt und lokal auf Ihrem Gerät gespeichert. Nur Sie haben die Schlüssel."
+      "title": "Setup account",
+      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
     },
     "share": {
-      "title": "Selektiv teilen",
-      "description": "Wählen Sie genau aus, was Sie für jede Transaktion teilen möchten. Geben Sie nur das Notwendige preis oder was gesetzlich vorgeschrieben ist."
+      "title": "Online fingerprint",
+      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
     },
     "transact": {
       "title": "Privat handeln",
-      "description": "Führen Sie Käufe, Lieferungen und Zahlungen durch, ohne Ihre echte Identität preiszugeben."
+      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "Anonymisierte Analysen für Händler",
-      "description": "Händler erhalten eine Suite anonymisierter Analysen, die es ihnen ermöglicht, die Kontrolle zu behalten und Hyper-Personalisierung auf eine datenschutzorientierte Weise zu liefern.",
+      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
       "benefits": {
-        "control": "Behalten Sie die Kontrolle mit umfassenden anonymisierten Einblicken",
-        "personalization": "Ermöglichen Sie Hyper-Personalisierung ohne Kompromisse bei der Benutzerprivatsphäre",
-        "privacy": "Datenschutzorientierter Ansatz, der Benutzerdatenrechte respektiert"
+        "control": "Users stay in control with upfront consent and reversible sharing",
+        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
+        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
       }
     }
   },

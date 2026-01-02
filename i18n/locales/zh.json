@@ -70,11 +70,19 @@
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+      "description": "Create your own trusted tracker only sharing the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
     },
     "dataMinimisation": {
       "title": "You are in control",
       "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+    },
+    "justInTime": {
+      "title": "Just in time",
+      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+    },
+    "roleBased": {
+      "title": "Role based",
+      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
     },
     "proxyShield": {
       "title": "代理盾牌",
@@ -87,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "安全存储",
-      "description": "您的身份数据被加密并存储在您的设备本地。只有您持有密钥。"
+      "title": "Setup account",
+      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
     },
     "share": {
-      "title": "选择性分享",
-      "description": "精确选择每笔交易要分享的内容。只透露必要的信息，或法律要求的信息。"
+      "title": "Online fingerprint",
+      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
     },
     "transact": {
       "title": "私密交易",
-      "description": "完成购买、配送和付款，无需暴露您的真实身份。"
+      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "商家的匿名化分析",
-      "description": "商家接收一套匿名化分析，使他们能够保持控制并以隐私为中心的方式提供超个性化服务。",
+      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
       "benefits": {
-        "control": "通过全面的匿名化洞察保持控制",
-        "personalization": "在不损害用户隐私的情况下实现超个性化",
-        "privacy": "尊重用户数据权利的隐私中心方法"
+        "control": "Users stay in control with upfront consent and reversible sharing",
+        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
+        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
       }
     }
   },

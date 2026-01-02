@@ -2,10 +2,10 @@
     "brand": {
       "name": "GoldenPassport",
       "tagline": {
-        "prefix": "Create Your Own Online",
+        "prefix": "Define Your Own Online",
         "highlight": "Fingerprint",
         "suffix": "",
-        "full": "Create Your Own Online \"Fingerprint\""
+        "full": "Define Your Own Online \"Fingerprint\"!"
       },
     "motto": "Privacy. Security. Responsibility."
   },
@@ -18,7 +18,7 @@
   "hero": {
     "headline": "Take back control of your digital identity",
     "subhead": "A privacy-focused online identity management platform that lets you shop, transact, and interact online without surrendering your personal data to merchants, trackers, or data brokers.",
-    "trustNote": "Your data stays encrypted on your device. We never see it."
+    "trustNote": "Instead of social platforms defining your story, create your own identity: express your best self and share only the right elements at the right time for the safest experience. GoldenPassport lets you craft trust-based personas for every situation—share more with your favorite grocery store, less with a brand-new app you’re still evaluating."
   },
   "cta": {
     "primary": "Seed investment",
@@ -70,11 +70,19 @@
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker: share only the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+      "description": "Create your own trusted tracker only sharing the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
     },
     "dataMinimisation": {
       "title": "You are in control",
       "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+    },
+    "justInTime": {
+      "title": "Just in time",
+      "description": "Provide data only when it's needed: authenticate up front, then share details like your address right when you're ready to purchase."
+    },
+    "roleBased": {
+      "title": "Role based",
+      "description": "Companies have specific roles in your online experience—shops sell, delivery partners deliver. Share only the data directly linked to each role (e.g., your address to delivery, not to the shop)."
     },
     "proxyShield": {
       "title": "Proxy shield",
@@ -87,26 +95,26 @@
   },
   "steps": {
     "store": {
-      "title": "Store securely",
-      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys."
+      "title": "Setup account",
+      "description": "Your identity data is encrypted and stored locally on your device. Only you hold the keys. From this persona-based data-subsets are created."
     },
     "share": {
-      "title": "Share selectively",
-      "description": "Choose exactly what to share for each transaction. Reveal only what's necessary, or what is required by law."
+      "title": "Online fingerprint",
+      "description": "Choose which persona to share for each experience. Reveal only what's necessary, or what is required by law."
     },
     "transact": {
       "title": "Transact privately",
-      "description": "Complete purchases, deliveries, and payments without exposing your real identity."
+      "description": "Complete purchases, deliveries, and payments without exposing your real identity, adopting a role-based just in time model to data sharing."
     }
   },
   "howItWorks": {
     "analytics": {
       "title": "Anonymized Analytics for Merchants",
-      "description": "Merchants receive a suite of anonymized analytics, enabling them to stay in control and deliver hyper-personalization in a privacy-centric manner.",
+      "description": "Two perspectives, one goal: Merchants get persona-level signals (age ranges, general locations, interests) to understand demand and offer relevant suggestions—no need for exact details like DOB. Users stay in control, sharing richer context only with trusted businesses to make interactions meaningful (e.g., just bought a formal blue shirt and want the next shop to suggest the perfect belt). Upfront consent keeps the data flow user-led so everyone wins.",
       "benefits": {
-        "control": "Stay in control with comprehensive anonymized insights",
-        "personalization": "Enable hyper-personalization without compromising user privacy",
-        "privacy": "Privacy-centric approach that respects user data rights"
+        "control": "Users stay in control with upfront consent and reversible sharing",
+        "personalization": "Merchants get persona-level insights (age bands, interests, recency) to recommend what truly fits",
+        "privacy": "No raw PII; data flows just-in-time to trusted parties only"
       }
     }
   },
