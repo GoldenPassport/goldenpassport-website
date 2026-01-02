@@ -118,8 +118,7 @@
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.merchant') }}
                   </div>
-                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToMerchant') }}</div>
-                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.merchant') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.merchant') }}</div>
                 </div>
               </div>
               <div class="gp-card p-4 flex items-start gap-3">
@@ -130,8 +129,7 @@
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.payments') }}
                   </div>
-                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToPayments') }}</div>
-                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.payment') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.payment') }}</div>
                 </div>
               </div>
               <div class="gp-card p-4 flex items-start gap-3">
@@ -142,8 +140,7 @@
                   <div class="font-semibold text-gp-text text-sm">
                     {{ $t('architecture.nodes.delivery') }}
                   </div>
-                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToDelivery') }}</div>
-                  <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.delivery') }}</div>
+                  <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.delivery') }}</div>
                 </div>
               </div>
             </div>
@@ -206,8 +203,7 @@
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.merchant') }}</div>
-                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToMerchant') }}</div>
-                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.merchant') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.merchant') }}</div>
               </div>
             </div>
             <div class="gp-card p-4 flex items-start gap-4">
@@ -216,8 +212,7 @@
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.payments') }}</div>
-                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToPayments') }}</div>
-                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.payment') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.payment') }}</div>
               </div>
             </div>
             <div class="gp-card p-4 flex items-start gap-4">
@@ -226,8 +221,7 @@
               </span>
               <div>
                 <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.delivery') }}</div>
-                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.edges.gpToDelivery') }}</div>
-                <div class="text-xs text-gp-text/60 mt-1 italic">{{ $t('architecture.solutionDetails.delivery') }}</div>
+                <div class="text-xs text-gp-text/70 mt-1">{{ $t('architecture.solutionPoints.delivery') }}</div>
               </div>
             </div>
           </div>
