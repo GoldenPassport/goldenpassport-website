@@ -234,13 +234,6 @@
     header {
       /* Ensure header doesn't get cut off on mobile */
       min-height: 56px;
-      /* Ensure header is always visible and full width */
-      position: fixed !important;
-      width: 100% !important;
-      left: 0 !important;
-      right: 0 !important;
-      top: 0 !important;
-      z-index: 9999 !important;
     }
   }
 }

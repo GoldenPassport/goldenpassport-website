@@ -1,9 +1,9 @@
 <template>
-  <div class="min-h-screen bg-gp-bg text-gp-text">
+  <div class="min-h-screen bg-gp-bg text-gp-text overflow-x-hidden">
     <!-- Header -->
-    <header class="fixed top-0 left-0 right-0 w-full z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky md:top-0 safe-area-top">
-      <div class="w-full container mx-auto px-2 sm:px-4 md:px-6 py-2 md:py-3">
-        <div class="flex items-center justify-between w-full max-w-6xl mx-auto gap-1 sm:gap-2">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky md:top-0 safe-area-top">
+      <div class="container mx-auto px-2 sm:px-4 md:px-6 py-2 md:py-3">
+        <div class="flex items-center justify-between max-w-6xl mx-auto gap-1 sm:gap-2">
           <NuxtLink to="/" class="flex items-center gap-1 sm:gap-2 md:gap-3 group flex-shrink min-w-0 max-w-[calc(100%-180px)] sm:max-w-none">
             <Logo :size="28" class="!w-7 !h-7 sm:!w-8 sm:!h-8 md:!w-10 md:!h-10 flex-shrink-0" />
             <span class="font-bold text-sm sm:text-base md:text-lg lg:text-xl text-gp-text group-hover:text-gp-text/80 transition-colors truncate">
@@ -71,7 +71,7 @@
     </header>
 
     <!-- Main content -->
-    <main class="pt-[56px] sm:pt-[64px] md:pt-0">
+    <main class="pt-[calc(env(safe-area-inset-top,0)+56px)] sm:pt-[calc(env(safe-area-inset-top,0)+64px)] md:pt-0">
       <slot />
     </main>
 
