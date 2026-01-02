@@ -120,5 +120,31 @@
   .dark .gp-inverted {
     @apply bg-gp-accent text-gp-surface;
   }
+
+  /* Architecture diagram connector lines */
+  .connector-line {
+    stroke: rgb(var(--gp-border));
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+
+  .data-dot {
+    fill: rgb(var(--gp-accent));
+    filter: drop-shadow(0 0 4px rgb(var(--gp-accent)));
+  }
+
+  .dark .data-dot {
+    fill: rgb(var(--gp-text));
+    filter: drop-shadow(0 0 6px rgb(var(--gp-text)));
+  }
+
+  /* Ensure SVG markers inherit theme colors */
+  .fill-gp-accent {
+    fill: rgb(var(--gp-border));
+  }
+
+  .arch-node {
+    @apply relative;
+  }
 }
 
