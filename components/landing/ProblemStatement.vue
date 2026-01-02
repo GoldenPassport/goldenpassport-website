@@ -11,13 +11,13 @@
         <h3 class="text-lg font-semibold text-gp-text mb-6 text-center">
           {{ $t('problem.current.title') }}
         </h3>
-        <p class="mb-8 text-center text-base font-semibold text-gp-text">
+        <p class="mb-0 text-center text-base font-semibold text-gp-text">
           {{ $t('problem.current.allShared') }}
         </p>
       </div>
       
       <!-- Circles container with proper padding to contain all circles -->
-      <div class="relative w-full max-w-[700px] mx-auto min-h-[400px] sm:min-h-[500px] px-4 sm:px-16 md:px-20 py-16 sm:py-20 md:py-24">
+      <div class="relative w-full max-w-[700px] mx-auto min-h-[400px] sm:min-h-[500px] px-4 sm:px-16 md:px-20 py-16 sm:py-20 md:py-24 mt-8">
         <!-- Three overlapping circles -->
         <div class="relative w-full h-full flex items-center justify-center">
           <!-- Circle 1: Identities & Addresses - Top Center -->
