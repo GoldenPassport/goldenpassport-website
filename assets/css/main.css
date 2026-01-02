@@ -196,5 +196,32 @@
       @apply rounded-xl mb-4;
     }
   }
+
+  /* Step boxes - borderless with visual flow */
+  .step-box {
+    @apply bg-gp-surface shadow-lg transition-all duration-200 ease-out rounded-xl;
+  }
+
+  .step-box:hover {
+    @apply shadow-xl -translate-y-0.5;
+  }
+
+  /* Analytics box - flows from step boxes */
+  .analytics-box {
+    @apply bg-gp-surface shadow-2xl transition-all duration-200 ease-out rounded-2xl relative;
+  }
+
+  .analytics-box::before {
+    content: '';
+    @apply absolute -top-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-gp-accent/30 rounded-full;
+  }
+
+  .analytics-box:hover {
+    @apply shadow-[0_25px_50px_-12px_rgba(0,0,0,0.35)];
+  }
+
+  .dark .analytics-box:hover {
+    @apply shadow-[0_25px_50px_-12px_rgba(253,195,10,0.2)];
+  }
 }
 
