@@ -148,6 +148,8 @@
     }
   },
   "gdpr": {
+    "requirement": "EU GDPR要件",
+    "pledge": "GoldenPassportの約束",
     "rights": {
       "access": "アクセス権",
       "rectification": "訂正権",

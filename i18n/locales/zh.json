@@ -148,6 +148,8 @@
     }
   },
   "gdpr": {
+    "requirement": "欧盟GDPR要求",
+    "pledge": "GoldenPassport承诺",
     "rights": {
       "access": "访问权",
       "rectification": "更正权",

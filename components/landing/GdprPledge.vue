@@ -5,8 +5,8 @@
       <table class="w-full border-2 border-gp-border rounded-xl overflow-hidden">
         <thead class="gp-inverted">
           <tr>
-            <th class="text-left px-4 py-3 font-semibold">EU GDPR requirement</th>
-            <th class="text-left px-4 py-3 font-semibold">GoldenPassport pledge</th>
+            <th class="text-left px-4 py-3 font-semibold">{{ $t('gdpr.requirement') }}</th>
+            <th class="text-left px-4 py-3 font-semibold">{{ $t('gdpr.pledge') }}</th>
           </tr>
         </thead>
         <tbody class="bg-gp-surface">

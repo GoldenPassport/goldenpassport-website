@@ -148,6 +148,8 @@
     }
   },
   "gdpr": {
+    "requirement": "EU GDPR requirement",
+    "pledge": "GoldenPassport pledge",
     "rights": {
       "access": "Right to access",
       "rectification": "Right to rectification",

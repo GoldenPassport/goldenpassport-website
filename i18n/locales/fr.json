@@ -148,6 +148,8 @@
     }
   },
   "gdpr": {
+    "requirement": "Exigence du RGPD de l'UE",
+    "pledge": "Engagement GoldenPassport",
     "rights": {
       "access": "Droit d'accès",
       "rectification": "Droit de rectification",

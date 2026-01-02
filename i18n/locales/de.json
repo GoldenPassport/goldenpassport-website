@@ -148,6 +148,8 @@
     }
   },
   "gdpr": {
+    "requirement": "EU-DSGVO-Anforderung",
+    "pledge": "GoldenPassport Versprechen",
     "rights": {
       "access": "Auskunftsrecht",
       "rectification": "Recht auf Berichtigung",
