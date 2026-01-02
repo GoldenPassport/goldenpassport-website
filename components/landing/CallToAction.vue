@@ -4,7 +4,7 @@
       <div
         v-for="track in tracks"
         :key="track.key"
-        class="gp-card p-6"
+        class="gp-card p-6 flex flex-col"
       >
         <div class="flex items-start justify-between gap-4">
           <h3 class="text-xl font-bold text-gp-text">
@@ -24,7 +24,7 @@
           </li>
         </ul>
 
-        <div class="mt-6">
+        <div class="mt-auto pt-6">
           <GpButton :to="track.href" class="w-full justify-center">
             {{ $t(`callToAction.${track.key}.button`) }}
           </GpButton>
