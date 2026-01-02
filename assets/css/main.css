@@ -146,5 +146,14 @@
   .arch-node {
     @apply relative;
   }
+
+  /* Highlight "Everywhere" styling */
+  .highlight-everywhere {
+    color: rgb(var(--gp-brand-black));
+  }
+
+  .dark .highlight-everywhere {
+    color: rgb(var(--gp-accent));
+  }
 }
 
