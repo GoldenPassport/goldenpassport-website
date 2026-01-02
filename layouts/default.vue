@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gp-bg text-gp-text">
     <!-- Header -->
-    <header class="sticky top-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10 md:sticky">
       <div class="container mx-auto px-3 sm:px-6 py-2.5 sm:py-3">
         <div class="flex items-center justify-between max-w-6xl mx-auto gap-2">
           <NuxtLink to="/" class="flex items-center gap-1.5 sm:gap-3 group flex-shrink min-w-0">
@@ -62,7 +62,7 @@
     </header>
 
     <!-- Main content -->
-    <main>
+    <main class="pt-16 md:pt-0">
       <slot />
     </main>
 
