@@ -6,14 +6,19 @@
     :subtitle="$t('sections.problem.intro')"
   >
     <!-- Problem Illustration: 3 Overlapping Circles -->
-    <div class="mt-8 flex items-center justify-center">
+    <div class="mt-8">
       <div class="max-w-2xl mx-auto">
         <h3 class="text-lg font-semibold text-gp-text mb-6 text-center">
           {{ $t('problem.current.title') }}
         </h3>
-        <div class="relative w-full aspect-square max-w-[500px] mx-auto">
+        <p class="mb-8 text-center text-base font-semibold text-gp-text">
+          {{ $t('problem.current.allShared') }}
+        </p>
+        
+        <!-- Circles container with proper padding to contain all circles -->
+        <div class="relative w-full max-w-[500px] mx-auto" style="min-height: 400px; padding: 80px 40px;">
           <!-- Three overlapping circles -->
-          <div class="absolute inset-0 flex items-center justify-center">
+          <div class="absolute inset-0 flex items-center justify-center" style="padding: 80px 40px;">
             <!-- Circle 1: Identities & Addresses - Top Center -->
             <div
               class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-0 -translate-y-20 z-20 shadow-lg"
@@ -45,9 +50,6 @@
             </div>
           </div>
         </div>
-        <p class="mt-8 text-center text-base font-semibold text-gp-text">
-          {{ $t('problem.current.allShared') }}
-        </p>
       </div>
     </div>
   </SectionShell>
