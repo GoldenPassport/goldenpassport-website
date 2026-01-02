@@ -47,7 +47,7 @@
                 <div class="mt-3 font-bold text-gp-text text-lg">
                   {{ $t('architecture.nodes.user') }}
                 </div>
-                <div class="mt-1 text-xs text-gp-text/70">Controls consent</div>
+                <div class="mt-1 text-xs text-gp-text/70">{{ $t('architecture.edges.userToGp') }}</div>
               </div>
             </div>
 
@@ -110,28 +110,37 @@
 
             <!-- Partners Stack -->
             <div class="arch-node z-10 space-y-3">
-              <div class="gp-card p-4 flex items-center gap-3 min-w-[180px]">
+              <div class="gp-card p-4 flex items-center gap-3 min-w-[220px]">
                 <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
                   <UIcon name="i-heroicons-building-storefront-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
-                <div class="font-semibold text-gp-text text-sm">
-                  {{ $t('architecture.nodes.merchant') }}
+                <div>
+                  <div class="font-semibold text-gp-text text-sm">
+                    {{ $t('architecture.nodes.merchant') }}
+                  </div>
+                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToMerchant') }}</div>
                 </div>
               </div>
               <div class="gp-card p-4 flex items-center gap-3">
                 <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
                   <UIcon name="i-heroicons-credit-card-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
-                <div class="font-semibold text-gp-text text-sm">
-                  {{ $t('architecture.nodes.payments') }}
+                <div>
+                  <div class="font-semibold text-gp-text text-sm">
+                    {{ $t('architecture.nodes.payments') }}
+                  </div>
+                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToPayments') }}</div>
                 </div>
               </div>
               <div class="gp-card p-4 flex items-center gap-3">
                 <span class="gp-icon-chip !w-9 !h-9 !min-w-[2.25rem] !min-h-[2.25rem]">
                   <UIcon name="i-heroicons-truck-20-solid" class="w-4 h-4" aria-hidden="true" />
                 </span>
-                <div class="font-semibold text-gp-text text-sm">
-                  {{ $t('architecture.nodes.delivery') }}
+                <div>
+                  <div class="font-semibold text-gp-text text-sm">
+                    {{ $t('architecture.nodes.delivery') }}
+                  </div>
+                  <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToDelivery') }}</div>
                 </div>
               </div>
             </div>
@@ -146,6 +155,7 @@
               <UIcon name="i-heroicons-user-20-solid" class="w-5 h-5" aria-hidden="true" />
             </div>
             <div class="mt-3 font-bold text-gp-text">{{ $t('architecture.nodes.user') }}</div>
+            <div class="mt-1 text-xs text-gp-text/70">{{ $t('architecture.edges.userToGp') }}</div>
           </div>
           
           <!-- Vertical connector -->
@@ -191,19 +201,28 @@
               <span class="gp-icon-chip">
                 <UIcon name="i-heroicons-building-storefront-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
-              <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.merchant') }}</div>
+              <div>
+                <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.merchant') }}</div>
+                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToMerchant') }}</div>
+              </div>
             </div>
             <div class="gp-card p-4 flex items-center gap-4">
               <span class="gp-icon-chip">
                 <UIcon name="i-heroicons-credit-card-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
-              <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.payments') }}</div>
+              <div>
+                <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.payments') }}</div>
+                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToPayments') }}</div>
+              </div>
             </div>
             <div class="gp-card p-4 flex items-center gap-4">
               <span class="gp-icon-chip">
                 <UIcon name="i-heroicons-truck-20-solid" class="w-5 h-5" aria-hidden="true" />
               </span>
-              <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.delivery') }}</div>
+              <div>
+                <div class="font-semibold text-gp-text">{{ $t('architecture.nodes.delivery') }}</div>
+                <div class="text-xs text-gp-text/70">{{ $t('architecture.edges.gpToDelivery') }}</div>
+              </div>
             </div>
           </div>
         </div>
