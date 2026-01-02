@@ -4,7 +4,7 @@
       {{ $t('brand.name') }}
     </h1>
     <p class="mt-4 text-2xl sm:text-3xl md:text-4xl text-gp-text font-medium">
-      {{ $t('brand.tagline') }}
+      {{ $t('brand.tagline.prefix') }} <span class="font-bold text-gp-accent underline decoration-2 underline-offset-4">{{ $t('brand.tagline.highlight') }}</span> {{ $t('brand.tagline.suffix') }}
     </p>
     <p class="mt-3 text-lg sm:text-xl md:text-2xl text-gp-text/80 italic">
       {{ $t('brand.motto') }}

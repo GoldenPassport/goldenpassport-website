@@ -1,7 +1,11 @@
 {
   "brand": {
     "name": "GoldenPassport",
-    "tagline": "在线隐私护照",
+    "tagline": {
+      "prefix": "在线",
+      "highlight": "无处不在",
+      "suffix": "护照"
+    },
     "motto": "隐私。安全。责任。"
   },
   "nav": {

@@ -48,11 +48,11 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'GoldenPassport - Online Privacy Passport. Privacy. Security. Responsibility. Take back control of your digital identity.' },
+        { name: 'description', content: 'GoldenPassport - Online Everywhere Passport. Privacy. Security. Responsibility. Take back control of your digital identity.' },
         // Open Graph
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'GoldenPassport' },
-        { property: 'og:title', content: 'GoldenPassport - Online Privacy Passport' },
+        { property: 'og:title', content: 'GoldenPassport - Online Everywhere Passport' },
         { property: 'og:description', content: 'Privacy-focused online identity management platform. Control your personal data, protect from profiling, and maintain your right to privacy.' },
         { property: 'og:image', content: '/GoldenPassport.com.png' },
         { property: 'og:image:width', content: '1250' },
@@ -60,7 +60,7 @@ export default defineNuxtConfig({
         { property: 'og:image:alt', content: 'GoldenPassport logo' },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'GoldenPassport - Online Privacy Passport' },
+        { name: 'twitter:title', content: 'GoldenPassport - Online Everywhere Passport' },
         { name: 'twitter:description', content: 'Privacy-focused online identity management. Control your data, protect from profiling.' },
         { name: 'twitter:image', content: '/GoldenPassport.com.png' },
         // Theme color

@@ -1,7 +1,11 @@
 {
   "brand": {
     "name": "GoldenPassport",
-    "tagline": "オンラインプライバシーパスポート",
+    "tagline": {
+      "prefix": "オンライン",
+      "highlight": "どこでも",
+      "suffix": "パスポート"
+    },
     "motto": "プライバシー。セキュリティ。責任。"
   },
   "nav": {

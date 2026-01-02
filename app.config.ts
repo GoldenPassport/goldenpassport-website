@@ -2,7 +2,7 @@ export default defineAppConfig({
   goldenpassport: {
     brand: {
       name: 'GoldenPassport',
-      tagline: 'Online Privacy Passport',
+      tagline: 'Online Everywhere Passport',
       motto: 'Privacy. Security. Responsibility.',
       contactEmail: 'enquiries@goldenpassport.com'
     },

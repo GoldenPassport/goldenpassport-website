@@ -1,7 +1,11 @@
 {
   "brand": {
     "name": "GoldenPassport",
-    "tagline": "Online-Datenschutz-Pass",
+    "tagline": {
+      "prefix": "Online",
+      "highlight": "Überall",
+      "suffix": "Pass"
+    },
     "motto": "Datenschutz. Sicherheit. Verantwortung."
   },
   "nav": {

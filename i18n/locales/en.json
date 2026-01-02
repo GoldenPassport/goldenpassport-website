@@ -1,7 +1,11 @@
 {
   "brand": {
     "name": "GoldenPassport",
-    "tagline": "Online Privacy Passport",
+    "tagline": {
+      "prefix": "Online",
+      "highlight": "Everywhere",
+      "suffix": "Passport"
+    },
     "motto": "Privacy. Security. Responsibility."
   },
   "nav": {
