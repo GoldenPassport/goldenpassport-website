@@ -30,12 +30,21 @@
     <!-- Merchant Analytics Section -->
     <div class="mt-10 gp-card-strong p-4 sm:p-6 md:p-8">
       <div class="flex flex-col lg:flex-row items-start gap-6">
-        <div class="flex items-start gap-3 sm:gap-4 flex-1 w-full">
-          <span class="gp-icon-chip !w-10 !h-10 !min-w-[2.5rem] !min-h-[2.5rem] sm:!w-12 sm:!h-12 sm:!min-w-[3rem] sm:!min-h-[3rem] flex-shrink-0">
-            <UIcon name="i-heroicons-chart-bar-square-20-solid" class="w-5 h-5 sm:w-6 sm:h-6" aria-hidden="true" />
-          </span>
-          <div class="flex-1 min-w-0">
-            <h3 class="text-lg sm:text-xl font-bold text-gp-text mb-3">
+        <!-- Mobile: Full width text section with spacing -->
+        <div class="w-full lg:flex lg:items-start lg:gap-4 lg:flex-1 mt-2 lg:mt-0">
+          <!-- Icon and Title Row (mobile) / Icon (desktop) -->
+          <div class="flex items-center gap-3 sm:gap-4 mb-4 lg:mb-0 lg:flex-shrink-0">
+            <span class="gp-icon-chip !w-10 !h-10 !min-w-[2.5rem] !min-h-[2.5rem] sm:!w-12 sm:!h-12 sm:!min-w-[3rem] sm:!min-h-[3rem] flex-shrink-0">
+              <UIcon name="i-heroicons-chart-bar-square-20-solid" class="w-5 h-5 sm:w-6 sm:h-6" aria-hidden="true" />
+            </span>
+            <h3 class="text-lg sm:text-xl font-bold text-gp-text lg:hidden">
+              {{ $t('howItWorks.analytics.title') }}
+            </h3>
+          </div>
+          
+          <!-- Text Content (full width on mobile) -->
+          <div class="w-full lg:flex-1 lg:min-w-0">
+            <h3 class="hidden lg:block text-xl font-bold text-gp-text mb-3">
               {{ $t('howItWorks.analytics.title') }}
             </h3>
             <p class="text-sm sm:text-base text-gp-text/80 leading-relaxed mb-4">
@@ -51,7 +60,7 @@
         </div>
         
         <!-- Dashboard Visualization -->
-        <div class="w-full lg:w-80 flex-shrink-0">
+        <div class="w-full lg:w-80 flex-shrink-0 mt-6 lg:mt-0">
           <div class="bg-gp-surface border-2 border-gp-border rounded-lg p-4">
             <!-- Dashboard Header -->
             <div class="flex items-center justify-between mb-4">
