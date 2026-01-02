@@ -31,7 +31,7 @@ const jsonLd = {
 }
 
 useHead(() => ({
-  title: `${gp.brand.name} - ${gp.brand.tagline}`,
+  title: `${gp.brand.name} - Online "Everywhere" Passport`,
   meta: [
     {
       name: 'description',

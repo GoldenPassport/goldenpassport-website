@@ -137,9 +137,12 @@
       "gpToDelivery": "Endereço de entrega único"
     },
     "solutionPoints": {
-      "merchant": "Detalhes de pedido anonimizados (Detalhes do produto e confirmação de pagamento)",
-      "payment": "Pagamento tokenizado (Partilhar apenas o exigido por lei por tipo de pagamento)",
-      "delivery": "Endereço de entrega único (Apenas localizações de recolha e entrega)"
+      "merchant": "Detalhes de pedido anonimizados",
+      "merchantDetail": "Detalhes do produto e confirmação de pagamento",
+      "payment": "Pagamento tokenizado",
+      "paymentDetail": "Partilhar apenas o exigido por lei por tipo de pagamento",
+      "delivery": "Endereço de entrega único",
+      "deliveryDetail": "Apenas localizações de recolha e entrega"
     },
     "solutionDetails": {
       "merchant": "Sem nome, sem histórico de compras",

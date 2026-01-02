@@ -137,9 +137,12 @@
       "gpToDelivery": "Jednorazowy adres dostawy"
     },
     "solutionPoints": {
-      "merchant": "Zanonimizowane szczegóły zamówienia (Szczegóły produktu i potwierdzenie płatności)",
-      "payment": "Tokenizowana płatność (Udostępniaj tylko to, co wymagane przez prawo na typ płatności)",
-      "delivery": "Jednorazowy adres dostawy (Tylko lokalizacje odbioru i dostawy)"
+      "merchant": "Zanonimizowane szczegóły zamówienia",
+      "merchantDetail": "Szczegóły produktu i potwierdzenie płatności",
+      "payment": "Tokenizowana płatność",
+      "paymentDetail": "Udostępniaj tylko to, co wymagane przez prawo na typ płatności",
+      "delivery": "Jednorazowy adres dostawy",
+      "deliveryDetail": "Tylko lokalizacje odbioru i dostawy"
     },
     "solutionDetails": {
       "merchant": "Bez nazwiska, bez historii zakupów",

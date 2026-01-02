@@ -123,9 +123,12 @@
     "title": "Datenschutzfreundliche Architektur",
     "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten. GoldenPassport teilt selektiv nur das Notwendige:",
     "solutionPoints": {
-      "merchant": "Anonymisierte Bestelldetails (Produktdetails und Zahlungsbestätigung)",
-      "payment": "Tokenisierte Zahlung (Nur das teilen, was gesetzlich pro Zahlungstyp erforderlich ist)",
-      "delivery": "Einmalige Lieferadresse (Nur Abhol- und Lieferorte)"
+      "merchant": "Anonymisierte Bestelldetails",
+      "merchantDetail": "Produktdetails und Zahlungsbestätigung",
+      "payment": "Tokenisierte Zahlung",
+      "paymentDetail": "Nur das teilen, was gesetzlich pro Zahlungstyp erforderlich ist",
+      "delivery": "Einmalige Lieferadresse",
+      "deliveryDetail": "Nur Abhol- und Lieferorte"
     },
     "nodes": {
       "user": "Sie",

@@ -77,7 +77,7 @@
                 <Logo :size="48" />
                 <div>
                   <div class="font-bold text-lg text-gp-text">{{ $t('brand.name') }}</div>
-                  <div class="text-sm text-gp-text/70">{{ $t('brand.tagline') }}</div>
+                  <div class="text-sm text-gp-text/70">{{ $t('brand.tagline.prefix') }} "{{ $t('brand.tagline.highlight') }}" {{ $t('brand.tagline.suffix') }}</div>
                 </div>
               </div>
               <p class="mt-4 text-gp-text/70 text-sm leading-relaxed">
