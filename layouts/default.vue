@@ -32,7 +32,7 @@
             <LanguageSelector />
             <ThemeToggle />
             <button
-              class="w-9 h-9 min-w-[2.25rem] min-h-[2.25rem] flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation active:scale-95"
+              class="w-9 h-9 min-w-[2.25rem] min-h-[2.25rem] md:w-10 md:h-10 flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation active:scale-95"
               @click="mobileMenuOpen = !mobileMenuOpen"
               aria-label="Toggle menu"
             >
