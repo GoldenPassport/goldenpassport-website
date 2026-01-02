@@ -4,7 +4,7 @@
       <div
         v-for="(card, idx) in featureCards"
         :key="card.key"
-        class="chevron-card flex-1 relative"
+        class="chevron-card gp-card flex-1 relative"
         :class="{ 'md:z-10': idx === 0, 'md:z-20': idx === 1, 'md:z-30': idx === 2, 'md:z-40': idx === 3 }"
       >
         <div class="p-6 h-full flex flex-col">
