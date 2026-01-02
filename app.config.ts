@@ -2,7 +2,12 @@ export default defineAppConfig({
   goldenpassport: {
     brand: {
       name: 'GoldenPassport',
-      tagline: 'Online Everywhere Passport',
+      tagline: {
+        prefix: 'Your Online',
+        highlight: 'Everywhere',
+        suffix: 'Passport',
+        full: 'Your Online "Everywhere" Passport'
+      },
       motto: 'Privacy. Security. Responsibility.',
       contactEmail: 'enquiries@goldenpassport.com'
     },
@@ -226,9 +231,9 @@ export default defineAppConfig({
         'This site is a placeholder and will evolve as the technical architecture and compliance posture are finalised.'
     },
     social: [
-      { name: 'LinkedIn', href: 'https://www.linkedin.com/company/goldenpassport', icon: 'i-simple-icons-linkedin' },
-      // { name: 'Twitter', href: 'https://twitter.com/goldenpassport', icon: 'i-simple-icons-x' },
-      // { name: 'GitHub', href: 'https://github.com/GoldenPassport', icon: 'i-simple-icons-github' }
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/company/goldenpassport', icon: 'i-heroicons-link-20-solid' },
+      { name: 'X', href: 'https://x.com/GoldenPassport_', icon: 'i-simple-icons-x' },
+      { name: 'GitHub', href: 'https://github.com/GoldenPassport', icon: 'i-simple-icons-github' }
     ],
     footer: {
       copyright: 'GoldenPassport.com. All rights reserved.'
