@@ -54,7 +54,7 @@
     </div>
 
     <!-- Dangers Section -->
-    <div class="mt-12">
+    <div class="mt-6 sm:mt-12">
       <h3 class="text-xl font-bold text-gp-text mb-4 text-center">
         {{ $t('problem.dangers.title') }}
       </h3>
