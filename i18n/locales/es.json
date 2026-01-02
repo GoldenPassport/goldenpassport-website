@@ -70,7 +70,7 @@
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
-      "description": "Create your own trusted tracker only sharing the relevant facts you're comfortable with so sites can deliver the level of service you want—without giving up your real identity."
+      "description": "Create your own trusted tracker sharing the relevant facts you're comfortable with so website can deliver the level of service you want—without giving up your real identity."
     },
     "dataMinimisation": {
       "title": "You are in control",
@@ -298,7 +298,15 @@
     "copyright": "GoldenPassport.com. Todos los derechos reservados."
   },
   "common": {
-    "goToHomepage": "Ir a la página de inicio"
+    "goToHomepage": "Ir a la página de inicio",
+    "toggleMenu": "Toggle menu",
+    "scrollTop": "Scroll to top",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "languageLabel": "Idioma: {name}",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "logoAlt": "Logo de GoldenPassport"
   },
   "errors": {
     "404": {

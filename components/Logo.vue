@@ -4,7 +4,7 @@
     :class="{ 'logo-large': large, 'logo-small': small }"
     :style="logoStyle"
     :src="logoSrc"
-    alt="GoldenPassport logo"
+    :alt="$t('common.logoAlt')"
     loading="eager"
     decoding="async"
   />

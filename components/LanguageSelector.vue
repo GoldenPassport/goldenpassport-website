@@ -2,7 +2,7 @@
   <UDropdown :items="languageItems" :popper="{ placement: 'bottom-end' }">
     <button
       class="w-9 h-9 min-w-[2.25rem] min-h-[2.25rem] md:w-10 md:h-10 flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors text-xs md:text-sm font-semibold uppercase touch-manipulation active:scale-95"
-      :aria-label="`Language: ${currentLocale?.name}`"
+      :aria-label="t('common.languageLabel', { name: currentLocale?.name || locale })"
     >
       {{ locale }}
     </button>
@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-const { locale, locales, setLocale } = useI18n()
+const { locale, locales, setLocale, t } = useI18n()
 
 interface LocaleItem {
   code: string
@@ -40,4 +40,3 @@ const languageItems = computed(() => [
   }))
 ])
 </script>
-

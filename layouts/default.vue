@@ -34,7 +34,7 @@
             <button
               class="w-9 h-9 min-w-[2.25rem] min-h-[2.25rem] md:w-10 md:h-10 flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation active:scale-95"
               @click="mobileMenuOpen = !mobileMenuOpen"
-              aria-label="Toggle menu"
+              :aria-label="$t('common.toggleMenu')"
             >
               <UIcon :name="mobileMenuOpen ? 'i-heroicons-x-mark-20-solid' : 'i-heroicons-bars-3-20-solid'" class="w-5 h-5" />
             </button>
@@ -87,7 +87,7 @@
       <button
         v-if="showScrollTop"
         class="fixed right-3 sm:right-5 bottom-[calc(env(safe-area-inset-bottom,0)+16px)] sm:bottom-[calc(env(safe-area-inset-bottom,0)+20px)] z-[60] inline-flex items-center justify-center w-12 h-12 rounded-full border-2 border-gp-border bg-gp-accent text-gp-chip-icon shadow-[0_12px_30px_rgba(0,0,0,0.25)] hover:-translate-y-0.5 transition-all duration-200 touch-manipulation active:scale-95"
-        aria-label="Scroll to top"
+        :aria-label="$t('common.scrollTop')"
         @click="scrollToTop"
       >
         <UIcon name="i-heroicons-arrow-up-20-solid" class="w-6 h-6" />

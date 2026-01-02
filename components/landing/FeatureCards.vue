@@ -29,12 +29,12 @@
           />
         </div>
         <div class="flex items-center gap-2">
-          <GpButton gp-variant="outline" size="sm" class="!px-3 !py-2" @click="prev">
+          <GpButton gp-variant="outline" size="sm" class="!px-3 !py-2" @click="prev" :aria-label="$t('common.previous')">
             <UIcon name="i-heroicons-chevron-left-20-solid" class="w-4 h-4" aria-hidden="true" />
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">{{ $t('common.previous') }}</span>
           </GpButton>
-          <GpButton size="sm" class="!px-3 !py-2" @click="next">
-            <span class="sr-only">Next</span>
+          <GpButton size="sm" class="!px-3 !py-2" @click="next" :aria-label="$t('common.next')">
+            <span class="sr-only">{{ $t('common.next') }}</span>
             <UIcon name="i-heroicons-chevron-right-20-solid" class="w-4 h-4" aria-hidden="true" />
           </GpButton>
         </div>
