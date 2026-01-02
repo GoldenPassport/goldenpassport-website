@@ -25,10 +25,10 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const { tm } = useI18n()
+const { t } = useI18n()
 
 const securityBullets = computed(() => {
-  const bullets = tm('security.bullets')
+  const bullets = t('security.bullets', { returnObjects: true })
   return Array.isArray(bullets) ? bullets : []
 })
 </script>
