@@ -32,7 +32,7 @@
             
             <!-- Circle 2: Finances - Bottom Left -->
             <div
-              class="absolute w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-16 sm:-translate-x-20 md:-translate-x-28 translate-y-28 sm:translate-y-32 md:translate-y-44 lg:translate-y-52 z-10 shadow-lg"
+              class="absolute w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-16 sm:-translate-x-20 md:-translate-x-28 translate-y-28 sm:translate-y-32 md:translate-y-48 lg:translate-y-60 z-10 shadow-lg"
             >
               <div class="text-center px-3 sm:px-4 bg-gp-surface/90 rounded-lg py-2 sm:py-3">
                 <UIcon name="i-heroicons-credit-card-20-solid" class="w-8 h-8 sm:w-10 sm:h-10 text-gp-text mx-auto mb-1 sm:mb-2" />
@@ -42,7 +42,7 @@
             
             <!-- Circle 3: Purchase History - Bottom Right -->
             <div
-              class="absolute w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-16 sm:translate-x-20 md:translate-x-28 translate-y-28 sm:translate-y-32 md:translate-y-44 lg:translate-y-52 z-30 shadow-lg"
+              class="absolute w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-16 sm:translate-x-20 md:translate-x-28 translate-y-28 sm:translate-y-32 md:translate-y-48 lg:translate-y-60 z-30 shadow-lg"
             >
             <div class="text-center px-3 sm:px-4 bg-gp-surface/90 rounded-lg py-2 sm:py-3">
               <UIcon name="i-heroicons-archive-box-20-solid" class="w-8 h-8 sm:w-10 sm:h-10 text-gp-text mx-auto mb-1 sm:mb-2" />
