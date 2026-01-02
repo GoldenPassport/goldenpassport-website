@@ -48,7 +48,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'GoldenPassport - Your Online "Everywhere" Passport. Privacy. Security. Responsibility. Take back control of your digital identity.' },
+        { name: 'description', content: 'GoldenPassport - Create Your Own Online "Fingerprint". Privacy. Security. Responsibility. Take back control of your digital identity.' },
         { name: 'keywords', content: 'digital identity, privacy, online security, data protection, GDPR, identity management, anonymous login, data minimization, zero-knowledge, privacy passport' },
         { name: 'author', content: 'GoldenPassport' },
         { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
@@ -59,7 +59,7 @@ export default defineNuxtConfig({
         // Open Graph
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'GoldenPassport' },
-        { property: 'og:title', content: 'GoldenPassport - Your Online "Everywhere" Passport' },
+        { property: 'og:title', content: 'GoldenPassport - Create Your Own Online "Fingerprint"' },
         { property: 'og:description', content: 'Privacy-focused online identity management platform. Control your personal data, protect from profiling, and maintain your right to privacy.' },
         { property: 'og:url', content: 'https://goldenpassport.com' },
         { property: 'og:image', content: 'https://goldenpassport.com/GoldenPassport.com.png' },
@@ -79,7 +79,7 @@ export default defineNuxtConfig({
         { property: 'og:locale:alternate', content: 'zh_CN' },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'GoldenPassport - Your Online "Everywhere" Passport' },
+        { name: 'twitter:title', content: 'GoldenPassport - Create Your Own Online "Fingerprint"' },
         { name: 'twitter:description', content: 'Privacy-focused online identity management. Control your data, protect from profiling.' },
         { name: 'twitter:image', content: 'https://goldenpassport.com/GoldenPassport.com.png' },
         { name: 'twitter:image:alt', content: 'GoldenPassport logo' },

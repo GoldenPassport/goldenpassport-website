@@ -65,8 +65,8 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Anonieme login",
-      "description": "Verifieer zonder uw identiteit prijs te geven. Gebruik veilige tokens in plaats van e-mails of wachtwoorden."
+      "title": "Vendor-neutral secure authentication",
+      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
@@ -74,11 +74,11 @@
     },
     "dataMinimisation": {
       "title": "You are in control",
-      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "Proxy schild",
-      "description": "Uw echte gegevens bereiken handelaren nooit. Wij fungeren als beschermende tussenpersoon."
+      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
     },
     "zeroKnowledge": {
       "title": "Zero-knowledge",

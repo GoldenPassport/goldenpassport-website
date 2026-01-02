@@ -65,8 +65,8 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "匿名登录",
-      "description": "无需透露身份即可认证。使用安全令牌代替电子邮件或密码。"
+      "title": "Vendor-neutral secure authentication",
+      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
@@ -74,11 +74,11 @@
     },
     "dataMinimisation": {
       "title": "You are in control",
-      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "代理盾牌",
-      "description": "您的真实信息永远不会到达商家。我们充当保护性中介。"
+      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
     },
     "zeroKnowledge": {
       "title": "零知识",

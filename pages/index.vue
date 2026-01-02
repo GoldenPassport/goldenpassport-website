@@ -87,7 +87,7 @@ const softwareApplicationSchema = {
 }
 
 useHead(() => ({
-  title: `${gp.brand.name} - Your Online "Everywhere" Passport`,
+  title: `${gp.brand.name} - Create Your Own Online "Fingerprint"`,
   meta: [
     {
       name: 'description',
@@ -110,4 +110,3 @@ useHead(() => ({
   ]
 }))
 </script>
-

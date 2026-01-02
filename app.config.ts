@@ -3,10 +3,10 @@ export default defineAppConfig({
     brand: {
       name: 'GoldenPassport',
       tagline: {
-        prefix: 'Your Online',
-        highlight: 'Everywhere',
-        suffix: 'Passport',
-        full: 'Your Online "Everywhere" Passport'
+        prefix: 'Create Your Own Online',
+        highlight: 'Fingerprint',
+        suffix: '',
+        full: 'Create Your Own Online "Fingerprint"'
       },
       motto: 'Privacy. Security. Responsibility.',
       contactEmail: 'enquiries@goldenpassport.com'
@@ -240,5 +240,3 @@ export default defineAppConfig({
     }
   }
 })
-
-

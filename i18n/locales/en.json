@@ -1,12 +1,12 @@
 {
-  "brand": {
-    "name": "GoldenPassport",
-    "tagline": {
-      "prefix": "Your Online",
-      "highlight": "Everywhere",
-      "suffix": "Passport",
-      "full": "Your Online \"Everywhere\" Passport"
-    },
+    "brand": {
+      "name": "GoldenPassport",
+      "tagline": {
+        "prefix": "Create Your Own Online",
+        "highlight": "Fingerprint",
+        "suffix": "",
+        "full": "Create Your Own Online \"Fingerprint\""
+      },
     "motto": "Privacy. Security. Responsibility."
   },
   "nav": {
@@ -65,8 +65,8 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "Anonymous login",
-      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails or passwords."
+      "title": "Vendor-neutral secure authentication",
+      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
@@ -74,11 +74,11 @@
     },
     "dataMinimisation": {
       "title": "You are in control",
-      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "Proxy shield",
-      "description": "Your real details never reach merchants. We act as a protective intermediary."
+      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
     },
     "zeroKnowledge": {
       "title": "Zero-knowledge",

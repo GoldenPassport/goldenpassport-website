@@ -65,8 +65,8 @@
   },
   "features": {
     "anonymousLogin": {
-      "title": "匿名ログイン",
-      "description": "身元を明かさずに認証。メールやパスワードの代わりにセキュアトークンを使用。"
+      "title": "Vendor-neutral secure authentication",
+      "description": "Authenticate without revealing your identity. Use secure tokens instead of emails, passwords or vendor-locked authentication."
     },
     "trustedTracker": {
       "title": "Your trusted tracker",
@@ -74,11 +74,11 @@
     },
     "dataMinimisation": {
       "title": "You are in control",
-      "description": "Share only what's needed, nothing more. Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
+      "description": "Always be aware of what is shared and with whom. Granular consent controls for every transaction that can be redacted in real-time."
     },
     "proxyShield": {
       "title": "プロキシシールド",
-      "description": "あなたの実際の詳細は販売業者に届きません。私たちは保護的な仲介者として機能します。"
+      "description": "We act as a protective intermediary to websites, social media, merchants and delivery partners."
     },
     "zeroKnowledge": {
       "title": "ゼロ知識",
