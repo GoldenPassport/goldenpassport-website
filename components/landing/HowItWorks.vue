@@ -4,11 +4,11 @@
     :eyebrow="$t('sections.howItWorks.eyebrow')"
     :title="$t('sections.howItWorks.title')"
   >
-    <ol class="grid lg:grid-cols-3 gap-6 mb-6">
+    <ol class="grid lg:grid-cols-3 gap-6">
       <li
         v-for="(step, idx) in steps"
         :key="step.key"
-        class="step-box p-6"
+        class="gp-card p-6"
       >
         <div class="flex items-start justify-between gap-4">
           <div class="flex items-center gap-3">
@@ -28,7 +28,7 @@
     </ol>
 
     <!-- Merchant Analytics Section -->
-    <div class="analytics-box p-4 sm:p-6 md:p-8">
+    <div class="mt-10 gp-card-strong p-4 sm:p-6 md:p-8">
       <div class="flex flex-col lg:flex-row items-start gap-6">
         <!-- Mobile: Full width text section with spacing -->
         <div class="w-full lg:flex lg:items-start lg:gap-4 lg:flex-1 mt-2 lg:mt-0">
