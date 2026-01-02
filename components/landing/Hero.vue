@@ -1,5 +1,6 @@
 <template>
   <header class="text-center">
+    <div class="mb-4 sm:mb-6"></div>
     <LandingSlogan />
 
     <GpCard strong class="mt-10 p-6 md:p-10 text-left sm:text-center">
