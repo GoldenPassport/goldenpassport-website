@@ -27,7 +27,7 @@ const organizationSchema = {
   url: 'https://goldenpassport.com',
   logo: {
     '@type': 'ImageObject',
-    url: 'https://goldenpassport.com/GoldenPassport.com.png',
+    url: 'https://goldenpassport.com/logo-gold.png',
     width: 1250,
     height: 1250
   },

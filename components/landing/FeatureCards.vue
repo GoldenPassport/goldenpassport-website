@@ -4,14 +4,14 @@
       <div class="gp-card border-2 border-gp-border bg-gp-surface shadow-lg transition-all duration-200 ease-out p-5 sm:p-6 min-h-[220px] sm:min-h-[240px] lg:min-h-[200px]">
         <div class="flex items-start gap-3">
           <span class="gp-icon-chip flex-shrink-0">
-            <UIcon :name="activeCard.icon" class="w-5 h-5" aria-hidden="true" />
+            <UIcon :name="activeCard?.icon || 'i-heroicons-adjustments-horizontal-20-solid'" class="w-5 h-5" aria-hidden="true" />
           </span>
           <div class="flex-1 min-w-0">
             <h3 class="text-lg sm:text-xl font-semibold text-gp-text leading-tight">
-              {{ $t(`features.${activeCard.key}.title`) }}
+              {{ $t(`features.${activeCard?.key || 'trustedTracker'}.title`) }}
             </h3>
             <p class="mt-3 text-gp-text/80 leading-relaxed">
-              {{ $t(`features.${activeCard.key}.description`) }}
+              {{ $t(`features.${activeCard?.key || 'trustedTracker'}.description`) }}
             </p>
           </div>
         </div>
@@ -46,10 +46,6 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const activeIndex = ref(0)
-
-let rotateTimer: ReturnType<typeof setInterval> | undefined
-
 const featureCards = [
   { key: 'trustedTracker', icon: 'i-heroicons-adjustments-horizontal-20-solid' },
   { key: 'dataMinimisation', icon: 'i-heroicons-shield-exclamation-20-solid' },
@@ -58,9 +54,16 @@ const featureCards = [
   { key: 'proxyShield', icon: 'i-heroicons-globe-alt-20-solid' },
   { key: 'zeroKnowledge', icon: 'i-heroicons-eye-slash-20-solid' },
   { key: 'anonymousLogin', icon: 'i-heroicons-user-circle-20-solid' }
-]
+] as const
 
-const activeCard = computed(() => featureCards[activeIndex.value])
+const activeIndex = ref(0)
+
+let rotateTimer: ReturnType<typeof setInterval> | undefined
+
+const activeCard = computed(() => {
+  const idx = Math.max(0, Math.min(activeIndex.value, featureCards.length - 1))
+  return featureCards[idx]
+})
 
 const setActive = (idx: number) => {
   activeIndex.value = idx
