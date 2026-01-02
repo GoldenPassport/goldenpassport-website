@@ -162,6 +162,22 @@
       "title": "Huidig Probleem",
       "allShared": "U moet alle drie delen met retailers"
     },
+    "dangers": {
+      "title": "Wie krijgt uw gegevens?",
+      "intro": "Wanneer u al uw persoonlijke informatie deelt, gaat deze niet alleen naar de retailer. Uw gegevens stromen naar meerdere partijen die ze mogelijk misbruiken:",
+      "dataBrokers": {
+        "title": "Gegevensmakelaars",
+        "description": "Bedrijven die uw persoonlijke informatie kopen, verkopen en verhandelen zonder uw kennis of toestemming."
+      },
+      "trackers": {
+        "title": "Social media trackers",
+        "description": "Tracking scripts van derden die uw gedrag op websites monitoren en gedetailleerde profielen opbouwen."
+      },
+      "unethicalMerchants": {
+        "title": "Onethische handelaren",
+        "description": "Retailers die uw gegevens verkopen, gebruiken voor manipulatie of ze niet beschermen tegen inbreuken."
+      }
+    },
     "solution": {
       "title": "GoldenPassport Oplossing",
       "facilitates": "Deelt selectief alleen wat nodig is",

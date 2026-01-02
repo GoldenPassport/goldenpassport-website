@@ -45,10 +45,38 @@
             >
               <div class="text-center px-4 bg-gp-surface/90 rounded-lg py-3">
                 <UIcon name="i-heroicons-archive-box-20-solid" class="w-10 h-10 text-gp-text mx-auto mb-2" />
-                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.details') }}</span>
+                <span class="text-base font-bold text-gp-text block leading-tight">{{ $t('problem.circles.history') }}</span>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dangers Section -->
+    <div class="mt-12">
+      <h3 class="text-xl font-bold text-gp-text mb-4 text-center">
+        {{ $t('problem.dangers.title') }}
+      </h3>
+      <p class="text-center text-gp-text/80 mb-6 max-w-2xl mx-auto">
+        {{ $t('problem.dangers.intro') }}
+      </p>
+      
+      <div class="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <div
+          v-for="(danger, idx) in dangers"
+          :key="idx"
+          class="gp-card p-5 text-center"
+        >
+          <div class="gp-icon-chip mx-auto mb-3">
+            <UIcon :name="danger.icon" class="w-6 h-6" aria-hidden="true" />
+          </div>
+          <h4 class="text-lg font-bold text-gp-text mb-2">
+            {{ $t(`problem.dangers.${danger.key}.title`) }}
+          </h4>
+          <p class="text-sm text-gp-text/70 leading-relaxed">
+            {{ $t(`problem.dangers.${danger.key}.description`) }}
+          </p>
         </div>
       </div>
     </div>
@@ -57,5 +85,11 @@
 
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
+
+const dangers = [
+  { key: 'dataBrokers', icon: 'i-heroicons-shield-exclamation-20-solid' },
+  { key: 'trackers', icon: 'i-heroicons-eye-20-solid' },
+  { key: 'unethicalMerchants', icon: 'i-heroicons-exclamation-triangle-20-solid' }
+]
 </script>
 

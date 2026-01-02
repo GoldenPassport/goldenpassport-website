@@ -162,6 +162,22 @@
       "title": "Problème Actuel",
       "allShared": "Vous devez partager les trois avec les détaillants"
     },
+    "dangers": {
+      "title": "Qui obtient vos données?",
+      "intro": "Lorsque vous partagez toutes vos informations personnelles, elles ne vont pas seulement au détaillant. Vos données circulent vers plusieurs parties qui peuvent les utiliser à mauvais escient:",
+      "dataBrokers": {
+        "title": "Courtiers en données",
+        "description": "Entreprises qui achètent, vendent et échangent vos informations personnelles sans votre connaissance ou consentement."
+      },
+      "trackers": {
+        "title": "Traqueurs de médias sociaux",
+        "description": "Scripts de suivi tiers qui surveillent votre comportement sur les sites Web et créent des profils détaillés."
+      },
+      "unethicalMerchants": {
+        "title": "Marchands non éthiques",
+        "description": "Détaillants qui vendent vos données, les utilisent pour la manipulation ou ne les protègent pas contre les violations."
+      }
+    },
     "solution": {
       "title": "Solution GoldenPassport",
       "facilitates": "Partage sélectivement uniquement ce qui est nécessaire",

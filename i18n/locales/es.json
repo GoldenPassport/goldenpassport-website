@@ -162,6 +162,22 @@
       "title": "Problema Actual",
       "allShared": "Debes compartir los tres con los minoristas"
     },
+    "dangers": {
+      "title": "¿Quién obtiene tus datos?",
+      "intro": "Cuando compartes toda tu información personal, no solo va al minorista. Tus datos fluyen a múltiples partes que pueden mal utilizarlos:",
+      "dataBrokers": {
+        "title": "Corredores de datos",
+        "description": "Empresas que compran, venden y comercian con tu información personal sin tu conocimiento o consentimiento."
+      },
+      "trackers": {
+        "title": "Rastreadores de redes sociales",
+        "description": "Scripts de seguimiento de terceros que monitorean tu comportamiento en sitios web y crean perfiles detallados."
+      },
+      "unethicalMerchants": {
+        "title": "Comerciantes poco éticos",
+        "description": "Minoristas que venden tus datos, los usan para manipulación o no los protegen de violaciones."
+      }
+    },
     "solution": {
       "title": "Solución GoldenPassport",
       "facilitates": "Comparte selectivamente solo lo necesario",

@@ -162,6 +162,22 @@
       "title": "Obecny Problem",
       "allShared": "Musisz udostępnić wszystkie trzy sprzedawcom"
     },
+    "dangers": {
+      "title": "Kto otrzymuje Twoje dane?",
+      "intro": "Gdy udostępniasz wszystkie swoje dane osobowe, nie trafiają one tylko do sprzedawcy. Twoje dane trafiają do wielu stron, które mogą je nadużywać:",
+      "dataBrokers": {
+        "title": "Pośrednicy danych",
+        "description": "Firmy, które kupują, sprzedają i handlują Twoimi danymi osobowymi bez Twojej wiedzy lub zgody."
+      },
+      "trackers": {
+        "title": "Trackery mediów społecznościowych",
+        "description": "Skrypty śledzące stron trzecich, które monitorują Twoje zachowanie na stronach internetowych i tworzą szczegółowe profile."
+      },
+      "unethicalMerchants": {
+        "title": "Nieetyczni sprzedawcy",
+        "description": "Sprzedawcy, którzy sprzedają Twoje dane, używają ich do manipulacji lub nie chronią ich przed naruszeniami."
+      }
+    },
     "solution": {
       "title": "Rozwiązanie GoldenPassport",
       "facilitates": "Selektywnie udostępnia tylko to, co konieczne",

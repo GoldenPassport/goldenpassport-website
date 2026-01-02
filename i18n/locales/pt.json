@@ -162,6 +162,22 @@
       "title": "Problema Atual",
       "allShared": "Deve partilhar os três com retalhistas"
     },
+    "dangers": {
+      "title": "Quem obtém os seus dados?",
+      "intro": "Quando partilha todas as suas informações pessoais, elas não vão apenas para o retalhista. Os seus dados fluem para várias partes que podem utilizá-los indevidamente:",
+      "dataBrokers": {
+        "title": "Corretores de dados",
+        "description": "Empresas que compram, vendem e negociam as suas informações pessoais sem o seu conhecimento ou consentimento."
+      },
+      "trackers": {
+        "title": "Rastreadores de redes sociais",
+        "description": "Scripts de rastreamento de terceiros que monitorizam o seu comportamento em sites e criam perfis detalhados."
+      },
+      "unethicalMerchants": {
+        "title": "Comerciantes não éticos",
+        "description": "Retalhistas que vendem os seus dados, usam-nos para manipulação ou não os protegem de violações."
+      }
+    },
     "solution": {
       "title": "Solução GoldenPassport",
       "facilitates": "Partilha seletivamente apenas o necessário",

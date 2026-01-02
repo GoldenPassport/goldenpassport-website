@@ -162,6 +162,22 @@
       "title": "Current Problem",
       "allShared": "You must share all three with retailers"
     },
+    "dangers": {
+      "title": "Who gets your data?",
+      "intro": "When you share all your personal information, it doesn't just go to the retailer. Your data flows to multiple parties who may misuse it:",
+      "dataBrokers": {
+        "title": "Data brokers",
+        "description": "Companies that buy, sell, and trade your personal information without your knowledge or consent."
+      },
+      "trackers": {
+        "title": "Social media trackers",
+        "description": "Third-party tracking scripts that monitor your behavior across websites and build detailed profiles."
+      },
+      "unethicalMerchants": {
+        "title": "Unethical merchants",
+        "description": "Retailers who sell your data, use it for manipulation, or fail to protect it from breaches."
+      }
+    },
     "solution": {
       "title": "GoldenPassport Solution",
       "facilitates": "Selectively shares only what's needed",

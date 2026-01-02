@@ -162,6 +162,22 @@
       "title": "当前问题",
       "allShared": "您必须与零售商共享所有三项"
     },
+    "dangers": {
+      "title": "谁获取您的数据？",
+      "intro": "当您共享所有个人信息时，它不仅仅流向零售商。您的数据流向可能滥用它的多个方：",
+      "dataBrokers": {
+        "title": "数据经纪人",
+        "description": "在您不知情或未经同意的情况下购买、出售和交易您个人信息的公司。"
+      },
+      "trackers": {
+        "title": "社交媒体跟踪器",
+        "description": "监控您在网站上的行为并构建详细配置文件的第三方跟踪脚本。"
+      },
+      "unethicalMerchants": {
+        "title": "不道德的商家",
+        "description": "出售您的数据、将其用于操纵或未能保护其免受违规的零售商。"
+      }
+    },
     "solution": {
       "title": "GoldenPassport解决方案",
       "facilitates": "选择性地仅共享必要内容",

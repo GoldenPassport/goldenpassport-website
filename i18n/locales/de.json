@@ -162,6 +162,22 @@
       "title": "Aktuelles Problem",
       "allShared": "Sie müssen alle drei mit Händlern teilen"
     },
+    "dangers": {
+      "title": "Wer erhält Ihre Daten?",
+      "intro": "Wenn Sie alle Ihre persönlichen Informationen teilen, gehen diese nicht nur an den Händler. Ihre Daten fließen zu mehreren Parteien, die sie möglicherweise missbrauchen:",
+      "dataBrokers": {
+        "title": "Datenmakler",
+        "description": "Unternehmen, die Ihre persönlichen Informationen ohne Ihr Wissen oder Ihre Zustimmung kaufen, verkaufen und handeln."
+      },
+      "trackers": {
+        "title": "Social-Media-Tracker",
+        "description": "Tracking-Skripte von Drittanbietern, die Ihr Verhalten auf Websites überwachen und detaillierte Profile erstellen."
+      },
+      "unethicalMerchants": {
+        "title": "Unethische Händler",
+        "description": "Händler, die Ihre Daten verkaufen, sie zur Manipulation verwenden oder sie nicht vor Verstößen schützen."
+      }
+    },
     "solution": {
       "title": "GoldenPassport Lösung",
       "facilitates": "Teilt selektiv nur das Notwendige",
