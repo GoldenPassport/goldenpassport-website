@@ -17,7 +17,7 @@
       </div>
       
       <!-- Circles container with proper padding to contain all circles -->
-      <div class="relative w-full max-w-[700px] mx-auto min-h-[400px] sm:min-h-[500px] px-4 sm:px-16 md:px-20 pt-16 pb-8 sm:pt-20 sm:pb-20 md:pt-24 md:pb-24 mt-8 mb-4 sm:mb-0">
+      <div class="relative w-full max-w-[700px] mx-auto min-h-[400px] sm:min-h-[500px] px-4 sm:px-16 md:px-20 pt-16 pb-8 sm:pt-20 sm:pb-20 md:pt-24 md:pb-24 mt-10 mb-0 sm:mb-0">
         <!-- Three overlapping circles -->
         <div class="relative w-full h-full flex items-center justify-center">
             <!-- Circle 1: Identities & Addresses - Top Center -->
