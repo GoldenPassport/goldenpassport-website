@@ -2,11 +2,11 @@
   <div class="min-h-screen bg-gp-bg text-gp-text">
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-gp-bg/95 backdrop-blur-sm border-b-2 border-gp-border/10">
-      <div class="container mx-auto px-4 sm:px-6 py-3">
-        <div class="flex items-center justify-between max-w-6xl mx-auto">
-          <NuxtLink to="/" class="flex items-center gap-2 sm:gap-3 group">
-            <Logo :size="32" small class="sm:!w-10 sm:!h-10" />
-            <span class="font-bold text-lg sm:text-xl text-gp-text group-hover:text-gp-text/80 transition-colors">
+      <div class="container mx-auto px-3 sm:px-6 py-2.5 sm:py-3">
+        <div class="flex items-center justify-between max-w-6xl mx-auto gap-2">
+          <NuxtLink to="/" class="flex items-center gap-1.5 sm:gap-3 group flex-shrink min-w-0">
+            <Logo :size="28" small class="sm:!w-10 sm:!h-10 flex-shrink-0" />
+            <span class="font-bold text-base sm:text-lg md:text-xl text-gp-text group-hover:text-gp-text/80 transition-colors truncate">
               {{ $t('brand.name') }}
             </span>
           </NuxtLink>
@@ -28,11 +28,11 @@
           </nav>
 
           <!-- Mobile: language + theme toggle + menu button -->
-          <div class="md:hidden flex items-center gap-2">
+          <div class="md:hidden flex items-center gap-1.5 flex-shrink-0">
             <LanguageSelector />
             <ThemeToggle />
             <button
-              class="w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation"
+              class="w-9 h-9 min-w-[2.25rem] min-h-[2.25rem] flex items-center justify-center rounded-lg border-2 border-gp-border hover:bg-gp-btn-bg hover:text-gp-btn-text transition-colors touch-manipulation"
               @click="mobileMenuOpen = !mobileMenuOpen"
               aria-label="Toggle menu"
             >
