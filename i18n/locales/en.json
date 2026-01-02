@@ -4,7 +4,8 @@
     "tagline": {
       "prefix": "Online",
       "highlight": "Everywhere",
-      "suffix": "Passport"
+      "suffix": "Passport",
+      "quotes": true
     },
     "motto": "Privacy. Security. Responsibility."
   },
