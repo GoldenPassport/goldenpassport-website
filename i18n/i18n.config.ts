@@ -3,6 +3,8 @@ export default defineI18nConfig(() => ({
   locale: 'en',
   fallbackLocale: 'en',
   missingWarn: false,
-  fallbackWarn: false
+  fallbackWarn: false,
+  warnHtmlMessage: false,
+  silentTranslationWarn: true
 }))
 
