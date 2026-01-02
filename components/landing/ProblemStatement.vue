@@ -14,9 +14,9 @@
         <div class="relative w-full aspect-square max-w-[500px] mx-auto">
           <!-- Three overlapping circles -->
           <div class="absolute inset-0 flex items-center justify-center">
-            <!-- Circle 1: Identities & Addresses -->
+            <!-- Circle 1: Identities & Addresses - Top Center -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-16 -translate-y-6 z-10 shadow-lg"
+              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-0 -translate-y-20 z-20 shadow-lg"
             >
               <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
                 <UIcon name="i-heroicons-user-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
@@ -24,9 +24,9 @@
               </div>
             </div>
             
-            <!-- Circle 2: Finances -->
+            <!-- Circle 2: Finances - Bottom Left -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-0 translate-y-0 z-20 shadow-lg"
+              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform -translate-x-20 translate-y-16 z-10 shadow-lg"
             >
               <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
                 <UIcon name="i-heroicons-credit-card-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
@@ -34,9 +34,9 @@
               </div>
             </div>
             
-            <!-- Circle 3: Purchase History -->
+            <!-- Circle 3: Purchase History - Bottom Right -->
             <div
-              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-16 -translate-y-6 z-30 shadow-lg"
+              class="absolute w-48 h-48 rounded-full border-4 border-gp-border bg-gp-accent/50 flex items-center justify-center transform translate-x-20 translate-y-16 z-30 shadow-lg"
             >
               <div class="text-center px-3 bg-gp-surface/90 rounded-lg py-2">
                 <UIcon name="i-heroicons-archive-box-20-solid" class="w-8 h-8 text-gp-text mx-auto mb-2" />
