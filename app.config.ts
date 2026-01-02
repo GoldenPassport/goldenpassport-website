@@ -8,7 +8,7 @@ export default defineAppConfig({
         suffix: '',
         full: 'Define Your Own Digital "Fingerprint"!'
       },
-      motto: '',
+      motto: 'Define Your Own Digital "Fingerprint"',
       contactEmail: 'enquiries@goldenpassport.com'
     },
     ctas: {
