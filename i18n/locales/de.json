@@ -121,8 +121,7 @@
   },
   "architecture": {
     "title": "Datenschutzfreundliche Architektur",
-    "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten.",
-    "solutionIntro": "GoldenPassport teilt selektiv nur das Notwendige:",
+    "caption": "Daten fließen durch GoldenPassport, niemals direkt zu Dritten. GoldenPassport teilt selektiv nur das Notwendige:",
     "solutionPoints": {
       "merchant": "Produktdetails und Zahlungsbestätigung",
       "payment": "Transaktionen verarbeiten",

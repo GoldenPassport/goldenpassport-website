@@ -121,7 +121,7 @@
   },
   "architecture": {
     "title": "Privacy-beschermende architectuur",
-    "caption": "Gegevens stromen door GoldenPassport, nooit direct naar derden.",
+    "caption": "Gegevens stromen door GoldenPassport, nooit direct naar derden. GoldenPassport deelt selectief alleen wat nodig is:",
     "nodes": {
       "user": "U",
       "gp": "GoldenPassport",
@@ -136,7 +136,6 @@
       "gpToPayments": "Getokeniseerde betaling",
       "gpToDelivery": "Eenmalig leveringsadres"
     },
-    "solutionIntro": "GoldenPassport deelt selectief alleen wat nodig is:",
     "solutionPoints": {
       "merchant": "Productdetails en betalingsbevestiging",
       "payment": "Transacties verwerken",

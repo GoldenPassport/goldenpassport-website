@@ -236,9 +236,6 @@
 
       <!-- Solution Summary - Emphasized 3 Points -->
       <div class="mt-8 pt-6 border-t-2 border-gp-border">
-        <p class="text-base font-semibold text-gp-text mb-4">
-          {{ $t('architecture.solutionIntro') }}
-        </p>
         <div class="grid md:grid-cols-3 gap-4">
           <!-- Merchant -->
           <div class="gp-card p-4">

@@ -121,7 +121,7 @@
   },
   "architecture": {
     "title": "Arquitectura que preserva la privacidad",
-    "caption": "Los datos fluyen a través de GoldenPassport, nunca directamente a terceros.",
+    "caption": "Los datos fluyen a través de GoldenPassport, nunca directamente a terceros. GoldenPassport comparte selectivamente solo lo necesario:",
     "nodes": {
       "user": "Tú",
       "gp": "GoldenPassport",
@@ -136,7 +136,6 @@
       "gpToPayments": "Pago tokenizado",
       "gpToDelivery": "Dirección de entrega de un solo uso"
     },
-    "solutionIntro": "GoldenPassport comparte selectivamente solo lo necesario:",
     "solutionPoints": {
       "merchant": "Detalles del producto y confirmación de pago",
       "payment": "Procesar transacciones",

@@ -121,7 +121,7 @@
   },
   "architecture": {
     "title": "Architecture préservant la confidentialité",
-    "caption": "Les données transitent par GoldenPassport, jamais directement vers des tiers.",
+    "caption": "Les données transitent par GoldenPassport, jamais directement vers des tiers. GoldenPassport partage sélectivement uniquement ce qui est nécessaire :",
     "nodes": {
       "user": "Vous",
       "gp": "GoldenPassport",
@@ -136,7 +136,6 @@
       "gpToPayments": "Paiement tokenisé",
       "gpToDelivery": "Adresse de livraison à usage unique"
     },
-    "solutionIntro": "GoldenPassport partage sélectivement uniquement ce qui est nécessaire :",
     "solutionPoints": {
       "merchant": "Détails du produit et confirmation de paiement",
       "payment": "Traiter les transactions",

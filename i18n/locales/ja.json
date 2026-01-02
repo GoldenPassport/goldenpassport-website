@@ -121,7 +121,7 @@
   },
   "architecture": {
     "title": "プライバシー保護アーキテクチャ",
-    "caption": "データはGoldenPassportを経由し、第三者に直接渡ることはありません。",
+    "caption": "データはGoldenPassportを経由し、第三者に直接渡ることはありません。GoldenPassportは必要なものだけを選択的に共有します：",
     "nodes": {
       "user": "あなた",
       "gp": "GoldenPassport",
@@ -136,7 +136,6 @@
       "gpToPayments": "トークン化された支払い",
       "gpToDelivery": "ワンタイム配送先住所"
     },
-    "solutionIntro": "GoldenPassportは必要なものだけを選択的に共有します：",
     "solutionPoints": {
       "merchant": "製品詳細と支払い確認",
       "payment": "取引を処理",

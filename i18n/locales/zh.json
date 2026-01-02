@@ -121,7 +121,7 @@
   },
   "architecture": {
     "title": "隐私保护架构",
-    "caption": "数据通过GoldenPassport流动，永不直接传递给第三方。",
+    "caption": "数据通过GoldenPassport流动，永不直接传递给第三方。GoldenPassport选择性地仅共享必要内容：",
     "nodes": {
       "user": "您",
       "gp": "GoldenPassport",
@@ -136,7 +136,6 @@
       "gpToPayments": "令牌化的付款",
       "gpToDelivery": "一次性配送地址"
     },
-    "solutionIntro": "GoldenPassport选择性地仅共享必要内容：",
     "solutionPoints": {
       "merchant": "产品详情和付款确认",
       "payment": "处理交易",

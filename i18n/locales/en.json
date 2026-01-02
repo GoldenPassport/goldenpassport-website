@@ -4,8 +4,7 @@
     "tagline": {
       "prefix": "Online",
       "highlight": "Everywhere",
-      "suffix": "Passport",
-      "quotes": true
+      "suffix": "Passport"
     },
     "motto": "Privacy. Security. Responsibility."
   },
@@ -122,8 +121,7 @@
   },
   "architecture": {
     "title": "Privacy-preserving architecture",
-    "caption": "Data flows through GoldenPassport, never directly to third parties.",
-    "solutionIntro": "GoldenPassport selectively shares only what's needed:",
+    "caption": "Data flows through GoldenPassport, never directly to third parties. GoldenPassport selectively shares only what's needed:",
     "solutionPoints": {
       "merchant": "Product details and payment confirmation",
       "payment": "Process transactions",
