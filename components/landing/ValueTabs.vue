@@ -20,16 +20,22 @@
 <script setup lang="ts">
 import SectionShell from './SectionShell.vue'
 
-const { t, tm } = useI18n()
+const { t, tm, rt } = useI18n()
 
 type TabItem = { label: string; items: string[] }
 
 const audienceKeys = ['consumers', 'merchants', 'enterprises'] as const
 
 const tabItems = computed<TabItem[]>(() =>
-  audienceKeys.map((key) => ({
-    label: t(`audiences.${key}.label`),
-    items: tm(`audiences.${key}.items`) as string[]
-  }))
+  audienceKeys.map((key) => {
+    const rawItems = tm(`audiences.${key}.items`)
+    const items = Array.isArray(rawItems)
+      ? rawItems.map((item) => (typeof item === 'string' ? item : rt(item)))
+      : []
+    return {
+      label: t(`audiences.${key}.label`),
+      items
+    }
+  })
 )
 </script>
