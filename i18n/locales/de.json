@@ -271,7 +271,6 @@
   "callToAction": {
     "investment": {
       "title": "Seed-Investition",
-      "badge": "INVEST",
       "description": "Helfen Sie uns, die Zukunft des Online-Datenschutzes aufzubauen. Wir sammeln unsere Seed-Runde, um die Entwicklung und den Markteintritt zu beschleunigen.",
       "bullets": [
         "Starkes Gründerteam mit Fintech- und Sicherheitsexpertise",
@@ -283,7 +282,6 @@
     },
     "partnership": {
       "title": "Technologiepartner",
-      "badge": "PARTNER",
       "description": "Wir suchen Integrationspartner im gesamten E-Commerce-Ökosystem, um nahtlose datenschutzfreundliche Erlebnisse zu bieten.",
       "bullets": [
         "Zahlungsabwickler und Gateways",
@@ -301,10 +299,10 @@
   },
   "common": {
     "goToHomepage": "Zur Startseite",
-    "toggleMenu": "Toggle menu",
-    "scrollTop": "Scroll to top",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "Menü umschalten",
+    "scrollTop": "Nach oben scrollen",
+    "switchToLight": "Zu hellem Modus wechseln",
+    "switchToDark": "Zu dunklem Modus wechseln",
     "languageLabel": "Sprache: {name}",
     "previous": "Zurück",
     "next": "Weiter",

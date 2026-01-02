@@ -271,7 +271,6 @@
   "callToAction": {
     "investment": {
       "title": "Investissement d'amorçage",
-      "badge": "INVEST",
       "description": "Rejoignez-nous pour construire l'avenir de la confidentialité en ligne. Nous levons notre tour d'amorçage pour accélérer le développement et l'entrée sur le marché.",
       "bullets": [
         "Équipe fondatrice solide avec expertise en fintech et sécurité",
@@ -283,7 +282,6 @@
     },
     "partnership": {
       "title": "Partenaires technologiques",
-      "badge": "PARTNER",
       "description": "Nous recherchons des partenaires d'intégration dans tout l'écosystème e-commerce pour offrir des expériences de confidentialité sans friction.",
       "bullets": [
         "Processeurs de paiement et passerelles",
@@ -301,10 +299,10 @@
   },
   "common": {
     "goToHomepage": "Aller à la page d'accueil",
-    "toggleMenu": "Toggle menu",
-    "scrollTop": "Scroll to top",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "Basculer le menu",
+    "scrollTop": "Défiler vers le haut",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre",
     "languageLabel": "Langue: {name}",
     "previous": "Précédent",
     "next": "Suivant",

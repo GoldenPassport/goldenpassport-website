@@ -271,7 +271,6 @@
   "callToAction": {
     "investment": {
       "title": "Investimento seed",
-      "badge": "INVEST",
       "description": "Junte-se a nós na construção do futuro da privacidade online. Estamos a angariar a nossa ronda seed para acelerar o desenvolvimento e a entrada no mercado.",
       "bullets": [
         "Equipa fundadora forte com experiência em fintech e segurança",
@@ -283,7 +282,6 @@
     },
     "partnership": {
       "title": "Parceiros tecnológicos",
-      "badge": "PARTNER",
       "description": "Procuramos parceiros de integração em todo o ecossistema de e-commerce para fornecer experiências perfeitas que preservam a privacidade.",
       "bullets": [
         "Processadores de pagamento e gateways",
@@ -301,10 +299,10 @@
   },
   "common": {
     "goToHomepage": "Ir para a página inicial",
-    "toggleMenu": "Toggle menu",
-    "scrollTop": "Scroll to top",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "Alternar menu",
+    "scrollTop": "Rolar para o topo",
+    "switchToLight": "Mudar para modo claro",
+    "switchToDark": "Mudar para modo escuro",
     "languageLabel": "Idioma: {name}",
     "previous": "Anterior",
     "next": "Próximo",

@@ -10,7 +10,6 @@
           <h3 class="text-xl font-bold text-gp-text">
             {{ $t(`callToAction.${track.key}.title`) }}
           </h3>
-          <span class="gp-badge">{{ $t(`callToAction.${track.key}.badge`) }}</span>
         </div>
 
         <p class="mt-3 text-gp-text/80 leading-relaxed">
@@ -41,12 +40,10 @@ const { tm, rt } = useI18n()
 const appConfig = useAppConfig()
 const gp = appConfig.goldenpassport
 
-const { t } = useI18n()
-
-const tracks = computed(() => [
-  { key: 'investment', badge: t('callToAction.investment.badge'), href: gp.ctas.primary.href },
-  { key: 'partnership', badge: t('callToAction.partnership.badge'), href: gp.ctas.secondary.href }
-])
+const tracks = [
+  { key: 'investment', href: gp.ctas.primary.href },
+  { key: 'partnership', href: gp.ctas.secondary.href }
+]
 
 function getTrackBullets(key: string): string[] {
   const rawItems = tm(`callToAction.${key}.bullets`)

@@ -271,7 +271,6 @@
   "callToAction": {
     "investment": {
       "title": "种子投资",
-      "badge": "INVEST",
       "description": "加入我们，共同构建在线隐私的未来。我们正在进行种子轮融资，以加速开发和市场进入。",
       "bullets": [
         "拥有金融科技和安全专业知识的强大创始团队",
@@ -283,7 +282,6 @@
     },
     "partnership": {
       "title": "技术合作伙伴",
-      "badge": "PARTNER",
       "description": "我们正在电子商务生态系统中寻找集成合作伙伴，以提供无缝的隐私保护体验。",
       "bullets": [
         "支付处理器和网关",
@@ -301,10 +299,10 @@
   },
   "common": {
     "goToHomepage": "返回首页",
-    "toggleMenu": "Toggle menu",
-    "scrollTop": "Scroll to top",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "切换菜单",
+    "scrollTop": "滚动到顶部",
+    "switchToLight": "切换到浅色模式",
+    "switchToDark": "切换到深色模式",
     "languageLabel": "语言: {name}",
     "previous": "上一个",
     "next": "下一个",

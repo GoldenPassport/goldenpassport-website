@@ -271,7 +271,6 @@
   "callToAction": {
     "investment": {
       "title": "Inwestycja seed",
-      "badge": "INVEST",
       "description": "Dołącz do nas w budowaniu przyszłości prywatności online. Zbieramy naszą rundę seed, aby przyspieszyć rozwój i wejście na rynek.",
       "bullets": [
         "Silny zespół założycielski z ekspertyzą fintech i bezpieczeństwa",
@@ -283,7 +282,6 @@
     },
     "partnership": {
       "title": "Partnerzy technologiczni",
-      "badge": "PARTNER",
       "description": "Szukamy partnerów integracyjnych w całym ekosystemie e-commerce, aby dostarczać bezproblemowe doświadczenia chroniące prywatność.",
       "bullets": [
         "Procesory płatności i bramy",
@@ -301,10 +299,10 @@
   },
   "common": {
     "goToHomepage": "Przejdź do strony głównej",
-    "toggleMenu": "Toggle menu",
-    "scrollTop": "Scroll to top",
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode",
+    "toggleMenu": "Przełącz menu",
+    "scrollTop": "Przewiń do góry",
+    "switchToLight": "Przełącz na tryb jasny",
+    "switchToDark": "Przełącz na tryb ciemny",
     "languageLabel": "Język: {name}",
     "previous": "Poprzedni",
     "next": "Następny",
