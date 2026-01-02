@@ -69,7 +69,7 @@
           class="text-center relative"
         >
           <div class="flex items-center justify-center gap-3 mb-3">
-            <div class="gp-icon-chip">
+            <div class="inline-flex items-center justify-center w-10 h-10 min-w-[2.5rem] min-h-[2.5rem] rounded-lg bg-green-600 dark:bg-green-500 border-2 border-gp-border text-white">
               <UIcon :name="danger.icon" class="w-6 h-6" aria-hidden="true" />
             </div>
             <h4 class="text-base sm:text-lg font-bold text-gp-text">
