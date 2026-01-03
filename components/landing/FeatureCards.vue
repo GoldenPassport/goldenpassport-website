@@ -1,7 +1,7 @@
 <template>
   <SectionShell id="features" :eyebrow="$t('sections.solution.eyebrow')" :title="$t('sections.solution.title')">
     <div class="max-w-2xl mx-auto space-y-4">
-      <div class="gp-card border-2 border-gp-border bg-gp-surface shadow-lg transition-all duration-200 ease-out p-5 sm:p-6 min-h-[220px] sm:min-h-[240px] lg:min-h-[200px]">
+      <div class="gp-card border-2 border-gp-border bg-gp-surface shadow-lg transition-all duration-200 ease-out p-5 sm:p-6 min-h-[260px] sm:min-h-[280px] lg:min-h-[200px]">
         <div class="flex items-start gap-3">
           <span class="gp-icon-chip flex-shrink-0">
             <UIcon :name="activeCard?.icon || 'i-heroicons-adjustments-horizontal-20-solid'" class="w-5 h-5" aria-hidden="true" />
